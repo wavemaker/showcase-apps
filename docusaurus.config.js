@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Showcase App',
   tagline: 'The tagline of my site',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -8,7 +8,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Showcase Apps',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
