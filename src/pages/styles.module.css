@@ -33,3 +33,11 @@
   height: 200px;
   width: 200px;
 }
+
+.hero{
+  background-color: transparent;
+  background-image: url(/img/hero-image-showcase-inside.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

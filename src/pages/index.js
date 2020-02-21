@@ -64,9 +64,9 @@ function Home() {
       <header className={classnames('hero hero--primary')}>
       {/* , styles.heroBanner */}
         <div className="container">
-          <div class="row">
-            <div class="col col--1"></div>
-            <div class="col col--4 padding-top--lg">
+          <div className="row">
+            <div className="col col--1"></div>
+            <div className="col col--4 padding-top--lg">
               <h1 className="hero__title">Welcome to WaveMaker {siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline} Created by WaveMaker our rapid low-code platform.</p>
               {/* <div className={styles.buttons}>
@@ -80,20 +80,25 @@ function Home() {
                 </Link>
               </div> */}
             </div>
-            <div class="col text--center">
+            <div className="col text--center">
 
             </div>
           </div>
         </div>
       </header>
       <main>
+        <section className={styles.features}>
+          <div className="container">
+            <div className="row">
+              <h1 className="text--center col">Explore WaveMaker <br/> {siteConfig.title}</h1>
+            </div>
+          </div>
+        </section>
+        
         {features && features.length && (
           <section className={styles.features}>
             <div className="container">
-              <div className="row">
-                <h1 class="text--center col">Explore WaveMaker <br/> {siteConfig.title}</h1>
-              </div>
-              <div className="row">
+              <div className="row padding-left--xl padding-right--xl">
                 {features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}

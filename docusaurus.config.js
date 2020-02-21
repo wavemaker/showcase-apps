@@ -8,14 +8,15 @@ module.exports = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    disableDarkMode: true,
     navbar: {
-      // hideOnScroll: true,
+      hideOnScroll: true,
       title: '',
       logo: {
         alt: 'WaveMaker',
         // src: 'img/logo.svg',
-        src: 'img/WM_blue.png',
-        srcDark: 'img/WM_white.png',
+        srcDark: 'img/WM_blue.png',
+        src: 'img/WM_white.png',
       },
       links: [
         // {to: 'docs/doc1', label: 'Docs', position: 'left'},
@@ -25,8 +26,8 @@ module.exports = {
         {href: '', label: 'Customer Success', position: 'right'},
         {href: '', label: 'Company', position: 'right'},
         {href: '', label: 'Resources', position: 'right'},
-        {href: 'https://www.wavemaker.com/talk-to-expert/', label: 'Talk to an expert', position: 'right', class:'button button--outline button--secondary margin-right--xs'},
-        {href: 'https://www.wavemakeronline.com/login/login', position: 'right', class:'navbar__item navbar__link wm-login'},
+        {href: 'https://www.wavemaker.com/talk-to-expert/', label: 'Talk to an expert', position: 'right', className:'button button--outline button--secondary margin-right--xs'},
+        {href: 'https://www.wavemakeronline.com/login/login', position: 'right', className:'navbar__item navbar__link wm-login'},
         // {to: 'salesvision', label: 'SalesVision', position: 'right'},
         // {
         //   href: 'https://github.com/facebook/docusaurus',
