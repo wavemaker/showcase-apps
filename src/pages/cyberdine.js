@@ -67,7 +67,7 @@ function Cyberdine() {
         <div className="container">
           <div className="row row--align-center">
             <h1 className="col hero__title text--center">Watch how the app was built</h1>
-            <img src="img/cyberdine/banner.png" alt="Cyberdine" className="" />
+            <img src="/img/cyberdine/banner.png" alt="Cyberdine" className="" />
             <Link to="" className="cyberdine-banner-playBtn"><img src="img/play-button.png" alt="" style={{width:'100px',}} /></Link>
           </div>
         </div>
@@ -89,7 +89,7 @@ function Cyberdine() {
         </section>
 
         <section className="margin-bottom--md">
-          <img src="img/wave-colors.png" alt=""/>
+          <img src="/img/wave-colors.png" alt=""/>
         </section>
 
         <section className="padding-top--xl margin-bottom--md">
@@ -114,7 +114,7 @@ function Cyberdine() {
         </section>
 
         <section className="margin-bottom--md">
-          <img src="img/wave-border-blue.png" width="100%" alt=""/>
+          <img src="/img/wave-border-blue.png" width="100%" alt=""/>
         </section>
 
         <section className="padding-vert--xl">
@@ -130,12 +130,12 @@ function Cyberdine() {
                     <p className="margin-vert--none">From skipping the queue, change issues, menu online, seat availability, analytics</p>
                   </div>
                   <div className="col col--3 padding-horiz--none">
-                    <Link to="#"><img src="img/play-button.png" width="100px" /></Link>
+                    <Link to="#"><img src="/img/play-button.png" width="100px" /></Link>
                   </div>
                 </div>
               </div>
               <div className="col col--8 padding-right--none">
-                <img src="img/cyberdine/dashboard-pc.png" width="100%" alt=""/>
+                <img src="/img/cyberdine/dashboard-pc.png" width="100%" alt=""/>
               </div>
             </div>
           </div>
