@@ -5,18 +5,36 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+
 :root {
-  --ifm-color-primary: #0094e8;
-  --ifm-color-primary-dark: #0085d1;
-  --ifm-color-primary-darker: #007ec5;
-  --ifm-color-primary-darkest: #0068a2;
-  --ifm-color-primary-light: #00a3ff;
-  --ifm-color-primary-lighter: #0ca7ff;
-  --ifm-color-primary-lightest: #2fb4ff;
+  --ifm-color-primary: #097fd5;
+--ifm-color-primary-dark: #0872c0;
+--ifm-color-primary-darker: #086cb5;
+--ifm-color-primary-darkest: #065995;
+--ifm-color-primary-light: #0a8cea;
+--ifm-color-primary-lighter: #0b92f5;
+--ifm-color-primary-lightest: #2ba0f6;
+--ifm-hero-text-color: #fff;
+  --ifm-font-base-color: #212121;
   --ifm-code-font-size: 95%;
   --ifm-navbar-height: 4.75em;
   --ifm-navbar-link-color: rgba(255, 255, 255, 0.8);
   --ifm-navbar-link-hover-color: #fff;
+  --ifm-button-font-weight: normal;
+  --ifm-font-family-base: 'Raleway' ,system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont,
+  'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  --ifm-h1-font-size: 60px;
+  --ifm-color-warning: #ee7e4f;
+  --ifm-color-warning-dark: #d76e42;
+  --ifm-button-border-radius: 25px;
+}
+
+body{
+  letter-spacing: 0.8px;
 }
 
 .docusaurus-highlight-code-line {
@@ -28,7 +46,22 @@
 
 .navbar{
   background-color: transparent;
+  background-image: url(/img/waves-white-80-px-reverse.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: none;
 }
+/* 
+.navbar:before {
+  content: "";
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-image: linear-gradient(110deg, #1f52c1, #0f997d);
+  z-index: -1;
+} */
 
 .navbar .navbar__brand{
   height: 3em;
@@ -62,4 +95,157 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: calc(var(--ifm-navbar-height) + 4em);
+}
+
+.hero .hero__title{
+  font-size: 60px;
+}
+
+.hero-apps{
+  background-image: url(/img/hero-image-showcase-inside.png);
+}
+
+.hero-cyberdine{
+  background-image: linear-gradient(110deg, #1f52c1, #0f997d);
+  position: relative;
+  padding-bottom: 0em;
+}
+
+.hero-cyberdine:after {
+    content: "";
+    background-image: url(/img/wave-white.png);
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    height: 108px;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tabs-btn-center .tabs{
+  text-align: center;
+}
+
+.app-section{
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 20px 7px;
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 8px;
+  padding: 2.5em;
+  margin-bottom: 2em;
+}
+
+.app-section a.button--link{
+  padding: 0;
+  margin-right: 1em;
+}
+
+.app-section-header{
+  display:flex;
+  align-items: center;
+  padding-bottom: 2em;
+  /* padding:1em; */
+}
+
+.app-section-title{
+  font-weight: 500;
+  font-size: 30px;
+  color: #0a5585;
+  margin: 0;
+  text-decoration: none;
+}
+.app-section-title:hover,
+.app-section-title:focus{
+  text-decoration: none;
+}
+
+.app-section-divider .app-section-divider-title{
+  color: #636364;
+  font-size: 21px;
+  font-weight: normal;
+}
+
+.app-section-tagline{
+  color: #636364;
+  font-size: 21px;
+  margin: -4px 0 0;
+  font-weight: normal;
+}
+
+.app-section-logo{
+  width: 72px;
+  height: 72px;
+}
+
+/* --------col divider-------- */
+.app-section-divider .col{
+  position: relative;
+  border-right: 1px dashed rgba(151, 151, 151, 0.5);
+}
+.app-section-divider .col:last-child{
+  border: none;
+}
+.app-section-divider .col:before,
+.app-section-divider .col:after{
+  content: "";
+  width: 3px;
+  height: 16%;
+  position: absolute;
+  right: -2px;
+  background-color: #fff;
+}
+
+.app-section-divider .col:before{
+  top:0;
+}
+.app-section-divider .col:after{
+  bottom: 0;
+}
+
+
+/* --------features divider-------- */
+.features-divider .col{
+  position: relative;
+  border-left: 1px dashed rgba(151, 151, 151, 0.5);
+}
+
+.features-divider .col:nth-child(even){
+  margin-top: 6em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
+
+.features-divider .col:first-child{
+  border: none;
+}
+.features-divider .col:before,
+.features-divider .col:after{
+  content: "";
+  width: 3px;
+  height: 20%;
+  position: absolute;
+  left: -2px;
+  background-color: #fff;
+}
+
+.features-divider .col:before{
+  top:0;
+}
+.features-divider .col:after{
+  bottom: 0;
+}
+
+
+/* --------------- */
+.cyberdine-banner-playBtn{
+  margin: -37% 45% 0;
+}
+
+.button--warning{
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.14);
+}
+
+.title-primary{
+  color: #0a5585;
 }
