@@ -69,6 +69,7 @@ function Insurance({imageUrl, title, appUrl, tagline, description, launchLabel, 
         </div>
         <div className="app-section-body">
           <p className="app-section-description">{description}</p>
+            <span className="badge badge--secondary margin-right--sm">fxhcg</span>
           <Link to={launchUrl} className="button button--link">{launchLabel}</Link>
           <Link to={tryAppUrl} className="button button--link">{tryApp}</Link>
         </div>
@@ -87,7 +88,7 @@ const cyberdine = [
       </>
     ),
     imageUrl: 'img/cyberdine/customer.png',
-    urlLabel: <>Launch Customer Portal</>,
+    portalUrl: '#',
   },
   {
     title: <>Loan Processor</>,
@@ -98,7 +99,7 @@ const cyberdine = [
       </>
     ),
     imageUrl: 'img/cyberdine/loan_processor.png',
-    urlLabel: <>Launch Loan Processor Portal</>,
+    portalUrl: '#',
   },
   {
     title: <>Relationship Manager</>,
@@ -109,11 +110,11 @@ const cyberdine = [
       </>
     ),
     imageUrl: 'img/cyberdine/relationship_manager.png',
-    urlLabel: <>Launch Relationship Manager Portal</>,
+    portalUrl: '#',
   },
 ];
 
-function Cyberdine({imageUrl, title, description, urlLabel}) {
+function Cyberdine({imageUrl, title, description, portalUrl}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
@@ -122,7 +123,7 @@ function Cyberdine({imageUrl, title, description, urlLabel}) {
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} />
-          <Link to="#" className="button button--link">{urlLabel}</Link>
+          <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
         </div>
       )}
       

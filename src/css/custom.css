@@ -28,9 +28,15 @@
   'Segoe UI Emoji', 'Segoe UI Symbol';
 
   --ifm-h1-font-size: 60px;
+  --ifm-h2-font-size: 30px;
+  --ifm-h3-font-size: 24px;
+  --ifm-h5-font-size: 21px;
+  --ifm-h5-font-size: 18px;
+  --ifm-h6-font-size: 15px;
   --ifm-color-warning: #ee7e4f;
   --ifm-color-warning-dark: #d76e42;
   --ifm-button-border-radius: 25px;
+  --ifm-border-color: rgba(151, 151, 151, 0.5);
 }
 
 body{
@@ -181,7 +187,7 @@ body{
 /* --------col divider-------- */
 .app-section-divider .col{
   position: relative;
-  border-right: 1px dashed rgba(151, 151, 151, 0.5);
+  border-right: 1px dashed var(--ifm-border-color);
 }
 .app-section-divider .col:last-child{
   border: none;
@@ -207,7 +213,7 @@ body{
 /* --------features divider-------- */
 .features-divider .col{
   position: relative;
-  border-left: 1px dashed rgba(151, 151, 151, 0.5);
+  border-left: 1px dashed var(--ifm-border-color);
 }
 
 .features-divider .col:nth-child(even){
@@ -248,4 +254,30 @@ body{
 
 .title-primary{
   color: #0a5585;
+}
+
+.app-users-sec{
+  background-image: url(/img/waves-colors.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.app-users{
+  border-radius: 5px;
+  box-shadow: 0 3px 40px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+  padding: 3em 1.25em !important;
+}
+
+.app-users:nth-child(even) {
+  margin: -3em 0; 
+  padding: 6em 1.25em !important;
+  z-index: 1;
+}
+
+.app-credentials {
+  padding: 2em 0;
+  margin-top: 2.5em;
+  border-top: 1px dashed var(--ifm-border-color);
 }

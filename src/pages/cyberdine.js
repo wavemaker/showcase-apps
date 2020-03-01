@@ -7,6 +7,54 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+
+
+const users = [
+  {
+    title: <>Customer</>,
+    description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
+    imageUrl: 'img/cyberdine/customer.png',
+    portalLabel:<>Launch Customer Portal</>,
+    portalUrl: '#',
+  },
+  {
+    title: <>Loan Processor</>,
+    description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
+    imageUrl: 'img/cyberdine/loan_processor.png',
+    portalLabel:<>Launch Loan Processor</>,
+    portalUrl: '#',
+  },
+  {
+    title: <>Relationship Manager</>,
+    description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
+    imageUrl: 'img/cyberdine/relationship_manager.png',
+    portalLabel:<>Launch RM Portal</>,
+    portalUrl: '#',
+  },
+];
+
+function Users({imageUrl, title, description, portalUrl, portalLabel}) {
+  const imgUrl = useBaseUrl(imageUrl);
+  return (
+    <div className={classnames('col col--4 app-users')}>
+      <h2 className="title-primary">{title}</h2>
+      <p className="">{description}</p>
+      {imgUrl && (
+        <div className="text--center">
+          <img className="margin-bottom--md" src={imgUrl} alt={title} />
+          <Link to={portalUrl} className="button button--warning">{portalLabel}</Link>
+        </div>
+      )}
+      <div className="col app-credentials">
+        <h5 className="title-primary">Credentials</h5>
+
+      </div>
+      
+    </div>
+  );
+}
+
+
 const features = [
   {
     title: <>Feature 1</>,
@@ -50,7 +98,7 @@ function Feature({title, imageUrl, description}) {
           <img className={styles.featuresImage} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <h3 className="margin-top--md title-primary">{title}</h3>
       <p>{description}</p>
     </div>
   );
@@ -68,7 +116,7 @@ function Cyberdine() {
           <div className="row row--align-center">
             <h1 className="col hero__title text--center">Watch how the app was built</h1>
             <img src="/img/cyberdine/banner.png" alt="Cyberdine" className="" />
-            <Link to="" className="cyberdine-banner-playBtn"><img src="img/play-button.png" alt="" style={{width:'100px',}} /></Link>
+            <Link to="#" className="cyberdine-banner-playBtn"><img src="img/play-button.png" alt="" style={{width:'100px',}} /></Link>
           </div>
         </div>
       </header>
@@ -141,12 +189,22 @@ function Cyberdine() {
           </div>
         </section>
 
-        <section className="padding-top--xl padding-bottom--xl">
+        <section className="padding-top--xl padding-bottom--xl app-users-sec">
           <div className="container">
             <div className="row">
               <div className="col text--center">
                 <h1 className="title-primary">Application Users</h1>
-                
+                {users && users.length && (
+                  <section className={classnames('margin-top--xl', styles.features)}>
+                    <div className="container">
+                      <div className="row">
+                        {users.map((props, idx) => (
+                          <Users key={idx} {...props} />
+                        ))}
+                      </div>
+                    </div>
+                  </section>
+                )}
               </div>
             </div>
           </div>
