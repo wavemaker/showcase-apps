@@ -13,21 +13,21 @@ const users = [
   {
     title: <>Customer</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/cyberdine/customer.png',
+    imageUrl: 'img/medQuest/customer.png',
     portalLabel:<>Launch Customer Portal</>,
     portalUrl: '#',
   },
   {
     title: <>Loan Processor</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/cyberdine/loan_processor.png',
+    imageUrl: 'img/medQuest/loan_processor.png',
     portalLabel:<>Launch Loan Processor</>,
     portalUrl: '#',
   },
   {
     title: <>Relationship Manager</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/cyberdine/relationship_manager.png',
+    imageUrl: 'img/medQuest/relationship_manager.png',
     portalLabel:<>Launch RM Portal</>,
     portalUrl: '#',
   },
@@ -58,32 +58,32 @@ function Users({imageUrl, title, description, portalUrl, portalLabel}) {
 const features = [
   {
     title: <>Feature 1</>,
-    imageUrl: 'img/cyberdine/feature-1.png',
+    imageUrl: 'img/medQuest/feature-1.png',
     description: <>Deliver apps 67% faster with visual development, easy integration, and instant deployment</>,
   },
   {
     title: <>Feature 2</>,
-    imageUrl: 'img/cyberdine/feature-2.png',
+    imageUrl: 'img/medQuest/feature-2.png',
     description: <>Deploy your applications anywhere – public cloud, private cloud or on-premises infrastructure</>,
   },
   {
     title: <>Feature 3</>,
-    imageUrl: 'img/cyberdine/feature-3.png',
+    imageUrl: 'img/medQuest/feature-3.png',
     description: <>Open source runtime, proven frameworks and technologies for complete vendor independence</>,
   },
   {
     title: <>Feature 4</>,
-    imageUrl: 'img/cyberdine/feature-4.png',
+    imageUrl: 'img/medQuest/feature-4.png',
     description: <>Composable architecture based on microservices, APIs, reusable components and containerization</>,
   },
   {
     title: <>Feature 5</>,
-    imageUrl: 'img/cyberdine/feature-5.png',
+    imageUrl: 'img/medQuest/feature-5.png',
     description: <>Proven platform with robust security and support SLAs from a trusted partner</>,
   },
   {
     title: <>Feature 6</>,
-    imageUrl: 'img/cyberdine/feature-6.png',
+    imageUrl: 'img/medQuest/feature-6.png',
     description: <>High productivity gain coupled with transparent pricing for the lowest Total Cost of Ownership</>,
   },
 ];
@@ -111,12 +111,12 @@ function Cyberdine() {
   const {siteConfig = {}} = context;
   return (
     <Layout title="Cyberdine - ${siteConfig.title}">
-      <header className={classnames('hero hero-cyberdine')}>
+      <header className={classnames('hero hero-medQuest')}>
         <div className="container">
           <div className="row row--align-center">
             <h1 className="col hero__title text--center">Watch how the app was built</h1>
-            <img src="/img/cyberdine/banner.png" alt="Cyberdine" className="" />
-            <Link to="#" className="cyberdine-banner-playBtn"><img src="/img/play-button.png" alt="" style={{width:'100px',}} /></Link>
+            <img src="/img/medQuest/banner.png" alt="Cyberdine" className="" />
+            <Link to="#" className="loanCorp-banner-playBtn"><img src="/img/play-button.png" alt="" style={{width:'100px',}} /></Link>
           </div>
         </div>
       </header>
@@ -183,7 +183,7 @@ function Cyberdine() {
                 </div>
               </div>
               <div className="col col--8 padding-right--none">
-                <img src="/img/cyberdine/dashboard-pc.png" width="100%" alt=""/>
+                <img src="/img/medQuest/dashboard-pc.png" width="100%" alt=""/>
               </div>
             </div>
           </div>
