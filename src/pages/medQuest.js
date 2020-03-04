@@ -11,24 +11,24 @@ import styles from './styles.module.css';
 
 const users = [
   {
-    title: <>Customer</>,
+    title: <>Patient</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
     imageUrl: 'img/medQuest/customer.png',
-    portalLabel:<>Launch Customer Portal</>,
+    portalLabel:<>Launch Patient Portal</>,
     portalUrl: '#',
   },
   {
-    title: <>Loan Processor</>,
+    title: <>Nurse</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/medQuest/loan_processor.png',
-    portalLabel:<>Launch Loan Processor</>,
+    imageUrl: 'img/medQuest/nurse.png',
+    portalLabel:<>Launch Nurse Portal</>,
     portalUrl: '#',
   },
   {
-    title: <>Relationship Manager</>,
+    title: <>Pharmacist</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/medQuest/relationship_manager.png',
-    portalLabel:<>Launch RM Portal</>,
+    imageUrl: 'img/medQuest/pharmacist.png',
+    portalLabel:<>Launch Pharmacist Portal</>,
     portalUrl: '#',
   },
 ];
@@ -41,8 +41,8 @@ function Users({imageUrl, title, description, portalUrl, portalLabel}) {
       <p className="">{description}</p>
       {imgUrl && (
         <div className="text--center">
-          <img className="margin-bottom--md" src={imgUrl} alt={title} />
-          <Link to={portalUrl} className="button button--warning">{portalLabel}</Link>
+          <img className="margin-bottom--md" src={imgUrl} alt={title} height="145px"/>
+          <p className="margin-bottom--none"><Link to={portalUrl} className="button button--warning">{portalLabel}</Link></p>
         </div>
       )}
       <div className="col app-credentials">
@@ -106,16 +106,16 @@ function Feature({title, imageUrl, description}) {
 
 
 
-function Cyberdine() {
+function MedQuest() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout title="Cyberdine - ${siteConfig.title}">
-      <header className={classnames('hero hero-medQuest')}>
+    <Layout title="MedQuest - ${siteConfig.title}">
+      <header className={classnames('hero hero-loanCorp')}>
         <div className="container">
           <div className="row row--align-center">
             <h1 className="col hero__title text--center">Watch how the app was built</h1>
-            <img src="/img/medQuest/banner.png" alt="Cyberdine" className="" />
+            <img src="/img/medQuest/banner.png" alt="MedQuest" className="" />
             <Link to="#" className="loanCorp-banner-playBtn"><img src="/img/play-button.png" alt="" style={{width:'100px',}} /></Link>
           </div>
         </div>
@@ -125,7 +125,8 @@ function Cyberdine() {
           <div className="container">
             <div className="row">
               <div className="col text--center">
-                <h1 className="title-primary">Cyberdine:Loan<br/> Processing Application</h1>
+                <h1 className="title-primary">MedQuest</h1>
+                <h4></h4>
                 <p>Reskill existing developers to build full-stack apps without specialists. Free up<br/> scarce resources to  focus on other strategic IT initiatives</p>
                 <div className="col">
                   <Link to="#" className="button button--warning margin-left--sm margin-right--sm button--lg margin-bottom--md">Try App <i className="fas fas-times"></i></Link>
@@ -214,4 +215,4 @@ function Cyberdine() {
   );
 }
 
-export default Cyberdine;
+export default MedQuest;
