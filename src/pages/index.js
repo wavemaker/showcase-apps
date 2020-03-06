@@ -11,71 +11,6 @@ import Heading from '@theme/Heading';
 
 const AnchoredH2 = Heading('h2');
 
-// const insurance = [
-//   {
-//     title: <>Arch Insurance</>,
-//     appUrl: <>arch-insurance</>,
-//     tagline: <>Customer</>,
-//     description: (
-//       <>
-//         Little Fast is an application for employees and canteen staff to reduce queues and get a 
-//         better experience in corporate canteens.,
-//       </>
-//     ),
-//     imageUrl: 'img/arch_insurance.png',
-//     launchLabel: <>Launch in Studio</>,
-//     launchUrl: '#',
-//     tryApp: <>Try App</>,
-//     tryAppUrl: '#',
-//     badgeLabels: ['OAuth Prefabs','Data Table', 'Grid Layout','Live Filter'],
-//   },
-//   {
-//     title: <>Halo Insurance</>,
-//     appUrl: <>halo-insurance</>,
-//     tagline: <>Loan Processor</>,
-//     description: (
-//       <>
-//         Little Fast is an application for employees and canteen staff to reduce queues and get a 
-//         better experience in corporate canteens.,
-//       </>
-//     ),
-//     imageUrl: 'img/halo_insurance.png',
-//     launchLabel: <>Launch in Studio</>,
-//     launchUrl: '#',
-//     tryApp: <>Try App</>,
-//     tryAppUrl: '#',
-//     badgeLabels: ['OAuth Prefabs','Data Table', 'Grid Layout','Live Filter'],
-//   },
-// ];
-
-
-// function Badges(badgeLabels){
-//   <span className="badge badge--secondary"></span>
-// }
-
-// function Insurance({imageUrl, title, appUrl, tagline, description, launchLabel, launchUrl, tryApp, tryAppUrl, badgeLabels}) {
-//   const imgUrl = useBaseUrl(imageUrl);
-//   return (
-//     <div className={classnames('col col--6', styles.insurance)}>
-//       <div className="app-section">
-//         <div className="app-section-header">
-//           <img className="app-section-logo" src={imageUrl} alt={title} />
-//           <div className="container">
-//             <Link to={appUrl} className="app-section-title">{title}</Link>
-//             <h4 className="app-section-tagline">{tagline}</h4>
-//           </div>   
-//         </div>
-//         <div className="app-section-body">
-//           <p className="app-section-description">{description}</p>
-//             <span className="badge badge--secondary margin-right--sm">fxhcg</span>
-//           <Link to={launchUrl} className="button button--link">{launchLabel}</Link>
-//           <Link to={tryAppUrl} className="button button--link">{tryApp}</Link>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-
 const loanCorp = [
   {
     title: <>Customer</>,
@@ -238,7 +173,7 @@ function LoanCorp(){
     <div className="app-section-header">
       <img className="app-section-logo" src="img/loanCorp/logo.png" alt="LoanCorp" />
       <div className="container">
-        <Link to="loanCorp" className="app-section-title">Loan Corp</Link>
+        <Link to="docs/loanCorp/introduction" className="app-section-title">Loan Corp</Link>
       </div>   
     </div>
     {loanCorp && loanCorp.length && (
@@ -262,7 +197,7 @@ function SalesVision(){
       <div className="app-section-header">
         <img className="app-section-logo" src="img/salesVision/logo.png" alt="LoanCorp" />
         <div className="container">
-          <Link to="salesVision" className="app-section-title">Sales Vision</Link>
+          <Link to="docs/salesVision/introduction" className="app-section-title">Sales Vision</Link>
         </div>   
       </div>
       {salesVision && salesVision.length && (
@@ -286,7 +221,7 @@ function MedQuest(){
       <div className="app-section-header">
         <img className="app-section-logo" src="img/medQuest/logo.png" alt="MedQuest" />
         <div className="container">
-          <Link to="medQuest" className="app-section-title">MedQuest</Link>
+          <Link to="docs/medQuest/introduction" className="app-section-title">MedQuest</Link>
         </div>   
       </div>
       {medQuest && medQuest.length && (
