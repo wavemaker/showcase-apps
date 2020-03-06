@@ -1,12 +1,12 @@
 ---
-id: introduction
-title: Introduction of Loan Corp
-sidebar_label: Introduction
+id: salesVision
+title: Introduction of Sales Vision
+sidebar_label: Sales Vision
 ---
 
 <!-- You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). -->
 
-![alt text](/img/loanCorp/Loan-Corp-dashboard.png 'Loan Corp Dashboard')
+![alt text](/img/salesVision/SV-Dashboard-Manager.png 'Sales Vision Dashboard')
 
 ## Emphasis
 
@@ -67,6 +67,7 @@ Some text to show that the reference links can follow later.
 
 Here's our logo (hover to see the title text):
 
+Inline-style: ![alt text](/img/loanCorp/logo.png 'Logo Title Text 1')
 Inline-style: ![alt text](/img/loanCorp/logo.png 'Logo Title Text 1')
 
 Reference-style: ![alt text][logo]

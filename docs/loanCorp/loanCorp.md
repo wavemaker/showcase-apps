@@ -6,7 +6,7 @@ sidebar_label: Introduction
 
 <!-- You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). -->
 
-![alt text](/img/loanCorp/Loan-Corp-dashboard.png 'Loan Corp Dashboard')
+![alt text](/img/loanCorp/Loan-Corp-dashboard.png 'Sales Vision Dashboard')
 
 ## Emphasis
 

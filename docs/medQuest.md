@@ -1,12 +1,30 @@
 ---
-id: introduction
-title: Introduction of Loan Corp
-sidebar_label: Introduction
+id: medQuest
+title: Introduction of MedQuest
+sidebar_label: MedQuest
 ---
 
-<!-- You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/). -->
+You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
-![alt text](/img/loanCorp/Loan-Corp-dashboard.png 'Loan Corp Dashboard')
+## Markdown Syntax
+
+To serve as an example page when styling markdown based Docusaurus sites.
+
+## Headers
+
+# H1 - Create the best documentation
+
+## H2 - Create the best documentation
+
+### H3 - Create the best documentation
+
+#### H4 - Create the best documentation
+
+##### H5 - Create the best documentation
+
+###### H6 - Create the best documentation
+
+---
 
 ## Emphasis
 
@@ -67,6 +85,7 @@ Some text to show that the reference links can follow later.
 
 Here's our logo (hover to see the title text):
 
+Inline-style: ![alt text](/img/loanCorp/logo.png 'Logo Title Text 1')
 Inline-style: ![alt text](/img/loanCorp/logo.png 'Logo Title Text 1')
 
 Reference-style: ![alt text][logo]

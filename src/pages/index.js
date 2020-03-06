@@ -173,7 +173,7 @@ function LoanCorp(){
     <div className="app-section-header">
       <img className="app-section-logo" src="img/loanCorp/logo.png" alt="LoanCorp" />
       <div className="container">
-        <Link to="docs/loanCorp/introduction" className="app-section-title">Loan Corp</Link>
+        <Link to="docs/loanCorp" className="app-section-title">Loan Corp</Link>
       </div>   
     </div>
     {loanCorp && loanCorp.length && (
@@ -197,7 +197,7 @@ function SalesVision(){
       <div className="app-section-header">
         <img className="app-section-logo" src="img/salesVision/logo.png" alt="LoanCorp" />
         <div className="container">
-          <Link to="docs/salesVision/introduction" className="app-section-title">Sales Vision</Link>
+          <Link to="docs/salesVision" className="app-section-title">Sales Vision</Link>
         </div>   
       </div>
       {salesVision && salesVision.length && (
@@ -221,7 +221,7 @@ function MedQuest(){
       <div className="app-section-header">
         <img className="app-section-logo" src="img/medQuest/logo.png" alt="MedQuest" />
         <div className="container">
-          <Link to="docs/medQuest/introduction" className="app-section-title">MedQuest</Link>
+          <Link to="docs/medQuest" className="app-section-title">MedQuest</Link>
         </div>   
       </div>
       {medQuest && medQuest.length && (
