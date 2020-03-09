@@ -6,6 +6,11 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
+// import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+// import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 
 
@@ -104,6 +109,26 @@ function Feature({title, imageUrl, description}) {
   );
 }
 
+// class DemoCarousel extends Component {
+//   render() {
+//       return (
+//           <Carousel>
+//               <div>
+//                   <img src="assets/1.jpeg" />
+//                   <p className="legend">Legend 1</p>
+//               </div>
+//               <div>
+//                   <img src="assets/2.jpeg" />
+//                   <p className="legend">Legend 2</p>
+//               </div>
+//               <div>
+//                   <img src="assets/3.jpeg" />
+//                   <p className="legend">Legend 3</p>
+//               </div>
+//           </Carousel>
+//       );
+//   }
+// };
 
 
 function LoanCorp() {
@@ -209,6 +234,9 @@ function LoanCorp() {
             </div>
           </div>
         </section>
+        {/* <section>
+          ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
+        </section> */}
       </main>
     </Layout>
   );

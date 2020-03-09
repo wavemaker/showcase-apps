@@ -1,6 +1,6 @@
 ---
 id: medQuest
-title: Introduction of MedQuest
+title: MedQuest
 sidebar_label: MedQuest
 ---
 

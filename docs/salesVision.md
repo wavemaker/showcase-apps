@@ -1,6 +1,6 @@
 ---
 id: salesVision
-title: Introduction of Sales Vision
+title: Sales Vision
 sidebar_label: Sales Vision
 ---
 

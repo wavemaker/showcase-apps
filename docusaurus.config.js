@@ -8,6 +8,7 @@ module.exports = {
   organizationName: 'WaveMaker', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    sidebarCollapsible: false,
     disableDarkMode: true,
     navbar: {
       hideOnScroll: false,

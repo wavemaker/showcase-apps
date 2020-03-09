@@ -342,7 +342,8 @@ body{
   background-color: transparent;
 }
 
-.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- {
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar-,
+.sidebarLogo_3ono{
   margin: 0 !important;
   padding: 0 var(--ifm-navbar-padding-horizontal);
   width: 100%;
@@ -352,13 +353,19 @@ body{
   background-repeat: no-repeat;
   background-position: 1em;
 }
-.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img{
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img,
+.sidebarLogo_3ono img{
   display: none;
 }
 
 @media (min-width: 997px){
-  .sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img {
+  .sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img,
+  .sidebarLogo_3ono img{
       margin-right: 0.5rem;
       height: 3em !important;
   }
+}
+
+.contents li {
+  margin-right: 0;
 }

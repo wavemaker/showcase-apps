@@ -1,12 +1,31 @@
 ---
 id: loanCorp
-title: Introduction of Loan Corp
+title: Loan Corp
 sidebar_label: Loan Corp
 ---
+
+import YouTube from 'react-youtube';
+import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
+
+<YouTube videoId="Fhie1OW8SOY" />
 
 ## Introduction
 
 Loan Corp is a loan origination and loan processing  application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.
+
+
+---
+
+## Features of WM and Prefabs used
+
+1. Form wizard
+2. Data table
+3. Cards
+4. Calendar
+5. Box-viewer prefab
+6. Docusign prefab
+7. Camunda workflow integration
+
 
 ---
 
@@ -30,13 +49,15 @@ In this case a sample W2 form.
 
 ---
 
-## User personas
+## User Personas
 
-1. Relationship Manager, it is a mobile application that has features like tracking loans and customers.
-It also has a part where he can provide feedback about mortgage properties if requested for a site visit by the back office processor.
+<!-- 1. Relationship Manager, it is a mobile application that has features like tracking loans and customers.
+
+  - It also has a part where he can provide feedback about mortgage properties if requested for a site visit by the back office processor.
   - User: tom
   - Password: 123456
   - APK url: https://docs.google.com/document/d/19YxI_PJwFSJDIqHJLvDfP53cFihg18nDoU524x
+
 
 2. Customer has a web app. He applies for a loan and can view his loan status.
   - User: david
@@ -44,19 +65,50 @@ It also has a part where he can provide feedback about mortgage properties if re
 
 3. Loan processor is a web app for processing the loans in the pipeline.
   - User: kevin
-  - Password: 123456
+  - Password: 123456 -->
 
----
-
-## Features of WM and Prefabs used
-
-1. Form wizard
-2. Data table
-3. Cards
-4. Calendar
-5. Box-viewer prefab
-6. Docusign prefab
-7. Camunda workflow integration
+<section>
+  <div className="container">
+    <div className="row">
+      <div className="col card text--center margin--sm padding--none">
+        <div className="">
+          <h5 className="card__header margin-bottom--none padding-horiz--none">
+            Customer
+          </h5>
+          <div className="card__body">
+            <p>Customer has a web app. He applies for a loan and can view his loan status.</p>
+            <img alt="Customer Login Credentials" src={useBaseUrl('img/loanCorp/customer.png')} height="120px"/>
+            <p>User: <b>david</b> <br/> Password: <b>123456</b></p>
+          </div>
+        </div>
+      </div>
+      <div className="col card text--center margin--sm padding--none">
+        <div className="">
+          <h5 className="card__header margin-bottom--none padding-horiz--none">
+            Loan Processor
+          </h5>
+          <div className="card__body">
+            <p>Loan processor is a web app for processing the loans in the pipeline.</p>
+            <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
+            <p>User: <b>kevin</b> <br/> Password: <b>123456</b></p>
+          </div>
+        </div>
+      </div>
+      <div className="col card text--center margin--sm padding--none">
+        <div className="">
+          <h5 className="card__header margin-bottom--none padding-horiz--none">
+            Relastionship Manager
+          </h5>
+          <div className="card__body">
+          <p>RM is a mobile app that has features like tracking loans and customers.</p>
+          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
+            <p>User: <b>tom</b> <br/> Password: <b>123456</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 ---
 
@@ -64,3 +116,9 @@ It also has a part where he can provide feedback about mortgage properties if re
 
 ![alt text](/img/loanCorp/LoanCorp1.png 'Loan Corp')
 
+
+---
+<!-- 
+<react>
+    <MyComponent prop1={} prop2={}/>
+</react> -->

@@ -6,48 +6,14 @@
  */
 
 module.exports = {
-  appsSidebar: {
-    ShowcaseApps: ['loanCorp', 'medQuest', 'salesVision'],
-    // Features: ['mdx'],
-  },
-  // appsSidebar: [
-  //   {
-  //     type: 'category',
-  //     label: 'Loan Corp',
-  //     items: [
-  //       "loanCorp/introduction",
-  //       "loanCorp/app-features",
-  //       "loanCorp/personas",
-  //       "loanCorp/wm-features",
-  //       "loanCorp/app-screens",
-  //       "loanCorp/app-access",
-  //     ],
-  //   },
-  //   {
-  //     type: 'category',
-  //     label: 'MedQuest',
-  //     items: [
-  //       "medQuest/introduction",
-  //       "medQuest/app-features",
-  //       "medQuest/personas",
-  //       "medQuest/wm-features",
-  //       "medQuest/app-screens",
-  //       "medQuest/app-access",
-  //     ],
-  //   },
-  //   {
-  //     type: 'category',
-  //     label: 'Sales Vision',
-  //     items: [
-  //       "salesVision/introduction",
-  //       "salesVision/app-features",
-  //       "salesVision/personas",
-  //       "salesVision/wm-features",
-  //       "salesVision/app-screens",
-  //       "salesVision/app-access",
-  //     ],
-  //   },
-  // ],
+  appsSidebar: [
+    // ShowcaseApps: ['loanCorp', 'medQuest', 'salesVision'],
+    {
+      type: 'category',
+      label: 'Showcase Apps',
+      items: ['loanCorp', 'medQuest', 'salesVision'],
+    }
+  ],
   someSidebar: {
     Docusaurus: ['doc1', 'doc2', 'doc3'],
     Features: ['mdx'],

@@ -16,8 +16,7 @@ const loanCorp = [
     title: <>Customer</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        Customer has a web app. He applies for a loan and can view his loan status.
       </>
     ),
     imageUrl: 'img/loanCorp/customer.png',
@@ -27,8 +26,7 @@ const loanCorp = [
     title: <>Loan Processor</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        Loan processor is a web app for processing the loans in the pipeline.
       </>
     ),
     imageUrl: 'img/loanCorp/loan_processor.png',
@@ -38,8 +36,7 @@ const loanCorp = [
     title: <>Relationship Manager</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        RM is a mobile app that has features like tracking loans and customers.
       </>
     ),
     imageUrl: 'img/loanCorp/relationship_manager.png',
@@ -292,7 +289,7 @@ function Home() {
       {/* , styles.heroBanner */}
         <div className="container">
           <div className="row">
-            <div className="col col--9">
+            <div className="col col--8">
               <h1 className="hero__title">WaveMaker {siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline} created by WaveMaker our rapid 
 low-code platform.</p>
