@@ -8,6 +8,16 @@ import styles from './styles.module.css';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Heading from '@theme/Heading';
+// import { render } from "react-dom";
+// import Carousel from "./carousel";
+// import "react-responsive-carousel/lib/styles/carousel.min.css";
+
+// const App = () => (
+//   <div>
+//     <Carousel />
+//   </div>
+// );
+
 
 const AnchoredH2 = Heading('h2');
 
@@ -309,6 +319,8 @@ low-code platform.</p>
         </section>
 
         <ShowcaseApps />
+        
+      {/* <App /> */}
       </main>
     </Layout>
   );

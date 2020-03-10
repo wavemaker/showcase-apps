@@ -6,6 +6,9 @@ sidebar_label: MedQuest
 
 import YouTube from 'react-youtube';
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
+import { render } from "react-dom";
+import Carousel from "../src/pages/medQuestSlides";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 <YouTube videoId="Fhie1OW8SOY" />
 
@@ -171,5 +174,7 @@ For each of the above actions done, a push notification will be sent to the regi
 
 ## Screen Shots
 
-![alt text](/img/medQuest/web_screen1.png 'MedQuest Web')
+<Carousel />
+
+<!-- ![alt text](/img/medQuest/web_screen1.png 'MedQuest Web') -->
 

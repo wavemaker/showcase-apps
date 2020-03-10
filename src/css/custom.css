@@ -429,6 +429,8 @@ body{
 }
 
 
+
+
 /*------featured prefab icons-------*/
 .camunda:before {
   background-image: url(/img/prefabs/camunda_wf.png);
@@ -442,3 +444,15 @@ body{
 /* .datatable:before {
   background-image: url(/img/prefabs/data_table.png);
 } */
+
+
+
+
+/*----------------carosuel----------------*/
+.mock-screen {
+  padding: 3em 5.55em 8em 5.8em;
+  background-image: url(/img/mock_screen_bg.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}

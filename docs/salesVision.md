@@ -6,6 +6,9 @@ sidebar_label: Sales Vision
 
 import YouTube from 'react-youtube';
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
+import { render } from "react-dom";
+import Carousel from "../src/pages/salesVisionSlides";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 <YouTube videoId="Fhie1OW8SOY" />
 
@@ -132,5 +135,7 @@ upcoming policy renewals, top selling policies and top leads.
 
 ## Screen Shots
 
-![alt text](/img/loanCorp/LoanCorp1.png 'Loan Corp')
+<Carousel />
+
+<!-- ![alt text](/img/loanCorp/LoanCorp1.png 'Loan Corp') -->
 
