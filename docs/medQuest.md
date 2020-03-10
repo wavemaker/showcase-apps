@@ -4,166 +4,155 @@ title: MedQuest
 sidebar_label: MedQuest
 ---
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+import YouTube from 'react-youtube';
+import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
 
-## Markdown Syntax
+<YouTube videoId="Fhie1OW8SOY" />
 
-To serve as an example page when styling markdown based Docusaurus sites.
+## Introduction
 
-## Headers
+Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.
 
-# H1 - Create the best documentation
-
-## H2 - Create the best documentation
-
-### H3 - Create the best documentation
-
-#### H4 - Create the best documentation
-
-##### H5 - Create the best documentation
-
-###### H6 - Create the best documentation
 
 ---
 
-## Emphasis
+## Features of WM and Prefabs used
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+<!-- 1. **Form wizard**
+2. **Dialogue**
+3. **Cards**
+4. **Calendar**
+5. **Tile**
+6. **List**
+7. **Search**
+8. **Tabs**
+9. **File Upload** -->
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+<div className="container">
+  <div className="row">
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/form_wizard.png')} alt="Form Wizard" width="175px" />
+      <p>Form Wizard</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/data_table.png')} alt="Data Table" width="175px" />
+      <p>Data Table</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/cards.png')} alt="Cards" width="175px" />
+      <p>Cards</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/calendar.png')} alt="Calendar" width="175px" />
+      <p>Calendar</p>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col col--1"></div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/box_viewer.png')} alt="Box-viewer Prefab" width="175px" />
+      <p>Box-viewer Prefab</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/docusign.png')} alt="Docusign Prefab" width="175px" />
+      <p>Docusign Prefab</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/camunda_wf.png')} alt="Camunda workflow Integration" width="175px" />
+      <p>Camunda workflow Integration</p>
+    </div>
+    <div className="col col--1"></div>
+  </div>
+</div>
 
-Combined emphasis with **asterisks and _underscores_**.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item ⋅⋅\* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number ⋅⋅1. Ordered sub-list
-1. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
 
 ---
 
-## Images
+## User Flow of App
 
-Here's our logo (hover to see the title text):
+The user flow starts with a patient registering with the app. By logging into the app, the patient will be able to 
 
-Inline-style: ![alt text](/img/loanCorp/logo.png 'Logo Title Text 1')
-Inline-style: ![alt text](/img/loanCorp/logo.png 'Logo Title Text 1')
+1. **See his/her’s profile details**
+2. **Book an appointment with the doctor**
+3. **Raise a request to refill the prescribed medicines.**
 
-Reference-style: ![alt text][logo]
+##### Book Appointment flow : 
+Patients will be provided with a list of medical departments from which he/she can search and choose according to the problem. After that, they have to give the details of symptoms and choose a date for the appointment. Depending upon date, available time slots will be shown and patients should select one from them. With this an appointment request is created and sent to the Nurse.
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
+##### Refill request flow : 
+Patient will be shown with the list of his/her’s prescribed medicines from which he/she can re-order the medicines. With this a refill request will be raised to the Nurse.
 
----
+A patient can also see the history of appointments and refill requests.
 
-## Code
+Nurse will now be provided with the list of appointments and medicines requests for the current day. By clicking on the patient card, it will redirect to the page where the Nurse can cancel/approve an appointment or refill request. Separate tabs will be provided to view cancelled and approved requests.When a Nurse approves medicine refill requests, it will be sent to Pharmacist. 
 
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
-```
+Now Pharmacists can either approve or reject the request. Separate tabs are provided to view the approved and rejected requests.
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+For each of the above actions done, a push notification will be sent to the registered mobile number of the patient about the status of the requests.
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
 
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
-}
-```
 
 ---
 
-## Tables
+## Personas
 
-Colons can be used to align columns.
+<!-- 1. Patient has a mobile app. He/She can book an appointment or raise a refill request. 
+  - User: peter@gmail.com
+  - Password: peter123
+  - APK url: https://drive.google.com/file/d/1hZKbTjZdjEK4SnRgjpkVeolyWZHtqaSP/view
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+2. Nurse and Pharmacist has a web app. They can either approve/reject the requests.
+  - Nurse can login by clicking on the ‘Login as Nurse’ button
+  - Pharmacist can login by clicking on the ‘Login as Pharmacist’ button.
+  - Deployed URL : http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/ -->
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
+<section>
+  <div className="container">
+    <div className="row">
+      <div className="col card text--center margin--sm padding--none">
+        <div className="">
+          <h5 className="card__header margin-bottom--none padding-horiz--none">
+            Patient
+          </h5>
+          <div className="card__body">
+            <p>Patient has a mobile app. He/She can book an appointment or raise a refill request.</p>
+            <img alt="Customer Login Credentials" src={useBaseUrl('img/medQuest/patient.png')} height="150px"/>
+            <p>User: <b>peter@gmail.com</b> <br/> Password: <b>peter123</b></p>
+          </div>
+        </div>
+      </div>
+      <div className="col card text--center margin--sm padding--none">
+        <div className="">
+          <h5 className="card__header margin-bottom--none padding-horiz--none">
+            Nurse
+          </h5>
+          <div className="card__body">
+            <p>login by clicking on the ‘Login as Nurse’ button. He can either approve/reject the requests.</p>
+            <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/medQuest/nurse.png')} height="150px"/>
+            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" class="button button--primary button--outline margin-top--sm">Login as Nurse</a>
+          </div>
+        </div>
+      </div>
+      <div className="col card text--center margin--sm padding--none">
+        <div className="">
+          <h5 className="card__header margin-bottom--none padding-horiz--none">
+            Pharmacist
+          </h5>
+          <div className="card__body">
+          <p>login by clicking on the ‘Login as Nurse’ button. He can either approve/reject the requests.</p>
+          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/medQuest/pharmacist.png')} height="150px"/>
+            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" class="button button--primary button--outline margin-top--sm">Login as Pharmacist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 ---
 
-## Blockquotes
+## Screen Shots
 
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+![alt text](/img/medQuest/web_screen1.png 'MedQuest Web')
 
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
-
----
-
-## Inline HTML
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
----
-
-## Line Breaks
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
-
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.

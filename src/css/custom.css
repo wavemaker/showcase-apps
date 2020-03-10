@@ -43,6 +43,7 @@
   /* 18px */
   --ifm-h6-font-size: calc(var(--ifm-font-size-base) * 1);
   /* 15px */
+  --ifm-hr-border-width: 1px 1px 0 0;
 }
 
 body{
@@ -368,4 +369,16 @@ body{
 
 .contents li {
   margin-right: 0;
+}
+
+
+/*------featured icons-------*/
+span.fe-icon{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.datatable {
+  background-image: url(/img/widget-livegrid.svg);
 }

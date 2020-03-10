@@ -18,13 +18,49 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 
 ## Features of WM and Prefabs used
 
-1. Form wizard
-2. Data table
-3. Cards
-4. Calendar
-5. Box-viewer prefab
-6. Docusign prefab
-7. Camunda workflow integration
+<!-- 1. **Form wizard**
+2. **Data table**
+3. **Cards**
+4. **Calendar**
+5. **Box-viewer prefab**
+6. **Docusign prefab**
+7. **Camunda workflow integration** -->
+<div className="container">
+  <div className="row">
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/form_wizard.png')} alt="Form Wizard" width="175px" />
+      <p>Form Wizard</p>
+    </div>
+    <div className="col text--center padding--none">
+      <span className="fe-icon datatable"></span>
+      <p>Data Table</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/cards.png')} alt="Cards" width="175px" />
+      <p>Cards</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/calendar.png')} alt="Calendar" width="175px" />
+      <p>Calendar</p>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col col--1"></div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/box_viewer.png')} alt="Box-viewer Prefab" width="175px" />
+      <p>Box-viewer Prefab</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/docusign.png')} alt="Docusign Prefab" width="175px" />
+      <p>Docusign Prefab</p>
+    </div>
+    <div className="col text--center padding--none">
+      <img src={useBaseUrl('img/camunda_wf.png')} alt="Camunda workflow Integration" width="175px" />
+      <p>Camunda workflow Integration</p>
+    </div>
+    <div className="col col--1"></div>
+  </div>
+</div>
 
 
 ---
@@ -49,7 +85,7 @@ In this case a sample W2 form.
 
 ---
 
-## User Personas
+## Personas
 
 <!-- 1. Relationship Manager, it is a mobile application that has features like tracking loans and customers.
 
@@ -89,7 +125,7 @@ In this case a sample W2 form.
           </h5>
           <div className="card__body">
             <p>Loan processor is a web app for processing the loans in the pipeline.</p>
-            <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
+            <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
             <p>User: <b>kevin</b> <br/> Password: <b>123456</b></p>
           </div>
         </div>
@@ -101,7 +137,7 @@ In this case a sample W2 form.
           </h5>
           <div className="card__body">
           <p>RM is a mobile app that has features like tracking loans and customers.</p>
-          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
+          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
             <p>User: <b>tom</b> <br/> Password: <b>123456</b></p>
           </div>
         </div>
@@ -110,6 +146,7 @@ In this case a sample W2 form.
   </div>
 </section>
 
+
 ---
 
 ## Screen Shots
@@ -117,8 +154,3 @@ In this case a sample W2 form.
 ![alt text](/img/loanCorp/LoanCorp1.png 'Loan Corp')
 
 
----
-<!-- 
-<react>
-    <MyComponent prop1={} prop2={}/>
-</react> -->
