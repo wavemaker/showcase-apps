@@ -26,40 +26,38 @@ over the period of time. Representatives update the quotes to convert into sales
 5. **Calendar**
 6. **Filter** -->
 
-<div className="container">
+<div className="container margin-top--lg">
   <div className="row">
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/form_wizard.png')} alt="Form Wizard" width="175px" />
-      <p>Form Wizard</p>
+      <span className="fe-icon list"></span>
+      <p>List</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/data_table.png')} alt="Data Table" width="175px" />
+      <span className="fe-icon wizard"></span>
+      <p>Wizard</p>
+    </div>
+    <div className="col text--center padding--none">
+      <span className="fe-icon data-table"></span>
       <p>Data Table</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/cards.png')} alt="Cards" width="175px" />
-      <p>Cards</p>
-    </div>
-    <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/calendar.png')} alt="Calendar" width="175px" />
-      <p>Calendar</p>
+      <span className="fe-icon card"></span>
+      <p>Card</p>
     </div>
   </div>
   <div className="row">
-    <div className="col col--1"></div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/box_viewer.png')} alt="Box-viewer Prefab" width="175px" />
-      <p>Box-viewer Prefab</p>
+      <span className="fe-icon calendar"></span>
+      <p>Calendar</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/docusign.png')} alt="Docusign Prefab" width="175px" />
-      <p>Docusign Prefab</p>
+      <span className="fe-icon live-filter"></span>
+      <p>Live Filter</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/camunda_wf.png')} alt="Camunda workflow Integration" width="175px" />
-      <p>Camunda workflow Integration</p>
     </div>
-    <div className="col col--1"></div>
+    <div className="col text--center padding--none">
+    </div>
   </div>
 </div>
 
@@ -111,6 +109,7 @@ upcoming policy renewals, top selling policies and top leads.
           <div className="card__body">
             <p>Sales head has a web app to view the performance of sales representatives under him.</p>
             <img alt="Customer Login Credentials" src={useBaseUrl('img/salesVision/sales_head.png')} height="150px"/>
+            <a href="#" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
             <p>Username: <b>sally.jones</b> <br/> Password: <b>wavemaker</b></p>
           </div>
       </div>
@@ -121,6 +120,7 @@ upcoming policy renewals, top selling policies and top leads.
           <div className="card__body">
             <p>Sales representative has a web app to monitor his sales, upcoming renewals and pipeline customers.</p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/salesVision/sales_representative.png')} height="150px"/>
+            <a href="#" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
             <p>Username: <b>amanda.brown</b> <br/> Password: <b>wavemaker</b></p>
           </div>
       </div>

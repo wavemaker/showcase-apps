@@ -25,37 +25,37 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 5. **Box-viewer prefab**
 6. **Docusign prefab**
 7. **Camunda workflow integration** -->
-<div className="container">
+<div className="container margin-top--lg">
   <div className="row">
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/form_wizard.png')} alt="Form Wizard" width="175px" />
-      <p>Form Wizard</p>
+      <span className="fe-icon wizard"></span>
+      <p>Wizard</p>
     </div>
     <div className="col text--center padding--none">
-      <span className="fe-icon datatable"></span>
+      <span className="fe-icon data-table"></span>
       <p>Data Table</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/cards.png')} alt="Cards" width="175px" />
-      <p>Cards</p>
+      <span className="fe-icon card"></span>
+      <p>Card</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/calendar.png')} alt="Calendar" width="175px" />
+      <span className="fe-icon calendar"></span>
       <p>Calendar</p>
     </div>
   </div>
   <div className="row">
     <div className="col col--1"></div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/box_viewer.png')} alt="Box-viewer Prefab" width="175px" />
+      <span className="fe-icon box-viewer"></span>
       <p>Box-viewer Prefab</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/docusign.png')} alt="Docusign Prefab" width="175px" />
+      <span className="fe-icon docusign"></span>
       <p>Docusign Prefab</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/camunda_wf.png')} alt="Camunda workflow Integration" width="175px" />
+      <span className="fe-icon camunda"></span>
       <p>Camunda workflow Integration</p>
     </div>
     <div className="col col--1"></div>
@@ -114,7 +114,8 @@ In this case a sample W2 form.
           <div className="card__body">
             <p>Customer has a web app. He applies for a loan and can view his loan status.</p>
             <img alt="Customer Login Credentials" src={useBaseUrl('img/loanCorp/customer.png')} height="120px"/>
-            <p>User: <b>david</b> <br/> Password: <b>123456</b></p>
+            <a href="http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount" className="button button--primary button--outline margin-bottom--sm">Launch Customer App</a>
+            <p>User : <b>david</b> <br/> Password : <b>123456</b></p>
           </div>
         </div>
       </div>
@@ -126,6 +127,7 @@ In this case a sample W2 form.
           <div className="card__body">
             <p>Loan processor is a web app for processing the loans in the pipeline.</p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
+            <a href="http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main" className="button button--primary button--outline margin-bottom--sm">Launch Loan Processor</a>
             <p>User: <b>kevin</b> <br/> Password: <b>123456</b></p>
           </div>
         </div>
@@ -138,6 +140,7 @@ In this case a sample W2 form.
           <div className="card__body">
           <p>RM is a mobile app that has features like tracking loans and customers.</p>
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
+            <a href="https://docs.google.com/document/d/19YxI_PJwFSJDIqHJLvDfP53cFihg18nDoU524x" download className="button button--primary button--outline margin-bottom--sm">Download APK</a>
             <p>User: <b>tom</b> <br/> Password: <b>123456</b></p>
           </div>
         </div>

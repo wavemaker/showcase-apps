@@ -28,40 +28,54 @@ Medquest is a medical application where a patient can book an appointment with t
 8. **Tabs**
 9. **File Upload** -->
 
-<div className="container">
+<div className="container  margin-top--lg">
   <div className="row">
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/form_wizard.png')} alt="Form Wizard" width="175px" />
-      <p>Form Wizard</p>
+      <span className="fe-icon wizard"></span>
+      <p>Wizard</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/data_table.png')} alt="Data Table" width="175px" />
-      <p>Data Table</p>
+      <span className="fe-icon dialog"></span>
+      <p>Dialogue</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/cards.png')} alt="Cards" width="175px" />
-      <p>Cards</p>
+      <span className="fe-icon card"></span>
+      <p>Card</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/calendar.png')} alt="Calendar" width="175px" />
+      <span className="fe-icon calendar"></span>
       <p>Calendar</p>
     </div>
   </div>
   <div className="row">
-    <div className="col col--1"></div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/box_viewer.png')} alt="Box-viewer Prefab" width="175px" />
-      <p>Box-viewer Prefab</p>
+      <span className="fe-icon tile"></span>
+      <p>Tile</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/docusign.png')} alt="Docusign Prefab" width="175px" />
-      <p>Docusign Prefab</p>
+      <span className="fe-icon list"></span>
+      <p>List</p>
     </div>
     <div className="col text--center padding--none">
-      <img src={useBaseUrl('img/camunda_wf.png')} alt="Camunda workflow Integration" width="175px" />
-      <p>Camunda workflow Integration</p>
+      <span className="fe-icon search"></span>
+      <p>Search</p>
     </div>
-    <div className="col col--1"></div>
+    <div className="col text--center padding--none">
+      <span className="fe-icon tabs"></span>
+      <p>Tabs</p>
+    </div>
+  </div>
+  <div className="row">
+    <div className="col text--center padding--none">
+      <span className="fe-icon file-upload"></span>
+      <p>File Upload</p>
+    </div>
+    <div className="col text--center padding--none">
+    </div>
+    <div className="col text--center padding--none">
+    </div>
+    <div className="col text--center padding--none">
+    </div>
   </div>
 </div>
 
@@ -118,6 +132,7 @@ For each of the above actions done, a push notification will be sent to the regi
           <div className="card__body">
             <p>Patient has a mobile app. He/She can book an appointment or raise a refill request.</p>
             <img alt="Customer Login Credentials" src={useBaseUrl('img/medQuest/patient.png')} height="150px"/>
+            <a href="https://drive.google.com/file/d/1hZKbTjZdjEK4SnRgjpkVeolyWZHtqaSP" download className="button button--primary button--outline margin-bottom--sm">Download APK</a>
             <p>User: <b>peter@gmail.com</b> <br/> Password: <b>peter123</b></p>
           </div>
         </div>
@@ -128,9 +143,10 @@ For each of the above actions done, a push notification will be sent to the regi
             Nurse
           </h5>
           <div className="card__body">
-            <p>login by clicking on the ‘Login as Nurse’ button. He can either approve/reject the requests.</p>
+            <p>Nurse is a web app. To approve/reject the appoitments and refill requests of patients.</p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/medQuest/nurse.png')} height="150px"/>
-            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" class="button button--primary button--outline margin-top--sm">Login as Nurse</a>
+            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
+            <p>click on <b>Login as Nurse</b> button to login</p>
           </div>
         </div>
       </div>
@@ -140,9 +156,10 @@ For each of the above actions done, a push notification will be sent to the regi
             Pharmacist
           </h5>
           <div className="card__body">
-          <p>login by clicking on the ‘Login as Nurse’ button. He can either approve/reject the requests.</p>
+          <p>Pharmacist is a web app. To approve/reject the requests of patients and nurse.</p>
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/medQuest/pharmacist.png')} height="150px"/>
-            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" class="button button--primary button--outline margin-top--sm">Login as Pharmacist</a>
+            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
+            <p>click on <b>Login as Pharmacist</b> button to login</p>
           </div>
         </div>
       </div>

@@ -52,7 +52,7 @@ function LoanCorpApps({imageUrl, title, description, portalUrl}) {
       <p className="app-section-description">{description}</p>
       {imgUrl && (
         <div className="text--center">
-          <img className="" src={imgUrl} alt={title} height="145px"/>
+          <img className="" src={imgUrl} alt={title} height="165px"/>
           <p className="margin-bottom--none">
             <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
           </p>
@@ -69,22 +69,20 @@ const salesVision = [
     title: <>User</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        Sales Head has a web app to view the performance of sales representatives under him.
       </>
     ),
-    imageUrl: 'img/loanCorp/customer.png',
+    imageUrl: 'img/salesVision/sales_head.png',
     portalUrl: '#',
   },
   {
     title: <>Manager</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        Sales Representative has a web app to monitor his sales, upcoming renewals and pipeline customers.
       </>
     ),
-    imageUrl: 'img/loanCorp/loan_processor.png',
+    imageUrl: 'img/salesVision/sales_representative.png',
     portalUrl: '#',
   },
 ];
@@ -97,7 +95,7 @@ function SalesVisionApps({imageUrl, title, description, portalUrl}) {
       <p className="app-section-description">{description}</p>
       {imgUrl && (
         <div className="text--center">
-          <img className="" src={imgUrl} alt={title} height="145px"/>
+          <img className="" src={imgUrl} alt={title} height="165px"/>
           <p className="margin-bottom--none">
             <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
           </p>
@@ -114,19 +112,18 @@ const medQuest = [
     title: <>Patient</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        Patient has a mobile app. <br/>
+        He/She can book an appointment or raise a refill request.
       </>
     ),
-    imageUrl: 'img/medQuest/customer.png',
+    imageUrl: 'img/medQuest/patient.png',
     portalUrl: '#',
   },
   {
     title: <>Nurse</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        login by clicking on the ‘Login as Nurse’ button. He can either approve/reject the requests.
       </>
     ),
     imageUrl: 'img/medQuest/nurse.png',
@@ -136,8 +133,7 @@ const medQuest = [
     title: <>Pharmacist</>,
     description: (
       <>
-        Herdius is a protocol to access the whole decentralized web. Interact 
-        directly with any smart contract,
+        login by clicking on the ‘Login as Pharmacist button. He can either approve/reject the requests.
       </>
     ),
     imageUrl: 'img/medQuest/pharmacist.png',
@@ -153,7 +149,7 @@ function MedQuestApps({imageUrl, title, description, portalUrl}) {
       <p className="app-section-description">{description}</p>
       {imgUrl && (
         <div className="text--center">
-          <img className="" src={imgUrl} alt={title} height="145px"/>
+          <img className="" src={imgUrl} alt={title} height="165px"/>
           <p className="margin-bottom--none">
             <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
           </p>
