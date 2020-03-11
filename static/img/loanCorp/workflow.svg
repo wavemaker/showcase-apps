@@ -142,7 +142,7 @@
 	<text transform="matrix(1 0 0 1 59.5383 191.7114)" class="st3 st10 st7">Property details with Address</text>
 	<text transform="matrix(1 0 0 1 59.538 208.8509)" class="st3 st10 st7">Mortgage Details </text>
 	<rect x="40" y="118.47" class="st11" width="233.77" height="23.42"/>
-	<text transform="matrix(1 0 0 1 39.9999 126.4989)"><tspan x="0" y="0" class="st9 st12">Customer will be provided with multi page </tspan><tspan x="0" y="13.2" class="st9 st12">form with the following details to fill</tspan></text>
+	<text transform="matrix(1 0 0 1 39.9999 126.4989)"><tspan x="0" y="0" class="st9 st12">Customer gets a form to fill the following </tspan><tspan x="0" y="13.2" class="st9 st12">details.</tspan></text>
 	<circle class="st3" cx="51.77" cy="170.25" r="1.77"/>
 	<circle class="st3" cx="51.77" cy="187.55" r="1.77"/>
 	<circle class="st3" cx="51.77" cy="204.84" r="1.77"/>
@@ -431,26 +431,26 @@
 		</g>
 	</g>
 	<text transform="matrix(1 0 0 1 489.0717 332.3735)"><tspan x="0" y="0" class="st18 st4 st5">LOAN PROCESSOR </tspan><tspan x="122.79" y="0" class="st18 st6 st7">(Web app)</tspan></text>
-	<rect x="360.05" y="116.37" class="st11" width="97.02" height="49.5"/>
-	<text transform="matrix(1 0 0 1 360.0527 123.6696)"><tspan x="0" y="0" class="st9 st22">Loan Application </tspan><tspan x="0" y="12" class="st9 st22">can be accessed via </tspan><tspan x="0" y="24" class="st9 st22">his app.</tspan></text>
-	<rect x="509.25" y="116.37" class="st11" width="109.05" height="49.5"/>
-	<text transform="matrix(1 0 0 1 509.2464 123.6686)"><tspan x="0" y="0" class="st9 st22">Officer receives “New </tspan><tspan x="0" y="12" class="st9 st22">Loan” application. </tspan><tspan x="0" y="24" class="st9 st22">Processor fills the W2 </tspan><tspan x="0" y="36" class="st9 st22">section</tspan></text>
-	<rect x="665.4" y="116.37" class="st11" width="72.11" height="44.47"/>
-	<text transform="matrix(1 0 0 1 665.3966 123.6686)"><tspan x="0" y="0" class="st9 st22">On submission </tspan><tspan x="0" y="12" class="st9 st22">the Camunda </tspan><tspan x="0" y="24" class="st9 st22">workflow gets </tspan><tspan x="0" y="36" class="st9 st22">invoked.</tspan></text>
-	<circle class="st18" cx="341.46" cy="181.25" r="1.77"/>
-	<circle class="st18" cx="341.46" cy="198.55" r="1.77"/>
-	<circle class="st18" cx="341.46" cy="215.84" r="1.77"/>
+	<rect x="360.05" y="116.37" class="st11" width="100.72" height="49.5"/>
+	<text transform="matrix(1 0 0 1 360.0527 123.6686)"><tspan x="0" y="0" class="st9 st22">Loan Application can </tspan><tspan x="0" y="12" class="st9 st22">be accessed via </tspan><tspan x="0" y="24" class="st9 st22">Web app.</tspan></text>
+	<rect x="509.25" y="116.37" class="st11" width="109.05" height="24.75"/>
+	<text transform="matrix(1 0 0 1 509.2464 123.6686)"><tspan x="0" y="0" class="st9 st22">Loan Processor fills </tspan><tspan x="0" y="12" class="st9 st22">the W2 section.</tspan></text>
+	<rect x="655.4" y="116.37" class="st11" width="76.55" height="44.47"/>
+	<text transform="matrix(1 0 0 1 655.3966 123.6686)"><tspan x="0" y="0" class="st9 st22">On submission, </tspan><tspan x="0" y="12" class="st9 st22">the Camunda </tspan><tspan x="0" y="24" class="st9 st22">workflow gets </tspan><tspan x="0" y="36" class="st9 st22">invoked.</tspan></text>
+	<circle class="st18" cx="321.46" cy="181.25" r="1.77"/>
+	<circle class="st18" cx="321.46" cy="198.55" r="1.77"/>
+	<circle class="st18" cx="321.46" cy="215.84" r="1.77"/>
 	<rect x="312.09" y="24.66" class="st23" width="438.07" height="229.32"/>
-	<rect x="349.23" y="176.6" class="st11" width="383.73" height="13.05"/>
-	<text transform="matrix(1 0 0 1 349.2334 185.3621)"><tspan x="0" y="0" class="st18 st10 st7">If </tspan><tspan x="10.58" y="0" class="st18 st24 st7">&lt; 30</tspan><tspan x="34.51" y="0" class="st18 st10 st7"> times the Wage </tspan><tspan x="130.54" y="0" class="st8 st10 st12">Gets Approved automatically by the BPM engine</tspan></text>
+	<rect x="329.23" y="176.6" class="st11" width="407.19" height="13.05"/>
+	<text transform="matrix(1 0 0 1 329.2334 185.3621)"><tspan x="0" y="0" class="st18 st10 st7">Loan </tspan><tspan x="31.28" y="0" class="st18 st24 st7">&lt; 30</tspan><tspan x="55.21" y="0" class="st18 st10 st7"> times the wage - </tspan><tspan x="156.73" y="0" class="st8 st10 st12">Gets approved automatically by the BPM </tspan></text>
 	<g>
 		<rect x="102.89" y="345.27" class="st11" width="186.18" height="13.05"/>
 		<text transform="matrix(1 0 0 1 102.8891 354.0292)" class="st8 st9 st7">Incase of Site Visit</text>
 	</g>
-	<rect x="349.23" y="193.79" class="st11" width="383.73" height="13.05"/>
-	<text transform="matrix(1 0 0 1 349.2334 202.549)"><tspan x="0" y="0" class="st18 st10 st7">If </tspan><tspan x="10.58" y="0" class="st18 st24 st7">&gt; 30 &amp; &lt; 60</tspan><tspan x="73.96" y="0" class="st18 st10 st7"> times the Wage </tspan><tspan x="169.98" y="0" class="st8 st10 st12">Status Changes to “Site Visit” request</tspan></text>
-	<rect x="349.23" y="211.08" class="st11" width="383.73" height="13.05"/>
-	<text transform="matrix(1 0 0 1 349.2334 219.8425)"><tspan x="0" y="0" class="st18 st10 st7">If </tspan><tspan x="10.58" y="0" class="st18 st24 st7">&gt; 60</tspan><tspan x="34.51" y="0" class="st18 st10 st7"> times the Wage </tspan><tspan x="130.54" y="0" class="st8 st10 st12">Gets Rejected automatically by the BPM engine</tspan></text>
+	<rect x="329.23" y="193.79" class="st11" width="402.71" height="13.05"/>
+	<text transform="matrix(1 0 0 1 329.2334 202.55)"><tspan x="0" y="0" class="st18 st10 st7">Loan </tspan><tspan x="31.28" y="0" class="st18 st24 st7">&gt; 30 &amp;&lt; 60</tspan><tspan x="91.26" y="0" class="st18 st10 st7"> times the wage - </tspan><tspan x="192.78" y="0" class="st8 st10 st12">Status Changes to “Site Visit” request</tspan></text>
+	<rect x="329.23" y="211.08" class="st11" width="406.16" height="13.05"/>
+	<text transform="matrix(1 0 0 1 329.2334 219.8425)"><tspan x="0" y="0" class="st18 st10 st7">Loan </tspan><tspan x="31.28" y="0" class="st18 st24 st7">&gt; 60</tspan><tspan x="55.21" y="0" class="st18 st10 st7"> times the wage - </tspan><tspan x="156.73" y="0" class="st8 st10 st12">Gets rejected automatically by the BPM engine</tspan></text>
 	<line class="st25" x1="284.67" y1="148.49" x2="306.7" y2="148.49"/>
 	<polyline class="st25" points="305.16,145.95 307.46,148.52 305.16,151.02 	"/>
 	<line class="st25" x1="377.21" y1="362.69" x2="399.24" y2="362.69"/>
@@ -551,16 +551,8 @@
 	<circle class="st29" cx="341.46" cy="129.96" r="13.59"/>
 	<polyline class="st25" points="547.73,253.97 547.73,269.92 135.52,269.92 135.52,283.91 	"/>
 	<polyline class="st25" points="138.05,282.13 135.48,284.43 132.99,282.13 	"/>
-	<g>
-		<g>
-			<path class="st18" d="M345.65,121.58h-8.37c-0.58,0-1.05,0.47-1.05,1.05v14.66c0,0.58,0.47,1.05,1.05,1.05h8.37
-				c0.58,0,1.05-0.47,1.05-1.05v-14.66C346.7,122.05,346.23,121.58,345.65,121.58z M341.46,137.29c-0.58,0-1.05-0.47-1.05-1.05
-				c0-0.58,0.47-1.05,1.05-1.05c0.58,0,1.05,0.47,1.05,1.05C342.51,136.82,342.04,137.29,341.46,137.29z M345.65,134.15h-8.37
-				v-10.47h8.37V134.15z"/>
-		</g>
-	</g>
 	<circle class="st29" cx="490.66" cy="129.96" r="13.59"/>
-	<circle class="st29" cx="647.05" cy="129.96" r="13.59"/>
+	<circle class="st29" cx="637.05" cy="129.96" r="13.59"/>
 	<g>
 		<path class="st18" d="M494.02,125.59h2.7c0.13,0,0.19-0.15,0.1-0.25l-2.7-2.7c-0.09-0.09-0.25-0.03-0.25,0.1v2.7
 			C493.88,125.52,493.94,125.59,494.02,125.59z"/>
@@ -571,7 +563,7 @@
 	</g>
 	<g>
 		<g>
-			<path class="st18" d="M648.17,133.68c-0.1-0.01-0.19-0.01-0.29-0.02c-0.17-0.1-0.38,0.01-0.55-0.09l-0.05-0.02l-0.05,0.01
+			<path class="st18" d="M638.17,133.68c-0.1-0.01-0.19-0.01-0.29-0.02c-0.17-0.1-0.38,0.01-0.55-0.09l-0.05-0.02l-0.05,0.01
 				c-0.23-0.14-0.18-0.44-0.32-0.63c-0.07-0.14-0.14-0.28-0.2-0.42c-0.09-0.14-0.09-0.28-0.01-0.42c0.02-0.03,0.04-0.06,0.06-0.09
 				c0.54-0.79,0.5-0.93-0.29-1.51c-0.31-0.23-0.45,0.04-0.61,0.18c-0.23,0.19-0.41,0.53-0.77,0.26c-0.39-0.28-1.15-0.09-1.08-0.96
 				c0.05-0.6-0.13-0.67-0.86-0.61c-0.24,0.09-0.63-0.04-0.63,0.42c0,0.06-0.01,0.11-0.01,0.17c-0.11,0.17,0.05,0.4-0.12,0.56
@@ -586,20 +578,20 @@
 				c0.16,0.06,0.1,0.18,0.1,0.27c0,2.12,0,4.23,0.01,6.35c0,0.45-0.13,0.81-0.51,1.07c-0.07,0.12-0.18,0.08-0.28,0.08
 				c-1.85,0-3.7,0-5.55,0c-0.09,0-0.17,0-0.25-0.05c-0.14-0.18-0.28-0.35-0.42-0.53c-0.18-0.2-0.17-0.4-0.04-0.62
 				c0.08-0.12,0.16-0.24,0.18-0.37c0.05-0.51,0.36-0.69,0.84-0.68c0.18,0.03,0.35,0.02,0.49-0.11
-				C648.3,134.58,648.49,134.11,648.17,133.68z"/>
-			<path class="st18" d="M652.04,124.14c1.45,0.79,1.93,2.21,1.54,3.49c-0.48,1.57-2.15,2.44-3.7,1.91
+				C638.3,134.58,638.49,134.11,638.17,133.68z"/>
+			<path class="st18" d="M642.04,124.14c1.45,0.79,1.93,2.21,1.54,3.49c-0.48,1.57-2.15,2.44-3.7,1.91
 				c-1.55-0.53-2.34-2.24-1.76-3.78c0.22-0.6,0.54-1.12,1.1-1.45c0.21-0.12,0.41-0.23,0.65-0.29l-0.01,0.01
-				C650.6,123.74,651.33,123.73,652.04,124.14z"/>
-			<path class="st18" d="M640.79,132.93c0.6-1.03,1.57-1.43,2.69-1.33c1.27,0.12,2.14,0.84,2.55,2.07c0.18,0.19,0.01,0.46,0.13,0.67
+				C640.6,123.74,641.33,123.73,642.04,124.14z"/>
+			<path class="st18" d="M630.79,132.93c0.6-1.03,1.57-1.43,2.69-1.33c1.27,0.12,2.14,0.84,2.55,2.07c0.18,0.19,0.01,0.46,0.13,0.67
 				c-0.13,0.43-0.11,0.89-0.31,1.31c-0.32,0.67-0.84,1.11-1.48,1.44c-0.73,0.38-1.46,0.34-2.19,0.03l0.01,0.01
 				c-0.15-0.05-0.3-0.1-0.43-0.19c-0.61-0.38-1.04-0.89-1.25-1.59c-0.22-0.59-0.24-1.19,0.01-1.78l-0.01,0.01
-				C640.56,133.35,640.68,133.14,640.79,132.93z"/>
+				C630.56,133.35,630.68,133.14,630.79,132.93z"/>
 		</g>
 	</g>
 	<rect x="72.18" y="384.73" class="st11" width="115.36" height="47.71"/>
-	<text transform="matrix(1 0 0 1 72.177 392.032)"><tspan x="0" y="0" class="st9 st22">The RM visits the </tspan><tspan x="0" y="12" class="st9 st22">property and sends his </tspan><tspan x="0" y="24" class="st9 st22">feedback to the loan </tspan><tspan x="0" y="36" class="st9 st22">processor</tspan></text>
+	<text transform="matrix(1 0 0 1 72.177 392.032)"><tspan x="0" y="0" class="st9 st22">The RM visits the </tspan><tspan x="0" y="12" class="st9 st22">property and sends his </tspan><tspan x="0" y="24" class="st9 st22">feedback to the Loan </tspan><tspan x="0" y="36" class="st9 st22">Processor.</tspan></text>
 	<rect x="241.37" y="384.73" class="st11" width="109.05" height="36.86"/>
-	<text transform="matrix(1 0 0 1 241.3707 392.032)"><tspan x="0" y="0" class="st9 st22">Status changes to </tspan><tspan x="0" y="12" class="st9 st22">“Final review” from </tspan><tspan x="0" y="24" class="st9 st22">“Site visit”.</tspan></text>
+	<text transform="matrix(1 0 0 1 241.3707 392.032)"><tspan x="0" y="0" class="st9 st22">Status changes from </tspan><tspan x="0" y="12" class="st9 st22">“Site visit” to  </tspan><tspan x="0" y="24" class="st9 st22">“Final review”.</tspan></text>
 	<circle class="st30" cx="53.59" cy="398.32" r="13.59"/>
 	<circle class="st30" cx="222.78" cy="398.32" r="13.59"/>
 	<g>
@@ -622,9 +614,9 @@
 		h2.41c0.07,0,0.13,0.06,0.13,0.13v3.48c0,0.22,0.18,0.4,0.4,0.4h2.28c0.44,0,0.8-0.36,0.8-0.8v-5.09h0.94
 		c0.37,0,0.67-0.3,0.67-0.67C60.02,397.35,59.95,397.18,59.82,397.04z"/>
 	<rect x="457.15" y="382.95" class="st11" width="115.36" height="49.5"/>
-	<text transform="matrix(1 0 0 1 457.1474 390.2481)"><tspan x="0" y="0" class="st9 st22">The Loan Processor </tspan><tspan x="0" y="12" class="st9 st22">views this feedback, </tspan><tspan x="0" y="24" class="st9 st22">decides whether to </tspan><tspan x="0" y="36" class="st9 st22">approve or reject</tspan></text>
+	<text transform="matrix(1 0 0 1 457.1474 390.2481)"><tspan x="0" y="0" class="st9 st22">The Loan Processor </tspan><tspan x="0" y="12" class="st9 st22">gets the feedback, and </tspan><tspan x="0" y="24" class="st9 st22">can approve or reject.</tspan></text>
 	<rect x="626.34" y="382.95" class="st11" width="109.05" height="49.5"/>
-	<text transform="matrix(1 0 0 1 626.342 390.2481)"><tspan x="0" y="0" class="st9 st22">This invokes another </tspan><tspan x="0" y="12" class="st9 st22">camunda process to </tspan><tspan x="0" y="24" class="st9 st22">update the loan status </tspan><tspan x="0" y="36" class="st9 st22">to Approve or Reject.</tspan></text>
+	<text transform="matrix(1 0 0 1 626.342 390.2481)"><tspan x="0" y="0" class="st9 st22">This invokes another </tspan><tspan x="0" y="12" class="st9 st22">camunda process to </tspan><tspan x="0" y="24" class="st9 st22">update the loan status </tspan><tspan x="0" y="36" class="st9 st22">to approve or reject.</tspan></text>
 	<circle class="st29" cx="438.56" cy="396.76" r="13.59"/>
 	<circle class="st29" cx="607.75" cy="396.54" r="13.59"/>
 	<g>
@@ -676,5 +668,13 @@
 	<text transform="matrix(1 0 0 1 720.812 314.4151)" class="st18 st4 st7">04</text>
 	<circle class="st30" cx="348.76" cy="310.08" r="10.41"/>
 	<text transform="matrix(1 0 0 1 342.0603 314.4151)" class="st27 st4 st7">03</text>
+	<g>
+		<g>
+			<path class="st18" d="M345.43,125.59h2.7c0.13,0,0.19-0.15,0.1-0.25l-2.7-2.7c-0.09-0.09-0.25-0.03-0.25,0.1v2.7
+				C345.28,125.52,345.35,125.59,345.43,125.59z"/>
+			<path class="st18" d="M344.59,126.96c-0.38,0-0.69-0.3-0.69-0.69v-3.68h-6.5c-0.86,0-1.56,0.7-1.56,1.56v11.62
+				c0,0.85,0.7,1.55,1.56,1.55h9.32c0.85,0,1.55-0.7,1.55-1.55v-8.81H344.59z"/>
+		</g>
+	</g>
 </g>
 </svg>

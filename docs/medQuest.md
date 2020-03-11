@@ -15,7 +15,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.
 
-<YouTube videoId="Fhie1OW8SOY" />
+<!-- <YouTube videoId="Fhie1OW8SOY" /> -->
 
 ---
 
@@ -88,6 +88,9 @@ Medquest is a medical application where a patient can book an appointment with t
 
 ## User Flow of App
 
+![alt text](/img/medQuest/workflow.svg 'User Flow of MedQuest App') 
+
+<!-- 
 The user flow starts with a patient registering with the app. By logging into the app, the patient will be able to 
 
 1. **See his/her’s profile details**
@@ -106,7 +109,7 @@ Nurse will now be provided with the list of appointments and medicines requests 
 
 Now Pharmacists can either approve or reject the request. Separate tabs are provided to view the approved and rejected requests.
 
-For each of the above actions done, a push notification will be sent to the registered mobile number of the patient about the status of the requests.
+For each of the above actions done, a push notification will be sent to the registered mobile number of the patient about the status of the requests. -->
 
 
 

@@ -427,6 +427,9 @@ body{
 .live-filter:before{
   background-image: url(/img/widgets/live_filter.svg);
 }
+.form:before{
+  background-image: url(/img/widgets/form.svg);
+}
 
 
 
@@ -461,4 +464,5 @@ body{
 
 .mock-screen .carousel .slide img{
   height: 310px;
+  width: auto;
 }

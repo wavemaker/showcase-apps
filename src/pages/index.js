@@ -87,7 +87,7 @@ const salesVision = [
     ),
     imageUrl: 'img/salesVision/sales_head.png',
     portalTitle: <>Launch User App</>,
-    portalUrl: '#',
+    portalUrl: 'http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision',
   },
   {
     title: <>Manager</>,
@@ -98,7 +98,7 @@ const salesVision = [
     ),
     imageUrl: 'img/salesVision/sales_representative.png',
     portalTitle: <>Launch Manager App</>,
-    portalUrl: '#',
+    portalUrl: 'http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision',
   },
 ];
 

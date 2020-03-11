@@ -5,27 +5,59 @@ export default () => (
   <div className="mock-screen">
     <Carousel autoPlay showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={true} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-07.png"/>
+        <img src="/img/loanCorp/screenshots/customer/screen1.png"/>
         {/* <p className="legend">Legend 1</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-02.png" />
+        <img src="/img/loanCorp/screenshots/customer/screen2.png" />
         {/* <p className="legend">Legend 2</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-03.png" />
+        <img src="/img/loanCorp/screenshots/customer/screen3.png" />
         {/* <p className="legend">Legend 3</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-04.png" />
+        <img src="/img/loanCorp/screenshots/customer/screen4.png" />
+        {/* <p className="legend">Legend 3</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/customer/screen5.png" />
+        {/* <p className="legend">Legend 3</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/customer/screen6.png" />
+        {/* <p className="legend">Legend 3</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/loanProcessor/screen1.png" />
         {/* <p className="legend">Legend 4</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-05.png" />
+        <img src="/img/loanCorp/screenshots/loanProcessor/screen2.png" />
         {/* <p className="legend">Legend 5</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-06.png" />
+        <img src="/img/loanCorp/screenshots/loanProcessor/screen3.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/loanProcessor/screen4.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/loanProcessor/screen5.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/relationshipManager/screen1.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/relationshipManager/screen2.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/relationshipManager/screen3.png" />
         {/* <p className="legend">Legend 6</p> */}
       </div>
     </Carousel>

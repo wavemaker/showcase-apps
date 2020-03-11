@@ -5,27 +5,43 @@ export default () => (
   <div className="mock-screen">
     <Carousel autoPlay showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={true} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-07.png" />
+        <img src="/img/salesVision/screenshots/salesRepresentative/screen1.png" />
         {/* <p className="legend">Legend 1</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-02.png" />
+        <img src="/img/salesVision/screenshots/salesRepresentative/screen2.png" />
         {/* <p className="legend">Legend 2</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-03.png" />
+        <img src="/img/salesVision/screenshots/salesRepresentative/screen3.png" />
         {/* <p className="legend">Legend 3</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-04.png" />
+        <img src="/img/salesVision/screenshots/salesRepresentative/screen4.png" />
         {/* <p className="legend">Legend 4</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-05.png" />
+        <img src="/img/salesVision/screenshots/salesRepresentative/screen5.png" />
         {/* <p className="legend">Legend 5</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-06.png" />
+        <img src="/img/salesVision/screenshots/salesHead/screen1.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/salesVision/screenshots/salesHead/screen2.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/salesVision/screenshots/salesHead/screen3.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/salesVision/screenshots/salesHead/screen4.png" />
+        {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/salesVision/screenshots/salesHead/screen5.png" />
         {/* <p className="legend">Legend 6</p> */}
       </div>
     </Carousel>
