@@ -30,7 +30,8 @@ const loanCorp = [
       </>
     ),
     imageUrl: 'img/loanCorp/customer.png',
-    portalUrl: '#',
+    portalTitle: <>Launch Customer Portal</>,
+    portalUrl: 'http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount',
   },
   {
     title: <>Loan Processor</>,
@@ -40,7 +41,8 @@ const loanCorp = [
       </>
     ),
     imageUrl: 'img/loanCorp/loan_processor.png',
-    portalUrl: '#',
+    portalTitle: <>Launch Loan Processor Portal</>,
+    portalUrl: 'http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main',
   },
   {
     title: <>Relationship Manager</>,
@@ -50,11 +52,12 @@ const loanCorp = [
       </>
     ),
     imageUrl: 'img/loanCorp/relationship_manager.png',
-    portalUrl: '#',
+    portalTitle: <>Download Relationship Manager App</>,
+    portalUrl: 'img/loanCorp/loanCorp_RM.apk',
   },
 ];
 
-function LoanCorpApps({imageUrl, title, description, portalUrl}) {
+function LoanCorpApps({imageUrl, title, description, portalUrl, portalTitle}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
@@ -64,7 +67,7 @@ function LoanCorpApps({imageUrl, title, description, portalUrl}) {
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
           <p className="margin-bottom--none">
-            <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
+            <Link to={portalUrl} className="button button--link" target="_blank">{portalTitle} &rarr;</Link>
           </p>
         </div>
       )}
@@ -83,6 +86,7 @@ const salesVision = [
       </>
     ),
     imageUrl: 'img/salesVision/sales_head.png',
+    portalTitle: <>Launch User App</>,
     portalUrl: '#',
   },
   {
@@ -93,11 +97,12 @@ const salesVision = [
       </>
     ),
     imageUrl: 'img/salesVision/sales_representative.png',
+    portalTitle: <>Launch Manager App</>,
     portalUrl: '#',
   },
 ];
 
-function SalesVisionApps({imageUrl, title, description, portalUrl}) {
+function SalesVisionApps({imageUrl, title, description, portalUrl, portalTitle}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--6', styles.feature)}>
@@ -107,7 +112,7 @@ function SalesVisionApps({imageUrl, title, description, portalUrl}) {
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
           <p className="margin-bottom--none">
-            <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
+            <Link to={portalUrl} className="button button--link" target="_blank">{portalTitle} &rarr;</Link>
           </p>
         </div>
       )}
@@ -127,7 +132,8 @@ const medQuest = [
       </>
     ),
     imageUrl: 'img/medQuest/patient.png',
-    portalUrl: '#',
+    portalTitle: <>Download Patient App</>,
+    portalUrl: 'img/medQuest/medQuest.apk',
   },
   {
     title: <>Nurse</>,
@@ -137,7 +143,8 @@ const medQuest = [
       </>
     ),
     imageUrl: 'img/medQuest/nurse.png',
-    portalUrl: '#',
+    portalTitle: <>Launch Nurse Portal</>,
+    portalUrl: 'http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/',
   },
   {
     title: <>Pharmacist</>,
@@ -147,11 +154,12 @@ const medQuest = [
       </>
     ),
     imageUrl: 'img/medQuest/pharmacist.png',
-    portalUrl: '#',
+    portalTitle: <>Launch Pharmacist Portal</>,
+    portalUrl: 'http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/',
   },
 ];
 
-function MedQuestApps({imageUrl, title, description, portalUrl}) {
+function MedQuestApps({imageUrl, title, description, portalUrl, portalTitle}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={classnames('col col--4', styles.feature)}>
@@ -161,7 +169,7 @@ function MedQuestApps({imageUrl, title, description, portalUrl}) {
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
           <p className="margin-bottom--none">
-            <Link to={portalUrl} className="button button--link">Launch {title} Portal</Link>
+            <Link to={portalUrl} className="button button--link" target="_blank">{portalTitle} &rarr;</Link>
           </p>
         </div>
       )}
@@ -319,7 +327,7 @@ low-code platform.</p>
         </section>
 
         <ShowcaseApps />
-        
+
       {/* <App /> */}
       </main>
     </Layout>

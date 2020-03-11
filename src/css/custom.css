@@ -450,9 +450,15 @@ body{
 
 /*----------------carosuel----------------*/
 .mock-screen {
-  padding: 3em 5.55em 8em 5.8em;
+  padding: 2.5em 5.2em 5em 5.4em;
   background-image: url(/img/mock_screen_bg.png);
-  background-size: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  width: 660px;
+  margin: 0 auto;
+}
+
+.mock-screen .carousel .slide img{
+  height: 310px;
 }

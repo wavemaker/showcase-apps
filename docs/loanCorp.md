@@ -10,12 +10,12 @@ import { render } from "react-dom";
 import Carousel from "../src/pages/loanCorpSlides";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-<YouTube videoId="Fhie1OW8SOY" />
 
 ## Introduction
 
 Loan Corp is a loan origination and loan processing  application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.
 
+<YouTube videoId="Fhie1OW8SOY" />
 
 ---
 
@@ -50,15 +50,15 @@ Loan Corp is a loan origination and loan processing  application where the loan 
   <div className="row">
     <div className="col col--1"></div>
     <div className="col text--center padding--none">
-      <span className="fe-icon box-viewer"></span>
+      <span className="fe-icon box-viewer padding--sm"></span>
       <p>Box-viewer Prefab</p>
     </div>
     <div className="col text--center padding--none">
-      <span className="fe-icon docusign"></span>
+      <span className="fe-icon docusign padding--xs"></span>
       <p>Docusign Prefab</p>
     </div>
     <div className="col text--center padding--none">
-      <span className="fe-icon camunda"></span>
+      <span className="fe-icon camunda padding--none"></span>
       <p>Camunda workflow Integration</p>
     </div>
     <div className="col col--1"></div>
@@ -70,7 +70,9 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 
 ## User Flow of App
 
-- The user flow starts with a customer looking at the details of a suggested product of this particular finance provider. He likes the product, in this case a mortgage and opts to apply for it.
+![alt text](/img/loanCorp/workflow.svg 'Loan Corp') 
+
+<!-- - The user flow starts with a customer looking at the details of a suggested product of this particular finance provider. He likes the product, in this case a mortgage and opts to apply for it.
 - He is provided with a multi stage form where he gets a preview of his profile information in the first section.
 - In the second section he provides the Property details with address.
 - In the third section he provides the mortgage details and then uploads the required document.
@@ -83,7 +85,7 @@ In this case a sample W2 form.
 - The RM pays the property a visit and sends his feedback to the loan processor via his mobile app.
 - This triggers the change of the loan status to “Final review” from “Site visit”.
 - The Loan processor views this feedback in his app and manually decides to either approve or reject the loan.
-- This invokes another camunda process to update the loan status to Approve or Reject.
+- This invokes another camunda process to update the loan status to Approve or Reject. -->
 
 
 ---
@@ -117,7 +119,7 @@ In this case a sample W2 form.
           <div className="card__body">
             <p>Customer has a web app. He applies for a loan and can view his loan status.</p>
             <img alt="Customer Login Credentials" src={useBaseUrl('img/loanCorp/customer.png')} height="120px"/>
-            <a href="http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount" className="button button--primary button--outline margin-bottom--sm">Launch Customer App</a>
+            <a href="http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch Customer App</a>
             <p>User : <b>david</b> <br/> Password : <b>123456</b></p>
           </div>
         </div>
@@ -130,7 +132,7 @@ In this case a sample W2 form.
           <div className="card__body">
             <p>Loan processor is a web app for processing the loans in the pipeline.</p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
-            <a href="http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main" className="button button--primary button--outline margin-bottom--sm">Launch Loan Processor</a>
+            <a href="http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch Loan Processor</a>
             <p>User: <b>kevin</b> <br/> Password: <b>123456</b></p>
           </div>
         </div>
@@ -143,7 +145,7 @@ In this case a sample W2 form.
           <div className="card__body">
           <p>RM is a mobile app that has features like tracking loans and customers.</p>
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
-            <a href="https://docs.google.com/document/d/19YxI_PJwFSJDIqHJLvDfP53cFihg18nDoU524x" download className="button button--primary button--outline margin-bottom--sm">Download APK</a>
+            <a href={useBaseUrl('img/loanCorp/loanCorp_RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--sm">Download APK</a>
             <p>User: <b>tom</b> <br/> Password: <b>123456</b></p>
           </div>
         </div>

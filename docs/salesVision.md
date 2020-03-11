@@ -10,13 +10,13 @@ import { render } from "react-dom";
 import Carousel from "../src/pages/salesVisionSlides";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-<YouTube videoId="Fhie1OW8SOY" />
 
 ## Introduction
 
 Sales vision shows the information and performance of sales representatives and sales heads
 over the period of time. Representatives update the quotes to convert into sales.
 
+<YouTube videoId="Fhie1OW8SOY" />
 
 ---
 
@@ -112,7 +112,7 @@ upcoming policy renewals, top selling policies and top leads.
           <div className="card__body">
             <p>Sales head has a web app to view the performance of sales representatives under him.</p>
             <img alt="Customer Login Credentials" src={useBaseUrl('img/salesVision/sales_head.png')} height="150px"/>
-            <a href="#" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
+            <a href="#" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
             <p>Username: <b>sally.jones</b> <br/> Password: <b>wavemaker</b></p>
           </div>
       </div>
@@ -123,7 +123,7 @@ upcoming policy renewals, top selling policies and top leads.
           <div className="card__body">
             <p>Sales representative has a web app to monitor his sales, upcoming renewals and pipeline customers.</p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/salesVision/sales_representative.png')} height="150px"/>
-            <a href="#" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
+            <a href="#" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
             <p>Username: <b>amanda.brown</b> <br/> Password: <b>wavemaker</b></p>
           </div>
       </div>

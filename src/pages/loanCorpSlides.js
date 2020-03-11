@@ -5,7 +5,7 @@ export default () => (
   <div className="mock-screen">
     <Carousel autoPlay showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={true} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
       <div>
-        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-07.png" />
+        <img src="/img/loanCorp/Loans_CSR_Flow/Loan-CSR-07.png"/>
         {/* <p className="legend">Legend 1</p> */}
       </div>
       <div>
