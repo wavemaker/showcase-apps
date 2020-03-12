@@ -152,12 +152,12 @@ iframe{
 .hero-apps:after {
   content: "";
   position: absolute;
-  bottom: 0px;
+  bottom: -2px;
   width: 100%;
   height: 60px;
   left: 0;
   background-image: url(/img/wave-white.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 .hero-loanCorp{
