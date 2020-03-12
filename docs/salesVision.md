@@ -32,35 +32,29 @@ over the period of time. Representatives update the quotes to convert into sales
 
 <div className="container margin-top--lg">
   <div className="row">
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon list"></span>
       <p>List</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon form"></span>
       <p>Form</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon data-table"></span>
       <p>Data Table</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon card"></span>
       <p>Card</p>
     </div>
-  </div>
-  <div className="row">
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon calendar"></span>
       <p>Calendar</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon live-filter"></span>
       <p>Live Filter</p>
-    </div>
-    <div className="col text--center padding--none">
-    </div>
-    <div className="col text--center padding--none">
     </div>
   </div>
 </div>

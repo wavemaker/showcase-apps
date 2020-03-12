@@ -127,8 +127,7 @@ const medQuest = [
     title: <>Patient</>,
     description: (
       <>
-        Patient has a mobile app. <br/>
-        He/She can book an appointment or raise a refill request.
+        Patient has a mobile app. He/She can book an appointment or raise a refill request.
       </>
     ),
     imageUrl: 'img/medQuest/patient.png',
@@ -139,7 +138,7 @@ const medQuest = [
     title: <>Nurse</>,
     description: (
       <>
-        login by clicking on the ‘Login as Nurse’ button. He can either approve/reject the requests.
+        Nurse is a web app. To approve/reject the appoitments and refill requests of patients.
       </>
     ),
     imageUrl: 'img/medQuest/nurse.png',
@@ -150,7 +149,7 @@ const medQuest = [
     title: <>Pharmacist</>,
     description: (
       <>
-        login by clicking on the ‘Login as Pharmacist button. He can either approve/reject the requests.
+        Pharmacist is a web app. To approve/reject the requests of patients and nurse.
       </>
     ),
     imageUrl: 'img/medQuest/pharmacist.png',
@@ -183,7 +182,7 @@ function LoanCorp(){
     <div className="container app-section">
     <div className="app-section-header">
       <img className="app-section-logo" src="img/loanCorp/logo.png" alt="LoanCorp" />
-      <div className="container">
+      <div className="container padding-right--none padding-left--sm">
         <Link to="docs/loanCorp" className="app-section-title">Loan Corp</Link>
       </div>   
     </div>
@@ -207,7 +206,7 @@ function SalesVision(){
     <div className="container app-section">
       <div className="app-section-header">
         <img className="app-section-logo" src="img/salesVision/logo.png" alt="LoanCorp" />
-        <div className="container">
+        <div className="container padding-right--none padding-left--sm">
           <Link to="docs/salesVision" className="app-section-title">Sales Vision</Link>
         </div>   
       </div>
@@ -231,7 +230,7 @@ function MedQuest(){
     <div className="container app-section">
       <div className="app-section-header">
         <img className="app-section-logo" src="img/medQuest/logo.png" alt="MedQuest" />
-        <div className="container">
+        <div className="container padding-right--none padding-left--sm">
           <Link to="docs/medQuest" className="app-section-title">MedQuest</Link>
         </div>   
       </div>

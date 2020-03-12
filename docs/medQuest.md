@@ -33,51 +33,41 @@ Medquest is a medical application where a patient can book an appointment with t
 
 <div className="container  margin-top--lg">
   <div className="row">
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon wizard"></span>
       <p>Wizard</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon dialog"></span>
       <p>Dialogue</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon card"></span>
       <p>Card</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon calendar"></span>
       <p>Calendar</p>
     </div>
-  </div>
-  <div className="row">
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon tile"></span>
       <p>Tile</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon list"></span>
       <p>List</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon search"></span>
       <p>Search</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon tabs"></span>
       <p>Tabs</p>
     </div>
-  </div>
-  <div className="row">
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon file-upload"></span>
       <p>File Upload</p>
-    </div>
-    <div className="col text--center padding--none">
-    </div>
-    <div className="col text--center padding--none">
-    </div>
-    <div className="col text--center padding--none">
     </div>
   </div>
 </div>

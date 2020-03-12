@@ -15,7 +15,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 Loan Corp is a loan origination and loan processing  application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.
 
-<!-- <YouTube videoId="Fhie1OW8SOY" /> -->
+<YouTube videoId="Fhie1OW8SOY" />
 
 ---
 
@@ -30,38 +30,34 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 7. **Camunda workflow integration** -->
 <div className="container margin-top--lg">
   <div className="row">
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon wizard"></span>
       <p>Wizard</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon data-table"></span>
       <p>Data Table</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon card"></span>
       <p>Card</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon calendar"></span>
       <p>Calendar</p>
     </div>
-  </div>
-  <div className="row">
-    <div className="col col--1"></div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon box-viewer padding--sm"></span>
       <p>Box-viewer Prefab</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon docusign padding--xs"></span>
       <p>Docusign Prefab</p>
     </div>
-    <div className="col text--center padding--none">
+    <div className="col col--3 text--center padding--none">
       <span className="fe-icon camunda padding--none"></span>
       <p>Camunda workflow Integration</p>
     </div>
-    <div className="col col--1"></div>
   </div>
 </div>
 
