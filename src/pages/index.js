@@ -8,16 +8,6 @@ import styles from './styles.module.css';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import Heading from '@theme/Heading';
-// import { render } from "react-dom";
-// import Carousel from "./carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
-
-// const App = () => (
-//   <div>
-//     <Carousel />
-//   </div>
-// );
-
 
 const AnchoredH2 = Heading('h2');
 
@@ -79,7 +69,7 @@ function LoanCorpApps({imageUrl, title, description, portalUrl, portalTitle}) {
 
 const salesVision = [
   {
-    title: <>User</>,
+    title: <>Sales Head</>,
     description: (
       <>
         Sales Head has a web app to view the performance of sales representatives under him.
@@ -90,7 +80,7 @@ const salesVision = [
     portalUrl: 'http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision',
   },
   {
-    title: <>Manager</>,
+    title: <>Sales Representative</>,
     description: (
       <>
         Sales Representative has a web app to monitor his sales, upcoming renewals and pipeline customers.
@@ -180,23 +170,23 @@ function MedQuestApps({imageUrl, title, description, portalUrl, portalTitle}) {
 function LoanCorp(){
   return(
     <div className="container app-section">
-    <div className="app-section-header">
-      <img className="app-section-logo" src="img/loanCorp/logo.png" alt="LoanCorp" />
-      <div className="container padding-right--none padding-left--sm">
-        <Link to="docs/loanCorp" className="app-section-title">Loan Corp</Link>
-      </div>   
-    </div>
-    {loanCorp && loanCorp.length && (
-      <section className="app-section-body">
-        <div className="app-section-divider">
-          <div className="row">
-            {loanCorp.map((props, idx) => (
-              <LoanCorpApps key={idx} {...props} />
-            ))}
+      <div className="app-section-header">
+        <img className="app-section-logo" src="img/loanCorp/logo.png" alt="LoanCorp" />
+        <div className="container padding-right--none padding-left--sm">
+          <Link to="docs/loanCorp" className="app-section-title">Loan Corp</Link>
+        </div>   
+      </div>
+      {loanCorp && loanCorp.length && (
+        <section className="app-section-body">
+          <div className="app-section-divider">
+            <div className="row">
+              {loanCorp.map((props, idx) => (
+                <LoanCorpApps key={idx} {...props} />
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
-    )}
+        </section>
+      )}
   </div>
   );
 }
@@ -327,7 +317,6 @@ low-code platform.</p>
 
         <ShowcaseApps />
 
-      {/* <App /> */}
       </main>
     </Layout>
   );

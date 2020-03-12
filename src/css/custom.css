@@ -44,10 +44,15 @@
   --ifm-h6-font-size: calc(var(--ifm-font-size-base) * 1);
   /* 15px */
   --ifm-hr-border-width: 1px 1px 0 0;
+  --ifm-global-shadow-lw: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 body{
   /* letter-spacing: 0.8px; */
+}
+
+iframe{
+  width: 100%;
 }
 
 .docusaurus-highlight-code-line {
@@ -373,15 +378,24 @@ body{
 
 
 /*------featured product icons-------*/
+.fe-box {
+  width: 80px;
+  margin-right: 3em;
+}
+
+.fe-box p {
+  text-align: center;
+}
+
 .fe-icon{
-  width: 120px;
-  height: 120px;
+  width: 80px;
+  height: 80px;
   display: inline-block;
-  padding: 2em;
+  padding: 1.5em;
   border-radius: 50%;
   background-image: linear-gradient(to right, #fff, #f1f1f1);
   box-shadow: 3px 1px 8px 0px rgba(170, 170, 170, 0.5);
-  margin: 1em;
+  /* margin: 1em; */
 }
 
 .fe-icon:before{
@@ -394,65 +408,59 @@ body{
   background-position: center;
 }
 
-.data-table:before {
+.fe-data-table:before {
   background-image: url(/img/widgets/data_table.svg);
 }
-.card:before {
+.fe-card:before {
   background-image: url(/img/widgets/card.svg);
 }
-.calendar:before {
+.fe-calendar:before {
   background-image: url(/img/widgets/calendar.svg);
 }
-.wizard:before {
+.fe-wizard:before {
   background-image: url(/img/widgets/wizard.svg);
 }
-.dialog:before{
+.fe-dialogue:before{
   background-image: url(/img/widgets/dialog.svg);
 }
-.file-upload:before{
+.fe-file-upload:before{
   background-image: url(/img/widgets/file_upload.svg);
 }
-.list:before{
+.fe-list:before{
   background-image: url(/img/widgets/list.svg);
 }
-.search:before{
+.fe-search:before{
   background-image: url(/img/widgets/search.svg);
 }
-.tabs:before{
+.fe-tabs:before{
   background-image: url(/img/widgets/tabs.svg);
 }
-.tile:before{
+.fe-tile:before{
   background-image: url(/img/widgets/tile.svg);
 }
-.live-filter:before{
+.fe-live-filter:before{
   background-image: url(/img/widgets/live_filter.svg);
 }
-.form:before{
+.fe-form:before{
   background-image: url(/img/widgets/form.svg);
 }
-
-
-
-
 /*------featured prefab icons-------*/
-.camunda:before {
+.fe-camunda:before {
   background-image: url(/img/prefabs/camunda_wf.png);
+  background-size: 105px;
 }
-.docusign:before {
+.fe-docusign:before {
   background-image: url(/img/prefabs/docusign.png);
 }
-.box-viewer:before {
+.fe-box-viewer:before {
   background-image: url(/img/prefabs/box_viewer.png);
 }
-/* .datatable:before {
-  background-image: url(/img/prefabs/data_table.png);
-} */
 
 
 
 
 /*----------------carosuel----------------*/
-.mock-screen {
+/* .mock-screen {
   padding: 2.5em 5.2em 5em 5.4em;
   background-image: url(/img/mock_screen_bg.png);
   background-size: contain;
@@ -460,11 +468,50 @@ body{
   background-position: center;
   width: 660px;
   margin: 0 auto;
-}
+} */
 
 .mock-screen .carousel .slide img{
-  height: 310px;
+  max-height: 400px;
   width: auto;
+}
+
+.carousel.carousel-slider{
+  overflow: visible !important;
+}
+
+.carousel.carousel-slider .control-dots{
+  margin-bottom: -2em;
+}
+
+.carousel .control-dots .dot{
+  width: 10px !important;
+  height: 10px !important;
+  background: #097fd5 !important;
+}
+.carousel .slider-wrapper.axis-horizontal .slider .slide{
+  display: flex;
+  justify-content: center;
+}
+
+.carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before{
+  border: 0 solid #097fd5 !important;
+  width: 10px;
+  height: 10px;
+  margin: 0.5em !important;
+}
+
+.carousel .control-next.control-arrow:before{
+  border-width: 2px 2px 0 0 !important;
+  transform: rotate(45deg);
+}
+
+.carousel .control-prev.control-arrow:before{
+  border-width: 2px 0 0 2px !important;
+  transform: rotate(-45deg);
+}
+
+.carousel.carousel-slider:hover .control-arrow{
+  background: rgba(0,0,0,.2) !important;
 }
 
 
@@ -483,36 +530,40 @@ body{
 }
 
 @media (max-width: 1024px){
-  .mock-screen{
+  /* .mock-screen{
     padding: 2.5em 4.2em 4.6em 4em;
     width: 540px;
-  }
+  } */
   .mock-screen .carousel .slide img {
-    height: 260px;
+    max-height: 316px;
     width: auto;
   }
 }
 
 @media (max-width: 996px){
-  .mock-screen{
+  /* .mock-screen{
     padding: 2.5em 4.2em 4.6em 4.4em;
     width: 540px;
-  }
+  } */
   .mock-screen .carousel .slide img {
-    height: 260px;
+    max-height: 260px;
     width: auto;
   }
 }
 
 
 @media (max-width: 360px){
-  .mock-screen{
+  /* .mock-screen{
     padding: 2.5em 2.45em 3.7em 2.65em;
     width: 320px;
-  }
+  } */
   .mock-screen .carousel .slide img {
-    height: 154px;
+    max-height: 154px;
     width: auto;
+  }
+
+  .carousel .control-dots{
+    display: none;
   }
 }
 

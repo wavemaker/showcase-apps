@@ -7,7 +7,8 @@ sidebar_label: MedQuest
 import YouTube from 'react-youtube';
 import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file below the front matter.
 import { render } from "react-dom";
-import Carousel from "../src/pages/medQuestSlides";
+import Carousel from "../docs/medQuest/slides";
+import Features from "../docs/medQuest/features";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -15,93 +16,19 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.
 
-<!-- <YouTube videoId="Fhie1OW8SOY" /> -->
+<YouTube videoId="Fhie1OW8SOY" />
 
 ---
 
 ## Features of WM and Prefabs used
 
-<!-- 1. **Form wizard**
-2. **Dialogue**
-3. **Cards**
-4. **Calendar**
-5. **Tile**
-6. **List**
-7. **Search**
-8. **Tabs**
-9. **File Upload** -->
-
-<div className="container  margin-top--lg">
-  <div className="row">
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon wizard"></span>
-      <p>Wizard</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon dialog"></span>
-      <p>Dialogue</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon card"></span>
-      <p>Card</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon calendar"></span>
-      <p>Calendar</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon tile"></span>
-      <p>Tile</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon list"></span>
-      <p>List</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon search"></span>
-      <p>Search</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon tabs"></span>
-      <p>Tabs</p>
-    </div>
-    <div className="col col--3 text--center padding--none">
-      <span className="fe-icon file-upload"></span>
-      <p>File Upload</p>
-    </div>
-  </div>
-</div>
-
-
+<Features />
 
 ---
 
 ## User Flow of App
 
 ![alt text](/img/medQuest/workflow.svg 'User Flow of MedQuest App') 
-
-<!-- 
-The user flow starts with a patient registering with the app. By logging into the app, the patient will be able to 
-
-1. **See his/her’s profile details**
-2. **Book an appointment with the doctor**
-3. **Raise a request to refill the prescribed medicines.**
-
-##### Book Appointment flow : 
-Patients will be provided with a list of medical departments from which he/she can search and choose according to the problem. After that, they have to give the details of symptoms and choose a date for the appointment. Depending upon date, available time slots will be shown and patients should select one from them. With this an appointment request is created and sent to the Nurse.
-
-##### Refill request flow : 
-Patient will be shown with the list of his/her’s prescribed medicines from which he/she can re-order the medicines. With this a refill request will be raised to the Nurse.
-
-A patient can also see the history of appointments and refill requests.
-
-Nurse will now be provided with the list of appointments and medicines requests for the current day. By clicking on the patient card, it will redirect to the page where the Nurse can cancel/approve an appointment or refill request. Separate tabs will be provided to view cancelled and approved requests.When a Nurse approves medicine refill requests, it will be sent to Pharmacist. 
-
-Now Pharmacists can either approve or reject the request. Separate tabs are provided to view the approved and rejected requests.
-
-For each of the above actions done, a push notification will be sent to the registered mobile number of the patient about the status of the requests. -->
-
-
 
 ---
 
