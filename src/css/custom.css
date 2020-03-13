@@ -158,24 +158,7 @@ iframe{
   left: 0;
   background-image: url(/img/wave-white.png);
   background-size: contain;
-}
-
-.hero-loanCorp{
-  background-image: linear-gradient(110deg, #1f52c1, #0f997d);
-  position: relative;
-  padding-bottom: 0em;
-}
-
-.hero-loanCorp:after {
-    content: "";
-    background-image: url(/img/wave-white.png);
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-    height: 108px;
-    left: 0;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: repeat-x;
 }
 
 .app-section{
@@ -514,6 +497,9 @@ iframe{
 }
 
 @media (max-width: 1024px){
+  .hero-apps:after{
+    background-size: cover;
+  }
   /* .mock-screen{
     padding: 2.5em 4.2em 4.6em 4em;
     width: 540px;
