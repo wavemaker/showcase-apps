@@ -193,9 +193,9 @@ iframe{
 }
 
 .app-section-header{
-  display:flex;
-  align-items: center;
-  padding-bottom: 2em;
+  /* display:flex; */
+  /* align-items: center; */
+  padding-bottom: 1em;
   /* padding:1em; */
 }
 
@@ -203,8 +203,10 @@ iframe{
   font-weight: 500;
   font-size: 38px;
   color: #0a5585;
-  margin: 0;
+  margin: 0 0 0.25em;
   text-decoration: none;
+  align-items: center;
+  display: inline-flex;
 }
 .app-section-title:hover,
 .app-section-title:focus{

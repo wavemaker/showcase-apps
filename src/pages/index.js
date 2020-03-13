@@ -171,10 +171,10 @@ function LoanCorp(){
   return(
     <div className="container app-section">
       <div className="app-section-header">
-        <img className="app-section-logo" src="img/loanCorp/logo.png" alt="LoanCorp" />
-        <div className="container padding-right--none padding-left--sm">
-          <Link to="docs/loanCorp" className="app-section-title">Loan Corp</Link>
-        </div>   
+        <Link to="docs/loanCorp" className="app-section-title">
+          <img className="app-section-logo margin-right--sm" src="img/loanCorp/logo.png" alt="LoanCorp" /> Loan Corp
+        </Link>
+        <p className="app-section-description">Loan Corp is a loan origination and loan processing application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.</p> 
       </div>
       {loanCorp && loanCorp.length && (
         <section className="app-section-body">
@@ -195,10 +195,10 @@ function SalesVision(){
   return(
     <div className="container app-section">
       <div className="app-section-header">
-        <img className="app-section-logo" src="img/salesVision/logo.png" alt="LoanCorp" />
-        <div className="container padding-right--none padding-left--sm">
-          <Link to="docs/salesVision" className="app-section-title">Sales Vision</Link>
-        </div>   
+        <Link to="docs/salesVision" className="app-section-title">
+          <img className="app-section-logo margin-right--sm" src="img/salesVision/logo.png" alt="Sales Vision" /> Sales Vision
+        </Link>
+        <p className="app-section-description">Sales vision shows the information and performance of sales representatives and sales heads over the period of time. Representatives update the quotes to convert into sales.</p> 
       </div>
       {salesVision && salesVision.length && (
         <section className="app-section-body">
@@ -219,10 +219,10 @@ function MedQuest(){
   return(
     <div className="container app-section">
       <div className="app-section-header">
-        <img className="app-section-logo" src="img/medQuest/logo.png" alt="MedQuest" />
-        <div className="container padding-right--none padding-left--sm">
-          <Link to="docs/medQuest" className="app-section-title">MedQuest</Link>
-        </div>   
+        <Link to="docs/medQuest" className="app-section-title">
+          <img className="app-section-logo margin-right--sm" src="img/medQuest/logo.png" alt="MedQuest" /> MedQuest
+        </Link>
+        <p className="app-section-description">Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.</p>   
       </div>
       {medQuest && medQuest.length && (
         <section className="app-section-body">
