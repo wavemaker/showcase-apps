@@ -36,16 +36,6 @@ over the period of time. Representatives update the quotes to convert into sales
 
 ## Personas
 
-<!-- 1. Patient has a mobile app. He/She can book an appointment or raise a refill request. 
-  - User: peter@gmail.com
-  - Password: peter123
-  - APK url: https://drive.google.com/file/d/1hZKbTjZdjEK4SnRgjpkVeolyWZHtqaSP/view
-
-2. Nurse and Pharmacist has a web app. They can either approve/reject the requests.
-  - Nurse can login by clicking on the ‘Login as Nurse’ button
-  - Pharmacist can login by clicking on the ‘Login as Pharmacist’ button.
-  - Deployed URL : http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/ -->
-
 <section>
   <div className="container">
     <div className="row">

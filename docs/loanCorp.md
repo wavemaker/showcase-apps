@@ -34,22 +34,6 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 
 ## Personas
 
-<!-- 1. Relationship Manager, it is a mobile application that has features like tracking loans and customers.
-
-  - It also has a part where he can provide feedback about mortgage properties if requested for a site visit by the back office processor.
-  - User: tom
-  - Password: 123456
-  - APK url: https://docs.google.com/document/d/19YxI_PJwFSJDIqHJLvDfP53cFihg18nDoU524x
-
-
-2. Customer has a web app. He applies for a loan and can view his loan status.
-  - User: david
-  - Password: 123456
-
-3. Loan processor is a web app for processing the loans in the pipeline.
-  - User: kevin
-  - Password: 123456 -->
-
 <section>
   <div className="container">
     <div className="row">

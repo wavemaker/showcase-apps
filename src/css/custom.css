@@ -180,11 +180,18 @@ iframe{
 
 .app-section{
   background-color: rgb(255, 255, 255);
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 20px 7px;
+  box-shadow: var(--ifm-global-shadow-lw);
   border: 1px solid rgb(244, 244, 244);
   border-radius: 8px;
   padding: 2em;
   margin-bottom: 2em;
+  display: block;
+  color: var(--ifm-font-base-color) !important;
+}
+
+.app-section:hover{
+  box-shadow: var(--ifm-global-shadow-tl);
+  text-decoration: none;
 }
 
 .app-section a.button--link{
@@ -193,10 +200,7 @@ iframe{
 }
 
 .app-section-header{
-  /* display:flex; */
-  /* align-items: center; */
   padding-bottom: 1em;
-  /* padding:1em; */
 }
 
 .app-section-title{
@@ -257,43 +261,12 @@ iframe{
 }
 
 
-/* --------features divider-------- */
-.features-divider .col{
-  position: relative;
-  border-left: 1px dashed var(--ifm-border-color);
+.card:hover{
+  box-shadow: var(--ifm-global-shadow-tl) !important;  
 }
-
-.features-divider .col:nth-child(even){
-  margin-top: 6em;
-  padding-top: 1em;
-  padding-bottom: 0em;
-}
-
-.features-divider .col:first-child{
-  border: none;
-}
-.features-divider .col:before,
-.features-divider .col:after{
-  content: "";
-  width: 3px;
-  height: 20%;
-  position: absolute;
-  left: -2px;
-  background-color: #fff;
-}
-
-.features-divider .col:before{
-  top:0;
-}
-.features-divider .col:after{
-  bottom: 0;
-}
-
 
 /* --------------- */
-.loanCorp-banner-playBtn{
-  margin: -37% 45% 0;
-}
+
 
 .button--warning{
   box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.14);
@@ -385,9 +358,18 @@ iframe{
   margin-right: 3em;
 }
 
+.fe-box a:hover{
+  text-decoration: none;
+}
+
+.fe-box a:hover .fe-icon{
+  box-shadow: 0px 0px 12px 5px rgba(170, 170, 170, 0.5);
+}
+
 .fe-box p {
   text-align: center;
 }
+
 
 .fe-icon{
   width: 80px;

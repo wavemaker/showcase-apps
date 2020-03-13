@@ -43,10 +43,12 @@ function Features(){
       
     function FeaturesFlow({title, iconClass, feUrl}) {
         return (
-        <a className="fe-box" href={feUrl} target="_blank">
-            <span className={iconClass}></span>
+        <div className="fe-box">
+            <a href={feUrl} target="_blank">
+                <i className={iconClass}></i>
+            </a>
             <p>{title}</p>
-        </a>
+        </div>
         );
     }
 

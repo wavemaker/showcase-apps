@@ -34,16 +34,6 @@ Medquest is a medical application where a patient can book an appointment with t
 
 ## Personas
 
-<!-- 1. Patient has a mobile app. He/She can book an appointment or raise a refill request. 
-  - User: peter@gmail.com
-  - Password: peter123
-  - APK url: https://drive.google.com/file/d/1hZKbTjZdjEK4SnRgjpkVeolyWZHtqaSP/view
-
-2. Nurse and Pharmacist has a web app. They can either approve/reject the requests.
-  - Nurse can login by clicking on the ‘Login as Nurse’ button
-  - Pharmacist can login by clicking on the ‘Login as Pharmacist’ button.
-  - Deployed URL : http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/ -->
-
 <section>
   <div className="container">
     <div className="row">
@@ -68,7 +58,7 @@ Medquest is a medical application where a patient can book an appointment with t
           <div className="card__body">
             <p>Nurse is a web app. To approve/reject the appoitments and refill requests of patients.</p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/medQuest/nurse.png')} height="150px"/>
-            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
+            <a href="http://3.12.123.37:8001/Medical/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
             <p>click on <b>Login as Nurse</b> button to login</p>
           </div>
         </div>
@@ -81,7 +71,7 @@ Medquest is a medical application where a patient can book an appointment with t
           <div className="card__body">
           <p>Pharmacist is a web app. To approve/reject the requests of patients and nurse.</p>
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/medQuest/pharmacist.png')} height="150px"/>
-            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
+            <a href="http://3.12.123.37:8001/Medical/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
             <p>click on <b>Login as Pharmacist</b> button to login</p>
           </div>
         </div>

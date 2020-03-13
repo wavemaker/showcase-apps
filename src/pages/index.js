@@ -56,9 +56,9 @@ function LoanCorpApps({imageUrl, title, description, portalUrl, portalTitle}) {
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
-          <p className="margin-bottom--none">
+          {/* <p className="margin-bottom--none">
             <Link to={portalUrl} className="button button--link" target="_blank">{portalTitle} &rarr;</Link>
-          </p>
+          </p> */}
         </div>
       )}
       
@@ -101,9 +101,9 @@ function SalesVisionApps({imageUrl, title, description, portalUrl, portalTitle})
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
-          <p className="margin-bottom--none">
+          {/* <p className="margin-bottom--none">
             <Link to={portalUrl} className="button button--link" target="_blank">{portalTitle} &rarr;</Link>
-          </p>
+          </p> */}
         </div>
       )}
       
@@ -133,7 +133,7 @@ const medQuest = [
     ),
     imageUrl: 'img/medQuest/nurse.png',
     portalTitle: <>Launch Nurse Portal</>,
-    portalUrl: 'http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/',
+    portalUrl: 'http://3.12.123.37:8001/Medical/#/Main',
   },
   {
     title: <>Pharmacist</>,
@@ -144,7 +144,7 @@ const medQuest = [
     ),
     imageUrl: 'img/medQuest/pharmacist.png',
     portalTitle: <>Launch Pharmacist Portal</>,
-    portalUrl: 'http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/',
+    portalUrl: 'http://3.12.123.37:8001/Medical/#/Main',
   },
 ];
 
@@ -157,9 +157,9 @@ function MedQuestApps({imageUrl, title, description, portalUrl, portalTitle}) {
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
-          <p className="margin-bottom--none">
+          {/* <p className="margin-bottom--none">
             <Link to={portalUrl} className="button button--link" target="_blank">{portalTitle} &rarr;</Link>
-          </p>
+          </p> */}
         </div>
       )}
       
@@ -169,11 +169,11 @@ function MedQuestApps({imageUrl, title, description, portalUrl, portalTitle}) {
 
 function LoanCorp(){
   return(
-    <div className="container app-section">
+    <Link to="docs/loanCorp" className="container app-section">
       <div className="app-section-header">
-        <Link to="docs/loanCorp" className="app-section-title">
+        <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/loanCorp/logo.png" alt="LoanCorp" /> Loan Corp
-        </Link>
+        </div>
         <p className="app-section-description">Loan Corp is a loan origination and loan processing application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.</p> 
       </div>
       {loanCorp && loanCorp.length && (
@@ -187,17 +187,17 @@ function LoanCorp(){
           </div>
         </section>
       )}
-  </div>
+  </Link>
   );
 }
 
 function SalesVision(){
   return(
-    <div className="container app-section">
+    <Link to="docs/salesVision" className="container app-section">
       <div className="app-section-header">
-        <Link to="docs/salesVision" className="app-section-title">
+        <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/salesVision/logo.png" alt="Sales Vision" /> Sales Vision
-        </Link>
+        </div>
         <p className="app-section-description">Sales vision shows the information and performance of sales representatives and sales heads over the period of time. Representatives update the quotes to convert into sales.</p> 
       </div>
       {salesVision && salesVision.length && (
@@ -211,17 +211,17 @@ function SalesVision(){
           </div>
         </section>
       )}
-    </div>
+    </Link>
   );
 }
 
 function MedQuest(){
   return(
-    <div className="container app-section">
+    <Link to="docs/medQuest" className="container app-section">
       <div className="app-section-header">
-        <Link to="docs/medQuest" className="app-section-title">
+        <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/medQuest/logo.png" alt="MedQuest" /> MedQuest
-        </Link>
+        </div>
         <p className="app-section-description">Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.</p>   
       </div>
       {medQuest && medQuest.length && (
@@ -235,7 +235,7 @@ function MedQuest(){
           </div>
         </section>
       )}
-    </div>
+    </Link>
   );
 }
 
