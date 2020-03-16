@@ -427,19 +427,23 @@ iframe{
 
 
 /*----------------carosuel----------------*/
-/* .mock-screen {
-  padding: 2.5em 5.2em 5em 5.4em;
+.mock-screen {
+  /* padding: 2.5em 5.2em 5em 5.4em;
   background-image: url(/img/mock_screen_bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 660px;
-  margin: 0 auto;
-} */
+  width: 660px; */
+  margin: 0 auto 3em;
+}
 
 .mock-screen .carousel .slide img{
   max-height: 400px;
   width: auto;
+}
+
+.mock-screen .carousel .slide iframe{
+  margin: 0;
 }
 
 .carousel.carousel-slider{

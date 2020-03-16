@@ -9,6 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl'; // Add to the top of the file b
 import { render } from "react-dom";
 import Carousel from "../docs/loanCorp/slides";
 import Features from "../docs/loanCorp/features";
+import Personas from "../docs/loanCorp/personas";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 
@@ -16,23 +17,14 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 Loan Corp is a loan origination and loan processing  application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.
 
-<YouTube videoId="Fhie1OW8SOY" />
 
 ---
 
-## Features of WM and Prefabs used
 
-<Features />
-
----
-
-## User Flow of App
-
-![alt text](/img/loanCorp/workflow.svg 'User Flow of Loan Corp App') 
-
----
 
 ## Personas
+
+<!-- <Personas /> -->
 
 <section>
   <div className="container">
@@ -83,10 +75,31 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 
 ---
 
+## Features of WM and Prefabs used
+
+<Features />
+
+
+---
+
+
 ## Screen Shots
 
 <Carousel />
 
-<!-- ![alt text](/img/loanCorp/LoanCorp1.png 'Loan Corp') -->
+
+<!-- 
+## User Flow of App
+
+![alt text](/img/loanCorp/workflow.svg 'User Flow of Loan Corp App') 
+
+--- -->
+
+---
+
+
+## Videos
+
+<YouTube videoId="Fhie1OW8SOY" />
 
 

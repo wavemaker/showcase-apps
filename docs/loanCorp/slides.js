@@ -1,5 +1,6 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+import YouTube from 'react-youtube';
 
 export default () => (
   <div className="mock-screen">

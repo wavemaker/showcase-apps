@@ -18,19 +18,6 @@ import ReactPlayer from 'react-player'
 Sales vision shows the information and performance of sales representatives and sales heads
 over the period of time. Representatives update the quotes to convert into sales.
 
-<YouTube videoId="Fhie1OW8SOY" />
-
----
-
-## Features of WM and Prefabs used
-
-<Features />
-
----
-
-## User Flow of App
-
-![alt text](/img/salesVision/workflow.svg 'User Flow of Sales Vision App') 
 
 ---
 
@@ -69,9 +56,26 @@ over the period of time. Representatives update the quotes to convert into sales
 
 ---
 
+
+## Features of WM and Prefabs used
+
+<Features />
+
+---
+
+
 ## Screen Shots
 
 <Carousel />
 
-<!-- ![alt text](/img/loanCorp/LoanCorp1.png 'Loan Corp') -->
+---
 
+## Videos
+
+<YouTube videoId="Fhie1OW8SOY" />
+
+<!-- ---
+
+## User Flow of App
+
+![alt text](/img/salesVision/workflow.svg 'User Flow of Sales Vision App')  -->

@@ -16,19 +16,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.
 
-<YouTube videoId="Fhie1OW8SOY" />
-
----
-
-## Features of WM and Prefabs used
-
-<Features />
-
----
-
-## User Flow of App
-
-![alt text](/img/medQuest/workflow.svg 'User Flow of MedQuest App') 
 
 ---
 
@@ -82,9 +69,31 @@ Medquest is a medical application where a patient can book an appointment with t
 
 ---
 
+
+## Features of WM and Prefabs used
+
+<Features />
+
+---
+
+
 ## Screen Shots
 
 <Carousel />
 
-<!-- ![alt text](/img/medQuest/web_screen1.png 'MedQuest Web') -->
 
+---
+
+
+## Videos
+
+<YouTube videoId="Fhie1OW8SOY" />
+
+
+
+<!-- ## User Flow of App
+
+![alt text](/img/medQuest/workflow.svg 'User Flow of MedQuest App') 
+
+
+--- -->
