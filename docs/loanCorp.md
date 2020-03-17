@@ -97,9 +97,9 @@ Loan Corp is a loan origination and loan processing  application where the loan 
 
 ---
 
-
+<!-- 
 ## Videos
 
-<YouTube videoId="Fhie1OW8SOY" />
+<YouTube videoId="Fhie1OW8SOY" /> -->
 
 
