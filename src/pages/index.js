@@ -305,7 +305,7 @@ low-code platform.</p>
         </div>
       </header>
       <main>
-        <section className={styles.features}>
+        <section className={classnames('padding-bottom--md', styles.features)}>
           <div className="container">
             <div className="row">
               <div className="col text--center">

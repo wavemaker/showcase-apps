@@ -31,7 +31,7 @@
   --ifm-color-warning-dark: #d76e42;
   --ifm-button-border-radius: 25px;
   --ifm-border-color: rgba(151, 151, 151, 0.5);
-  --ifm-h1-font-size: calc(var(--ifm-font-size-base) * 4); 
+  --ifm-h1-font-size: calc(var(--ifm-font-size-base) * 3.733); 
   /* 60px */
   --ifm-h2-font-size: calc(var(--ifm-font-size-base) * 2); 
   /* 30px */
@@ -43,7 +43,7 @@
   /* 18px */
   --ifm-h6-font-size: calc(var(--ifm-font-size-base) * 1);
   /* 15px */
-  --ifm-hr-border-width: 1px 1px 0 0;
+  --ifm-hr-border-width: 1px 0 0;
   --ifm-global-shadow-lw: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -53,6 +53,15 @@ body{
 
 iframe{
   width: 100%;
+}
+
+.main-wrapper .docPage_node_modules-\@docusaurus-theme-classic-src-theme-DocPage-{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.no-wrap{
+  flex-wrap: nowrap;
 }
 
 .docusaurus-highlight-code-line {
@@ -89,6 +98,12 @@ iframe{
   top: 0;
   background-image: linear-gradient(to right, rgba(73, 89, 193, 0.95), rgba(114, 76, 164, 0.95));
   z-index: -2;
+}
+
+.navbar .navbar__inner{
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1em;
 }
 
 .navbar.navbar--fixed-top {
@@ -337,8 +352,9 @@ iframe{
 
 /*------featured product icons-------*/
 .fe-box {
-  width: 80px;
-  margin-right: 3em;
+  width: 200px;
+  /* margin-right: 3em; */
+  text-align: center;
 }
 
 .fe-box a:hover{
@@ -350,15 +366,14 @@ iframe{
 }
 
 .fe-box p {
-  text-align: center;
+  /* max-width: 80px; */
 }
 
-
 .fe-icon{
-  width: 80px;
-  height: 80px;
+  width: 65px;
+  height: 65px;
   display: inline-block;
-  padding: 1.5em;
+  padding: 1em;
   border-radius: 50%;
   background-image: linear-gradient(to right, #fff, #f1f1f1);
   box-shadow: 3px 1px 8px 0px rgba(170, 170, 170, 0.5);

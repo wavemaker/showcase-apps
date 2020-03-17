@@ -56,7 +56,7 @@ function Features(){
         return(
           <div className="container  margin-top--lg">
             {usedFeatures && usedFeatures.length && (
-                <div className="row">
+                <div className="row no-wrap">
                 {usedFeatures.map((props, idx) => (
                     <FeaturesFlow key={idx} {...props} />
                 ))}
