@@ -55,7 +55,8 @@ iframe{
   width: 100%;
 }
 
-.main-wrapper .docPage_node_modules-\@docusaurus-theme-classic-src-theme-DocPage-{
+.main-wrapper .docPage_node_modules-\@docusaurus-theme-classic-src-theme-DocPage-,
+.main-wrapper .docPage_1kjD{
   max-width: 1400px;
   margin: 0 auto;
 }
