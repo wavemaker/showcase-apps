@@ -50,10 +50,13 @@ export default () => (
         {/* <p className="legend">Legend 6</p> */}
       </div>
       <div>
-        <img src="/img/loanCorp/screenshots/relationshipManager/screen1.png" />
+        <img src="/img/loanCorp/screenshots/relationshipManager/screen1.png" className="margin-horiz--lg" />
         <img src="/img/loanCorp/screenshots/relationshipManager/screen2.png" className="margin-horiz--lg"/>
-        <img src="/img/loanCorp/screenshots/relationshipManager/screen3.png" />
         {/* <p className="legend">Legend 6</p> */}
+      </div>
+      <div>
+        <img src="/img/loanCorp/screenshots/relationshipManager/screen3.png" className="margin-horiz--lg" />
+        <img src="/img/loanCorp/screenshots/relationshipManager/screen4.png" className="margin-horiz--lg"/>
       </div>
     </Carousel>
   </div>
