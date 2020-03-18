@@ -15,8 +15,9 @@ import ReactPlayer from 'react-player'
 
 ## Introduction
 
-Sales vision shows the information and performance of sales representatives and sales heads
-over the period of time. Representatives update the quotes to convert into sales.
+<!-- Sales vision shows the information and performance of sales representatives and sales heads
+over the period of time. Representatives update the quotes to convert into sales. -->
+Sales Vision app provides a visual representation of sales data with advanced filters, actions, and more. The app comprises of two profiles, including sales representative and sales head. Get visibility of the sales pipeline and convert them to a sale. Additionally, track your teams' performance, measure achieved goals, targets, and more.
 
 
 ---
@@ -31,7 +32,7 @@ over the period of time. Representatives update the quotes to convert into sales
             Sales Head
           </h5>
           <div className="card__body">
-            <p>Sales head has a web app to view the performance of sales representatives under him.</p>
+            <p>As a sales head, you land into a visualized dashboard with the latest sales data metrics. You can see what's trending, top leads, track top-performers of the team, and their individual performance as well.</p>
             <img alt="Customer Login Credentials" src={useBaseUrl('img/salesVision/sales_head.png')} height="150px"/>
             <br/>
             <a href="http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>
@@ -43,7 +44,7 @@ over the period of time. Representatives update the quotes to convert into sales
             Sales Representative
           </h5>
           <div className="card__body">
-            <p>Sales representative has a web app to monitor his sales, upcoming renewals and pipeline customers.</p>
+            <p>As a sales representative, see your new goals, convert leads to a sale, get access to top-selling policies, view upcoming policy renewals, your monthly bonus, badges earned, and more. </p>
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/salesVision/sales_representative.png')} height="150px"/>
             <br/>
             <a href="http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision" target="_blank" className="button button--primary button--outline margin-bottom--sm">Launch App</a>

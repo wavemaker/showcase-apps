@@ -72,7 +72,7 @@ const salesVision = [
     title: <>Sales Head</>,
     description: (
       <>
-        Sales Head has a web app to view the performance of sales representatives under him.
+        As a sales head, you land into a visualized dashboard with the latest sales data metrics. You can see what's trending, top leads, track top-performers of the team, and their individual performance as well. 
       </>
     ),
     imageUrl: 'img/salesVision/sales_head.png',
@@ -83,7 +83,7 @@ const salesVision = [
     title: <>Sales Representative</>,
     description: (
       <>
-        Sales Representative has a web app to monitor his sales, upcoming renewals and pipeline customers.
+        As a sales representative, see your new goals, convert leads to a sale, get access to top-selling policies, view upcoming policy renewals, your monthly bonus, badges earned, and more.
       </>
     ),
     imageUrl: 'img/salesVision/sales_representative.png',
@@ -198,7 +198,7 @@ function SalesVision(){
         <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/salesVision/logo.png" alt="Sales Vision" /> Sales Vision
         </div>
-        <p className="app-section-description">Sales vision shows the information and performance of sales representatives and sales heads over the period of time. Representatives update the quotes to convert into sales.</p> 
+        <p className="app-section-description">Sales Vision app provides a visual representation of sales data with advanced filters, actions, and more. The app comprises of two profiles, including sales representative and sales head. Get visibility of the sales pipeline and convert them to a sale. Additionally, track your teams' performance, measure achieved goals, targets, and more.</p> 
       </div>
       {salesVision && salesVision.length && (
         <section className="app-section-body">
