@@ -222,7 +222,7 @@ function MedQuest(){
         <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/medQuest/logo.png" alt="MedQuest" /> MedQuest
         </div>
-        <p className="app-section-description">Medquest is a medical application where a patient can book an appointment with the doctor or he/she can re-order the prescribed medicines. Nurse (from hospital) can either accept/reject the booking and medicines refill requests. If Nurse accepts the medicine refill request, it will be forwarded to the Pharmacist where they can approve/reject the refills.</p>   
+        <p className="app-section-description">MedQuest is a healthcare app that manages the workflow of patients and doctors' consultation routines and regulates drug delivery. The app comprises of three profiles, including patient, doctor, and pharmacist. It allows you to track each stage in the individual app. </p>   
       </div>
       {medQuest && medQuest.length && (
         <section className="app-section-body">

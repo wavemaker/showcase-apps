@@ -10,6 +10,7 @@
 
 :root {
   --ifm-color-primary: #097fd5;
+  --ifm-color-primary: #118af9;
 --ifm-color-primary-dark: #0872c0;
 --ifm-color-primary-darker: #086cb5;
 --ifm-color-primary-darkest: #065995;
@@ -29,7 +30,7 @@
   --ifm-font-size-base: 15px;
   --ifm-color-warning: #ee7e4f;
   --ifm-color-warning-dark: #d76e42;
-  --ifm-button-border-radius: 25px;
+  --ifm-button-border-radius: 6px;
   --ifm-border-color: rgba(151, 151, 151, 0.5);
   --ifm-h1-font-size: calc(var(--ifm-font-size-base) * 3.733); 
   /* 60px */
@@ -43,16 +44,29 @@
   /* 18px */
   --ifm-h6-font-size: calc(var(--ifm-font-size-base) * 1);
   /* 15px */
-  --ifm-hr-border-width: 1px 0 0;
+  --ifm-hr-border-width: 0px 0 0;
   --ifm-global-shadow-lw: 0 1px 5px 0px rgba(0, 0, 0, 0.1);
+  --ifm-card-border-radius: 8px;
+  --ifm-button-padding-vertical: 0.282rem;
+  --ifm-card-horizontal-spacing: 0.5em;
 }
 
 body{
-  /* letter-spacing: 0.8px; */
+  /* letter-spacing: 0.25px; */
 }
 
 iframe{
   width: 100%;
+}
+
+hr{
+  border-color: var(--ifm-hr-border-color);
+  border-style: solid;
+  border-width: var(--ifm-hr-border-width);
+  box-sizing: content-box;
+  margin: var(--ifm-hr-margin-vertical) 0;
+  overflow: hidden;
+  padding: 0;
 }
 
 .no-wrap{
@@ -256,6 +270,11 @@ iframe{
   box-shadow: var(--ifm-global-shadow-tl) !important;  
 }
 
+.card-body-descp{
+  color: #7e7e7e;
+  font-size: 13px;
+}
+
 /* --------------- */
 
 
@@ -314,29 +333,6 @@ iframe{
   background-color: transparent;
 }
 
-.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar-,
-.sidebarLogo_3ono{
-  margin: 0 !important;
-  padding: 0 var(--ifm-navbar-padding-horizontal);
-  width: 100%;
-  background-color: #ffffff;
-  background-image: url(/img/WM_blue.png);
-  background-size: 100px;
-  background-repeat: no-repeat;
-  background-position: 1em;
-}
-.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img,
-.sidebarLogo_3ono img{
-  display: none;
-}
-
-@media (min-width: 997px){
-  .sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img,
-  .sidebarLogo_3ono img{
-      margin-right: 0.5rem;
-      height: 3em !important;
-  }
-}
 
 .contents li {
   margin-right: 0;
@@ -446,7 +442,7 @@ iframe{
 }
 
 .mock-screen .carousel .slide img{
-  height: 410px;
+  height: 390px;
   width: auto;
 }
 
@@ -454,8 +450,16 @@ iframe{
   margin: 0;
 }
 
+.carousel .slider-wrapper{
+  border-radius: 20px;
+  box-shadow: 0 8px 80px -23px rgba(0, 0, 0, 0.16);
+  background-color: #fff;
+}
+
 .carousel.carousel-slider{
   overflow: visible !important;
+  display: flex;
+  align-items: center;
 }
 
 .carousel.carousel-slider .control-dots{
@@ -463,20 +467,39 @@ iframe{
 }
 
 .carousel .control-dots .dot{
-  width: 10px !important;
-  height: 10px !important;
-  background: #097fd5 !important;
+  width: 12px !important;
+  height: 12px !important;
+  background: #fff !important;
+  border: 1px solid #d0d0d0;
+  box-shadow: none !important;
+  opacity: 1 !important;
+  outline: none;
 }
+
+.carousel .control-dots .dot.selected{
+  background-color: #1491ff !important;
+  border-color: #1f90f9 !important;
+}
+
 .carousel .slider-wrapper.axis-horizontal .slider .slide{
   display: flex;
   justify-content: center;
 }
 
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
+  position: relative !important;
+  padding: 0 !important;
+  background-color: transparent !important;
+  background: transparent !important;
+  color: #e0e0e0;
+}
+
+
 .carousel .control-arrow:before, .carousel.carousel-slider .control-arrow:before{
   border: 0 solid #097fd5 !important;
-  width: 10px;
-  height: 10px;
-  margin: 0.5em !important;
+  width: 22px;
+    height: 22px;
+    margin: 0em !important;
 }
 
 .carousel .control-next.control-arrow:before{
@@ -490,8 +513,72 @@ iframe{
 }
 
 .carousel.carousel-slider:hover .control-arrow{
-  background: rgba(0,0,0,.2) !important;
+  background: rgba(0,0,0,0) !important;
 }
+
+
+
+/*********************Docs styles**********************/
+
+
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar-,
+.sidebarLogo_3ono{
+  margin: 0 !important;
+  padding: 0 var(--ifm-navbar-padding-horizontal);
+  width: 100%;
+  background-color: #ffffff;
+  background-image: url(/img/WM_blue.png);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: 2em;
+}
+.sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img,
+.sidebarLogo_3ono img{
+  display: none;
+}
+
+.docTitle_node_modules-\@docusaurus-theme-classic-src-theme-DocItem-,
+.docTitle_1vWb{
+  color: #0a5585;
+  margin-bottom: 1rem !important;
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-src-theme-DocPage-,
+.docSidebarContainer_1cYp{
+  border-right: none !important;
+}
+
+.menu .menu__link{
+  justify-content: flex-end !important;
+  font-size: 1rem !important;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  padding: 0.625rem;
+}
+.menu .menu__link.menu__link--sublist{
+  background-color: transparent !important;
+  font-weight: 600;
+  color: #636364;
+  font-size: 18px !important;
+  pointer-events: none;
+}
+
+.menu .menu__link.menu__link--sublist:after{
+  display: none;
+}
+
+.markdown h2{
+  color: #0a5585;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.markdown .hash-link{
+  display: none;
+}
+
+/*********************Docs styles**********************/
+
 
 
 @media(min-width: 1400px){
@@ -506,6 +593,10 @@ iframe{
     margin: 0 auto;
     padding: 0 1em;
   }
+
+  .mock-screen .carousel .slide img{
+    height: 420px;
+  }
 }
 
 
@@ -518,10 +609,25 @@ iframe{
     width: 540px;
   } */
   .mock-screen .carousel .slide img {
-    max-height: 460px;
+    max-height: 320px;
     width: auto;
   }
 }
+
+
+@media (min-width: 997px){
+  .sidebarLogo_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar- img,
+  .sidebarLogo_3ono img{
+      margin-right: 0.5rem;
+      height: 3em !important;
+  }
+
+  .menu_node_modules-\@docusaurus-theme-classic-src-theme-DocSidebar-,
+  .menu_w2sC{
+      padding: 0.5rem 2.5rem 0.5rem 0.5rem !important;
+  }
+}
+
 
 @media (max-width: 996px){
   .app-section-divider .col{
@@ -550,6 +656,13 @@ iframe{
 
   .fe-box{
     width: 100px;
+  }
+}
+
+@media (max-width: 767px){
+  .mock-screen .carousel .slide img {
+    max-height: 320px;
+    width: auto;
   }
 }
 
