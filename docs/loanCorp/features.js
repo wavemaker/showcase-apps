@@ -22,7 +22,7 @@ export default Features => (
                 <i className="fe-icon fe-calendar"></i>
             <p>Calendar</p>
         </a>
-        <a className="fe-box" href="hhttps://www.wavemaker.com/learn/app-development/widgets/prefab/box-viewer-prefab" target="_blank">
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/prefab/box-viewer-prefab" target="_blank">
                 <i className="fe-icon fe-box-viewer"></i>
             {/* <p>Box-viewer Prefab</p> */}
         </a>
