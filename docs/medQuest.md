@@ -69,6 +69,8 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
 
 ## Features of WM and Prefabs used
 
+Here are some of the value added features and prefabs from the WM applications
+
 <Features />
 
 ---

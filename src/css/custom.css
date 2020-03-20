@@ -339,97 +339,6 @@ hr{
 }
 
 
-/*------featured product icons-------*/
-.fe-box {
-  width: 90px;
-  /* margin-right: 3em; */
-  text-align: center;
-}
-
-.fe-box a:hover{
-  text-decoration: none;
-}
-
-.fe-box a:hover .fe-icon{
-  box-shadow: 0px 0px 12px 5px rgba(170, 170, 170, 0.5);
-}
-
-.fe-box p {
-  /* max-width: 80px; */
-}
-
-.fe-icon{
-  width: 65px;
-  height: 65px;
-  display: inline-block;
-  padding: 1em;
-  border-radius: 50%;
-  background-image: linear-gradient(to right, #fff, #f1f1f1);
-  box-shadow: 3px 1px 8px 0px rgba(170, 170, 170, 0.5);
-  /* margin: 1em; */
-}
-
-.fe-icon:before{
-  content: "";
-  width: 100%;
-  height: 100%;
-  display: block;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-.fe-data-table:before {
-  background-image: url(/img/widgets/data_table.svg);
-}
-.fe-card:before {
-  background-image: url(/img/widgets/card.svg);
-}
-.fe-calendar:before {
-  background-image: url(/img/widgets/calendar.svg);
-}
-.fe-wizard:before {
-  background-image: url(/img/widgets/wizard.svg);
-}
-.fe-dialogue:before{
-  background-image: url(/img/widgets/dialog.svg);
-}
-.fe-file-upload:before{
-  background-image: url(/img/widgets/file_upload.svg);
-}
-.fe-list:before{
-  background-image: url(/img/widgets/list.svg);
-}
-.fe-search:before{
-  background-image: url(/img/widgets/search.svg);
-}
-.fe-tabs:before{
-  background-image: url(/img/widgets/tabs.svg);
-}
-.fe-tile:before{
-  background-image: url(/img/widgets/tile.svg);
-}
-.fe-live-filter:before{
-  background-image: url(/img/widgets/live_filter.svg);
-}
-.fe-form:before{
-  background-image: url(/img/widgets/form.svg);
-}
-/*------featured prefab icons-------*/
-.fe-camunda:before {
-  background-image: url(/img/prefabs/camunda_wf.png);
-  background-size: 105px;
-}
-.fe-docusign:before {
-  background-image: url(/img/prefabs/docusign.png);
-}
-.fe-box-viewer:before {
-  background-image: url(/img/prefabs/box_viewer.png);
-}
-
-
-
-
 /*----------------carosuel----------------*/
 .mock-screen {
   /* padding: 2.5em 5.2em 5em 5.4em;
@@ -579,6 +488,208 @@ hr{
 
 /*********************Docs styles**********************/
 
+
+
+/**********************features carousel***********************/
+.features-slick {
+  margin-bottom: 3em;
+}
+
+.features-slick .carousel .slider-wrapper{
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.features-slick .carousel .slider-wrapper .slider{
+
+}
+
+.features-slick .carousel .slider-wrapper .slider .slide{
+  box-shadow: none;
+  background: none;
+  padding: 1em;
+}
+
+.features-slick .carousel .slider-wrapper .slider .slide div{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+}
+
+.features-slick .carousel.carousel-slider .control-arrow{
+  position: absolute;
+}
+
+
+.features-slick .carousel.carousel-slider .control-arrow:before{
+  width: 10px;
+  height: 10px;
+}
+
+
+/*------featured product icons-------*/
+
+.fe-box{
+  border-radius: 12px;
+  box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.1);
+  background-color: rgba(251, 251, 251, 0.65);
+  margin: 0.73%;
+  width: 15.2%;
+  float: left;
+  text-align: center;
+  color: #8d8d8d;
+  letter-spacing: 0.5px;
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75em;
+  /* font-weight: 500; */
+}
+
+.fe-box:hover,
+.fe-box:focus,
+.fe-box:active{
+  text-decoration: none;
+  box-shadow: 0px 4px 30px 0 rgba(0, 0, 0, 0.1), inset 0px 0px 0px 2px #2091f9;
+  background-color: rgba(251, 251, 251, 0.65);
+  color: #118af9;
+  z-index: 1;
+}
+
+.fe-box p {
+  /* max-width: 80px; */
+  font-size: 12px;
+  margin: 1em 0;
+}
+
+.fe-icon{
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+}
+
+.fe-icon:before{
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+.fe-box .fe-data-table:before {
+  background-image: url(/img/widgets/data_table.svg);
+}
+.fe-box:hover .fe-data-table:before {
+  background-image: url(/img/widgets/active/data_table.svg);
+}
+
+.fe-box .fe-card:before {
+  background-image: url(/img/widgets/card.svg);
+}
+.fe-box:hover .fe-card:before {
+  background-image: url(/img/widgets/active/card.svg);
+}
+
+.fe-box .fe-calendar:before {
+  background-image: url(/img/widgets/calendar.svg);
+}
+.fe-box:hover .fe-calendar:before {
+  background-image: url(/img/widgets/active/calendar.svg);
+}
+
+.fe-box .fe-wizard:before {
+  background-image: url(/img/widgets/wizard.svg);
+}
+.fe-box:hover .fe-wizard:before {
+  background-image: url(/img/widgets/active/wizard.svg);
+}
+
+.fe-box .fe-dialogue:before{
+  background-image: url(/img/widgets/dialog.svg);
+}
+.fe-box:hover .fe-dialogue:before{
+  background-image: url(/img/widgets/active/dialog.svg);
+}
+
+.fe-box .fe-file-upload:before{
+  background-image: url(/img/widgets/file_upload.svg);
+}
+.fe-box:hover .fe-file-upload:before{
+  background-image: url(/img/widgets/active/file_upload.svg);
+}
+
+.fe-box .fe-list:before{
+  background-image: url(/img/widgets/list.svg);
+}
+.fe-box:hover .fe-list:before{
+  background-image: url(/img/widgets/active/list.svg);
+}
+
+.fe-box .fe-search:before{
+  background-image: url(/img/widgets/search.svg);
+}
+.fe-box:hover .fe-search:before{
+  background-image: url(/img/widgets/active/search.svg);
+}
+
+.fe-box .fe-tabs:before{
+  background-image: url(/img/widgets/tabs.svg);
+}
+.fe-box:hover .fe-tabs:before{
+  background-image: url(/img/widgets/active/tabs.svg);
+}
+
+.fe-box .fe-tile:before{
+  background-image: url(/img/widgets/tile.svg);
+}
+.fe-box:hover .fe-tile:before{
+  background-image: url(/img/widgets/active/tile.svg);
+}
+
+.fe-box .fe-live-filter:before{
+  background-image: url(/img/widgets/live_filter.svg);
+}
+.fe-box:hover .fe-live-filter:before{
+  background-image: url(/img/widgets/active/live_filter.svg);
+}
+
+.fe-box .fe-form:before{
+  background-image: url(/img/widgets/form.svg);
+}
+.fe-box:hover .fe-form:before{
+  background-image: url(/img/widgets/active/form.svg);
+}
+
+/*------featured prefab icons-------*/
+.fe-box .fe-camunda:before {
+  background-image: url(/img/prefabs/camunda_wf.png);
+}
+.fe-box:hover .fe-camunda:before {
+  background-image: url(/img/prefabs/active/camunda_wf.png);
+}
+
+.fe-icon.fe-docusign{
+  width: 100px;
+}
+.fe-box .fe-docusign:before {
+  background-image: url(/img/prefabs/docusign.png);
+}
+.fe-box:hover .fe-docusign:before {
+  background-image: url(/img/prefabs/active/docusign.png);
+}
+
+.fe-box .fe-box-viewer:before {
+  background-image: url(/img/prefabs/box_viewer.png);
+}
+.fe-box:hover .fe-box-viewer:before {
+  background-image: url(/img/prefabs/active/box_viewer.png);
+}
+
+
+/**********************features carousel***********************/
 
 
 @media(min-width: 1400px){

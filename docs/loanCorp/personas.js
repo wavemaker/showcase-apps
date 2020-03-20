@@ -1,64 +1,42 @@
 import React from "react";
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import { Carousel } from "react-responsive-carousel";
+import YouTube from 'react-youtube';
 
-
-function Personas(){
-    const roles = [
-        {
-            roleName: <>Customer</>,
-            roleDesc: <>Customer has a web app. He applies for a loan and can view his loan status.</>,
-            roleIcon: 'img/loanCorp/customer.png',
-            appUrl: 'http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount',
-            btnTitle: <>Launch App</>,
-            loginDetails: <>User : david<br/> Password : 123456</>,
-        },
-        {
-            roleName: <>Loan Processor</>,
-            roleDesc: <>Loan processor is a web app for processing the loans in the pipeline.</>,
-            roleIcon: 'img/loanCorp/loan_processor.png',
-            appUrl: 'http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main',
-            btnTitle: <>Launch App</>,
-            loginDetails: <>User : kevin<br/> Password : 123456</>,
-        },
-        {
-            roleName: <>Customer</>,
-            roleDesc: <>Customer has a web app. He applies for a loan and can view his loan status.</>,
-            roleIcon: 'img/loanCorp/customer.png',
-            appUrl: 'http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount',
-            btnTitle: <>Launch App</>,
-            loginDetails: <>User : david<br/> Password : 123456</>,
-        },
-    ];
-      
-    function RolesFlow({roleName, roleDesc, roleIcon, appUrl, btnTitle, loginDetails}) {
-        return (
-        <div className="fe-box">
-            <a href={appUrl} target="_blank">
-                <img src={roleIcon} alt={roleName} />
-            </a>
-            <p>{roleName}</p>
-        </div>
-        );
-    }
-
-    function Personas(){
-        return(
-          <div className="container  margin-top--lg">
-            {roles && roles.length && (
-                <div className="row">
-                {roles.map((props, idx) => (
-                    <RolesFlow key={idx} {...props} />
-                ))}
-                </div>
-            )}
-          </div>
-        );
-      }
-
-    return(
-        <Personas />
-    );
-}
-
-
-export default Personas;
+export default Personas => (
+  <div className="features-slick">
+    <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={false} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
+      <div>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/container/wizard" target="_blank">
+                <i className="fe-icon fe-wizard"></i>
+            <p>Wizard</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/datalive/data-table" target="_blank">
+                <i className="fe-icon fe-data-table"></i>
+            <p>Data Table</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/datalive/cards" target="_blank">
+                <i className="fe-icon fe-card"></i>
+            <p>Card</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/form-widgets/calendar" target="_blank">
+                <i className="fe-icon fe-calendar"></i>
+            <p>Calendar</p>
+        </a>
+        <a className="fe-box" href="hhttps://www.wavemaker.com/learn/app-development/widgets/prefab/box-viewer-prefab" target="_blank">
+                <i className="fe-icon fe-box-viewer"></i>
+            {/* <p>Box-viewer Prefab</p> */}
+        </a>
+        <a className="fe-box" href="#" target="_blank">
+                <i className="fe-icon fe-docusign"></i>
+            {/* <p>Docusign Prefab</p> */}
+        </a>
+      </div>
+      <div>
+        <a className="fe-box" href="#" target="_blank">
+                <i className="fe-icon  fe-camunda"></i>
+            {/* <p>Camunda workflow Integration</p> */}
+        </a>
+      </div>
+    </Carousel>
+  </div>
+);

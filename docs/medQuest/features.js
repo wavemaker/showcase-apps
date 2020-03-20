@@ -1,85 +1,50 @@
 import React from "react";
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import { Carousel } from "react-responsive-carousel";
+import YouTube from 'react-youtube';
 
-
-function Features(){
-    const usedFeatures = [
-        {
-            title: <>Wizard</>,
-            iconClass: 'fe-icon fe-wizard',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/container/wizard',
-        },
-        {
-            title: <>Dialogue</>,
-            iconClass: 'fe-icon fe-dialogue',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/design-dialog',
-        },
-        {
-            title: <>Cards</>,
-            iconClass: 'fe-icon fe-card',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/datalive/cards',
-        },
-        {
-            title: <>Calendar</>,
-            iconClass: 'fe-icon fe-calendar',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/form-widgets/calendar',
-        },
-        {
-            title: <>Tile</>,
-            iconClass: 'fe-icon fe-tile',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/container/tile',
-        },
-        {
-            title: <>List</>,
-            iconClass: 'fe-icon fe-list',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/datalive/list',
-        },
-        {
-            title: <>Search</>,
-            iconClass: 'fe-icon fe-search',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/basic/search',
-        },
-        {
-            title: <>Tabs</>,
-            iconClass: 'fe-icon fe-tabs',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/container/tabs',
-        },
-        {
-            title: <>File Upload</>,
-            iconClass: 'fe-icon fe-file-upload',
-            feUrl: 'https://www.wavemaker.com/learn/app-development/widgets/form-widgets/file-upload',
-        },
-    ];
-      
-    function FeaturesFlow({title, iconClass, feUrl}) {
-        return (
-        <div className="fe-box">
-            <a href={feUrl} target="_blank">
-                <span className={iconClass}></span>
-            </a>
-            <p>{title}</p>
-        </div>
-        );
-    }
-
-    function Features(){
-        return(
-          <div className="container  margin-top--lg">
-            {usedFeatures && usedFeatures.length && (
-                <div className="row no-wrap">
-                {usedFeatures.map((props, idx) => (
-                    <FeaturesFlow key={idx} {...props} />
-                ))}
-                </div>
-            )}
-          </div>
-        );
-      }
-
-    return(
-        <Features />
-    );
-}
-
-
-export default Features;
+export default Features => (
+  <div className="features-slick">
+    <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={false} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
+      <div>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/container/wizard" target="_blank">
+                <i className="fe-icon fe-wizard"></i>
+            <p>Wizard</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/design-dialog" target="_blank">
+                <i className="fe-icon fe-dialogue"></i>
+            <p>Dialogue</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/datalive/cards" target="_blank">
+                <i className="fe-icon fe-card"></i>
+            <p>Cards</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/form-widgets/calendar" target="_blank">
+                <i className="fe-icon fe-calendar"></i>
+            <p>Calendar</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/container/tile" target="_blank">
+                <i className="fe-icon fe-tile"></i>
+            <p>Tile</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/datalive/list" target="_blank">
+                <i className="fe-icon fe-list"></i>
+            <p>List</p>
+        </a>
+      </div>
+      <div>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/basic/search" target="_blank">
+                <i className="fe-icon  fe-search"></i>
+            <p>Search</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/container/tabs" target="_blank">
+                <i className="fe-icon  fe-tabs"></i>
+            <p>Tabs</p>
+        </a>
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/form-widgets/file-upload" target="_blank">
+                <i className="fe-icon  fe-file-upload"></i>
+            <p>File Upload</p>
+        </a>
+      </div>
+    </Carousel>
+  </div>
+);
