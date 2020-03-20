@@ -4,24 +4,24 @@ import { Carousel } from "react-responsive-carousel";
 export default () => (
   <div className="mock-screen">
     <Carousel autoPlay showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={true} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
-      <div>
+      {/* <div>
         <img src="/img/medQuest/screenshots/patient/screen1.png" />
         <img src="/img/medQuest/screenshots/patient/screen2.png" />
         <img src="/img/medQuest/screenshots/patient/screen3.jpeg" />
-        {/* <p className="legend">Legend 4</p> */}
-      </div>
-      <div>
+        <p className="legend">Legend 4</p>
+      </div> */}
+      {/* <div>
         <img src="/img/medQuest/screenshots/patient/screen4.png" />
         <img src="/img/medQuest/screenshots/patient/screen5.png" />
         <img src="/img/medQuest/screenshots/patient/screen6.png" />
-        {/* <p className="legend">Legend 4</p> */}
+        <p className="legend">Legend 4</p>
       </div>
       <div>
         <img src="/img/medQuest/screenshots/patient/screen7.jpeg" />
         <img src="/img/medQuest/screenshots/patient/screen8.jpeg" />
         <img src="/img/medQuest/screenshots/patient/screen9.jpeg" />
-        {/* <p className="legend">Legend 4</p> */}
-      </div>
+        <p className="legend">Legend 4</p>
+      </div> */}
       <div>
         <img src="/img/medQuest/screenshots/nurse/screen1.png" />
         {/* <p className="legend">Legend 1</p> */}

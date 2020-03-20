@@ -4,7 +4,7 @@ import YouTube from 'react-youtube';
 
 export default Features => (
   <div className="features-slick">
-    <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={false} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
+    <Carousel showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={false} swipeable={true} showStatus={false} dynamicHeight={true} centerMode={false} useKeyboardArrows={true}>
       <div>
         <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/container/wizard" target="_blank">
                 <i className="fe-icon fe-wizard"></i>

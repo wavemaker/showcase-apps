@@ -13,7 +13,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ReactPlayer from 'react-player'
 
 
-## Introduction
+<!-- ## Introduction -->
 
 <!-- Sales vision shows the information and performance of sales representatives and sales heads
 over the period of time. Representatives update the quotes to convert into sales. -->
