@@ -49,6 +49,7 @@
   --ifm-card-border-radius: 8px;
   --ifm-button-padding-vertical: 0.282rem;
   --ifm-card-horizontal-spacing: 0.5em;
+  --ifm-button-font-weight: 500;
 }
 
 body{
@@ -67,6 +68,10 @@ hr{
   margin: var(--ifm-hr-margin-vertical) 0;
   overflow: hidden;
   padding: 0;
+}
+
+.button{
+  letter-spacing: 0.2px;
 }
 
 .no-wrap{
@@ -361,7 +366,7 @@ hr{
 
 .carousel .slider-wrapper{
   border-radius: 20px;
-  /* box-shadow: 0 8px 80px -23px rgba(0, 0, 0, 0.16); */
+  box-shadow: 0 8px 80px -23px rgba(0, 0, 0, 0.16);
   background-color: #fff0;
 }
 
@@ -420,6 +425,14 @@ hr{
 .carousel .control-prev.control-arrow:before{
   border-width: 2px 0 0 2px !important;
   transform: rotate(-45deg);
+}
+
+.carousel .control-prev.control-arrow{
+  left: -20px !important;
+}
+
+.carousel .control-next.control-arrow{
+  right: -20px !important;
 }
 
 .carousel.carousel-slider:hover .control-arrow{
@@ -518,6 +531,14 @@ hr{
 
 .features-slick .carousel.carousel-slider .control-arrow{
   position: absolute !important;
+}
+
+.features-slick .carousel.carousel-slider .control-arrow.control-next{
+  right: 0 !important;
+}
+
+.features-slick .carousel.carousel-slider .control-arrow.control-prev{
+  left: 0 !important;
 }
 
 
@@ -764,6 +785,11 @@ hr{
 
   .no-wrap{
     flex-wrap: wrap;
+  }
+
+  .card__body .row .col.text--right,
+  .card__body .row .col.text--left{
+    --ifm-col-width: 50% !important;
   }
 }
 

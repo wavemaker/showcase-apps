@@ -4,7 +4,7 @@ import YouTube from 'react-youtube';
 
 export default () => (
   <div className="mock-screen">
-    <Carousel  showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={true} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
+    <Carousel autoPlay showArrows={true} infiniteLoop={true} showThumbs={false} showIndicators={true} swipeable={true} showStatus={false} dynamicHeight={false} centerMode={false} useKeyboardArrows={true}>
       <div>
         <img src="/img/loanCorp/screenshots/screen01.png"/>
         {/* <p className="legend">Legend 1</p> */}
