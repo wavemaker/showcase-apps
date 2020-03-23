@@ -118,10 +118,10 @@ hr{
   padding: 0 1em;
 }
 
-.navbar.navbar--fixed-top {
+/* .navbar.navbar--fixed-top {
   position: absolute;
-  background-color: transparent;
-}
+  background-color: transparent; 
+}*/
 
 .navbar .navbar__brand{
   height: 3em;
