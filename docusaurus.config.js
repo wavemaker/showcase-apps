@@ -11,7 +11,7 @@ module.exports = {
     // sidebarCollapsible: false,
     disableDarkMode: true,
     navbar: {
-      hideOnScroll: false,
+      // hideOnScroll: false,
       title: '',
       logo: {
         alt: 'WaveMaker',
