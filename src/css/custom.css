@@ -375,6 +375,7 @@ hr{
   overflow: visible !important;
   display: flex;
   align-items: center;
+  margin: 0 0 4em;
 }
 
 .carousel.carousel-slider .control-dots{
