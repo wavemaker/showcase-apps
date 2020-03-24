@@ -375,7 +375,7 @@ hr{
   overflow: visible !important;
   display: flex;
   align-items: center;
-  margin: 0 0 4em;
+  margin: 0 0 4em !important;
 }
 
 .carousel.carousel-slider .control-dots{
@@ -532,7 +532,7 @@ hr{
 }
 
 .features-slick .carousel.carousel-slider{
-  margin: 0;
+  margin: 0 !important;
 }
 
 .features-slick .carousel.carousel-slider .control-arrow{
