@@ -531,6 +531,10 @@ hr{
   /* flex-wrap: wrap; */
 }
 
+.features-slick .carousel.carousel-slider{
+  margin: 0;
+}
+
 .features-slick .carousel.carousel-slider .control-arrow{
   position: absolute !important;
 }
