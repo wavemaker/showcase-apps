@@ -47,7 +47,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/medQuest/nurse.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Nurse</h5>
           <p className="card-body-descp">Nurse is a web app. To reject<br/>/approve the appoitments <br/>andrefill requests <br/>of patients.</p>
-          <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+          <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/PatientDashboard" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
           <p>click on <b>Login as Nurse</b> button to login</p>
         </div>
       </div>
@@ -56,7 +56,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/medQuest/pharmacist.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Pharmacist</h5>
           <p className="card-body-descp">Pharmacist is a web app. <br/>To approve/reject the<br/> requests of patients<br/> and nurse.</p>
-            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+            <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/pharma_refill_requests" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
             <p>click on <b>Login as Pharmacist</b> button to login</p>
         </div>
       </div>
