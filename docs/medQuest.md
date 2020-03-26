@@ -28,7 +28,15 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
         <div className="card__body">
           <img alt="Customer Login Credentials" src={useBaseUrl('img/medQuest/patient.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Patient</h5>
-          <p className="card-body-descp">Patient has a mobile app.<br/> He/She can book an <br/> appointment or raise <br/>a refill request.</p>
+          <p className="card-body-descp">
+            <ul className="text--left">
+              <li>Book an appointment</li>
+              <li className="margin-bottom--xs">Request refills</li>
+              <br/>
+              <br/>
+              <br/>
+            </ul>
+          </p>
           <a href={useBaseUrl('img/medQuest/medQuest.apk')} download className="button button--primary button--outline margin-bottom--md">Download APP</a>
           <div className="row">
             <div className="col padding-horiz--xs">
@@ -46,7 +54,13 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
         <div className="card__body"> 
           <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/medQuest/nurse.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Nurse</h5>
-          <p className="card-body-descp">Nurse is a web app. To reject<br/>/approve the appoitments <br/>andrefill requests <br/>of patients.</p>
+          <p className="card-body-descp">
+            <ul className="text--left">
+              <li>Accept or reject the appointment </li>
+              <li>Prescribe drugs</li>
+              <li>Approve or reject refill request</li>
+            </ul>
+          </p>
           <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/PatientDashboard" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
           <p>click on <b>Login as Nurse</b> button to login</p>
         </div>
@@ -55,7 +69,14 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
         <div className="card__body">
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/medQuest/pharmacist.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Pharmacist</h5>
-          <p className="card-body-descp">Pharmacist is a web app. <br/>To approve/reject the<br/> requests of patients<br/> and nurse.</p>
+          <p className="card-body-descp">
+            <ul className="text--left">
+              <li className="margin-bottom--sm">Accept or reject the prescription</li>
+              <br/>
+              <br/>
+              <br/>
+            </ul>
+          </p>
             <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/pharma_refill_requests" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
             <p>click on <b>Login as Pharmacist</b> button to login</p>
         </div>

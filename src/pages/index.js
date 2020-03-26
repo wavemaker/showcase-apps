@@ -16,7 +16,12 @@ const loanCorp = [
     title: <>Customer</>,
     description: (
       <>
-        Customer has a web app. He applies for a loan and can view his loan status.
+        <ul>
+          <li>Apply for loan</li>
+          <li>View the loan status</li>
+          <br/>
+          <br/>
+        </ul> 
       </>
     ),
     imageUrl: 'img/loanCorp/customer.png',
@@ -27,7 +32,12 @@ const loanCorp = [
     title: <>Loan Processor</>,
     description: (
       <>
-        Loan processor is a web app for processing the loans in the pipeline.
+        <ul>
+          <li>View loan applications</li>  
+          <li>Add W2 section</li>
+          <li>Automates loan approval or rejection</li>
+          <li>Send for site visit request</li>
+        </ul>
       </>
     ),
     imageUrl: 'img/loanCorp/loan_processor.png',
@@ -38,7 +48,12 @@ const loanCorp = [
     title: <>Relationship Manager</>,
     description: (
       <>
-        RM is a mobile app that has features like tracking loans and customers.
+        <ul>
+          <li>Review moderate-rated application</li>  
+          <li>View customers' profile</li>
+          <li>Submit reviewed report</li>
+          <br/>
+        </ul>
       </>
     ),
     imageUrl: 'img/loanCorp/relationship_manager.png',
@@ -117,7 +132,11 @@ const medQuest = [
     title: <>Patient</>,
     description: (
       <>
-        Patient has a mobile app. He/She can book an appointment or raise a refill request.
+        <ul>
+          <li>Book an appointment</li>
+          <li>Request refills</li>
+          <br/>
+        </ul>
       </>
     ),
     imageUrl: 'img/medQuest/patient.png',
@@ -128,7 +147,11 @@ const medQuest = [
     title: <>Nurse</>,
     description: (
       <>
-        Nurse is a web app. To approve/reject the appoitments and refill requests of patients.
+        <ul>
+          <li>Accept or reject the appointment </li>
+          <li>Prescribe drugs</li>
+          <li>Approve or reject refill request</li>
+        </ul>
       </>
     ),
     imageUrl: 'img/medQuest/nurse.png',
@@ -139,7 +162,11 @@ const medQuest = [
     title: <>Pharmacist</>,
     description: (
       <>
-        Pharmacist is a web app. To approve/reject the requests of patients and nurse.
+        <ul>
+          <li>Accept or reject the prescription</li>
+          <br/>
+          <br/>
+        </ul>
       </>
     ),
     imageUrl: 'img/medQuest/pharmacist.png',
@@ -174,7 +201,7 @@ function LoanCorp(){
         <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/loanCorp/logo.png" alt="LoanCorp" /> Loan Corp
         </div>
-        <p className="app-section-description">Loan Corp is a loan origination and loan processing application where the loan processing part is done through an automated BPM process in a Camunda workflow engine.</p> 
+        <p className="app-section-description">Loan Corp is a loan processing system that automates the workflow using the Camunda BPM. It comprises of three profiles, including the applicant, loan processor, and relationship manager. When an applicant submits a loan request, the processor approves or rejects the application. In some cases, depending on the applicant's report, the relationship manager can re-evaluate the application. You can track each stage in the individual app. </p> 
       </div>
       {loanCorp && loanCorp.length && (
         <section className="app-section-body">
