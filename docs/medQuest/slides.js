@@ -44,6 +44,14 @@ export default () => (
         <img src="/img/medQuest/screenshots/screen10.png" />
         {/* <p className="legend">Legend 4</p> */}
       </div>
+      <div>
+        <img src="/img/medQuest/screenshots/screen11.png" />
+        {/* <p className="legend">Legend 4</p> */}
+      </div>
+      <div>
+        <img src="/img/medQuest/screenshots/screen12.png" />
+        {/* <p className="legend">Legend 4</p> */}
+      </div>
     </Carousel>
   </div>
 );
