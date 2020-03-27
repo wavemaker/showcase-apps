@@ -100,11 +100,10 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
             <ul className="text--left margin-bottom--md">
               <li>Review moderate-rated application</li>  
               <li>View customers' profile</li>
-              <li className="margin-bottom--xs">Submit reviewed report</li>
-              <br/>
+              <li>Submit site visit request report</li>
             </ul>
           </p>
-          <a href={useBaseUrl('img/loanCorp/loanCorp_RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md">Download App</a>
+          <a href={useBaseUrl('img/loanCorp/loanCorp_RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md margin-top--xs">Download App</a>
           <div className="row">
             <div className="col text--right padding-horiz--xs">
               User :

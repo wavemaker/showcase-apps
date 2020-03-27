@@ -30,10 +30,9 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <h5 className="margin-bottom--xs">Patient</h5>
           <p className="card-body-descp">
             <ul className="text--left">
+              <li>View appointment and refill hisotry</li>
               <li>Book an appointment</li>
-              <li className="margin-bottom--xs">Request refills</li>
-              <br/>
-              <br/>
+              <li>Request refills</li>
               <br/>
             </ul>
           </p>
@@ -62,7 +61,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
             </ul>
           </p>
           <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/PatientDashboard" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
-          <p>click on <b>Login as Nurse</b> button to login</p>
+          <p>Click on above button to <b>Login as Nurse</b></p>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
@@ -71,14 +70,13 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <h5 className="margin-bottom--xs">Pharmacist</h5>
           <p className="card-body-descp">
             <ul className="text--left">
-              <li className="margin-bottom--sm">Accept or reject the prescription</li>
-              <br/>
-              <br/>
+              <li>View refill requests and hisotry</li>
+              <li className="margin-bottom--xs">Accept or reject the refill requests </li>
               <br/>
             </ul>
           </p>
             <a href="http://pk6b8wcp6vj9.cloud.wavemakeronline.com/Medical/#/pharma_refill_requests" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
-            <p>click on <b>Login as Pharmacist</b> button to login</p>
+          <p>Click on above button to <b>Login as Pharmacist</b></p>
         </div>
       </div>
     </div>
