@@ -313,14 +313,14 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Wavemaker ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero-apps')}>
       {/* , styles.heroBanner */}
         <div className="container">
           <div className="row">
             <div className="col col--8">
-              <h1 className="hero__title">WaveMaker {siteConfig.title}</h1>
+              <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline} created by WaveMaker our rapid 
 low-code platform.</p>
             </div>
@@ -336,7 +336,7 @@ low-code platform.</p>
           <div className="container">
             <div className="row">
               <div className="col text--center">
-                <h1 className="title-primary">Explore WaveMaker <br/> {siteConfig.title}</h1>
+                <h1 className="title-primary">Explore <br/> {siteConfig.title}</h1>
               </div>
             </div>
           </div>

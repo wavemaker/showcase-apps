@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Showcase App',
+  title: 'Wavemaker Showcase',
   tagline: 'One stop showcase for all our apps',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
