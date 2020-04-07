@@ -70,8 +70,8 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <h5 className="margin-bottom--xs">Pharmacist</h5>
           <p className="card-body-descp">
             <ul className="text--left">
-              <li>View refill requests and hisotry</li>
-              <li className="margin-bottom--xs">Accept or reject the refill requests </li>
+              <li>Accept or reject the refill requests</li>
+              <li className="margin-bottom--xs">View refill requests and hisotry</li>
               <br/>
             </ul>
           </p>

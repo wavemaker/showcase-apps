@@ -18,9 +18,9 @@ const loanCorp = [
       <>
         <ul>
           <li>Apply for loan</li>
+          <li>Upload document</li>
+          <li>E-sign document through docusign</li>
           <li>View the loan status</li>
-          <br/>
-          <br/>
         </ul> 
       </>
     ),
@@ -133,9 +133,9 @@ const medQuest = [
     description: (
       <>
         <ul>
+          <li>View appointment and refill hisotry</li>
           <li>Book an appointment</li>
           <li>Request refills</li>
-          <br/>
         </ul>
       </>
     ),
@@ -164,7 +164,7 @@ const medQuest = [
       <>
         <ul>
           <li>Accept or reject the prescription</li>
-          <br/>
+          <li>View refill requests and hisotry</li>
           <br/>
         </ul>
       </>

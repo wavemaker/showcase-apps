@@ -31,7 +31,7 @@ Sales Vision app provides a visual representation of sales data with advanced fi
           <div className="card__body">
             <img alt="Customer Login Credentials" src={useBaseUrl('img/salesVision/sales_head.png')} height="150px"/>
             <h5 className="margin-bottom--xs">Sales Head</h5>
-            <p className="card-body-descp">As a sales head, you land into a visualized dashboard with the latest sales data metrics.<br/>  You can see what's trending, top leads, track top-performers of the team, and their<br/>  individual performance as well.</p>
+            <p className="card-body-descp">As a sales head, you land into a visualized<br/> dashboard with the latest sales data metrics.<br/>  You can see what's trending, top leads, track<br/> top-performers of the team, and their<br/>  individual performance as well.</p>
             <a href="http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
             <div className="row">
               <div className="col text--right padding-horiz--xs">
@@ -55,7 +55,7 @@ Sales Vision app provides a visual representation of sales data with advanced fi
           <div className="card__body">
             <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/salesVision/sales_representative.png')} height="150px"/>
             <h5 className="margin-bottom--xs">Sales Representative</h5>
-            <p className="card-body-descp">As a sales representative, see your new goals, convert leads to a sale, get access to top<br/> -selling policies, view upcoming policy<br/>  renewals, your monthly bonus, <br/> badges earned, and more. </p>
+            <p className="card-body-descp">As a sales representative, see your new goals,<br/> convert leads to a sale, get access to top<br/> -selling policies, view upcoming policy<br/>  renewals, your monthly bonus, <br/> badges earned, and more. </p>
             <a href="http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
             <div className="row">
               <div className="col text--right padding-horiz--xs">

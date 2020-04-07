@@ -34,31 +34,14 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
           <img alt="Customer Login Credentials" src={useBaseUrl('img/loanCorp/customer.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Customer</h5>
           <p className="card-body-descp">
-            <ul className="text--left margin-bottom--lg">
+            <ul className="text--left">
               <li>Apply for loan</li>
+              <li>Upload document</li>
+              <li>E-sign document through docusign</li>
               <li>View the loan status</li>
-              <br/>
-              <br/>
-              <br/>
             </ul>
           </p>
           <a href="http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
-          <div className="row">
-            <div className="col text--right padding-horiz--xs">
-              User :
-            </div>
-            <div className="col text--left text--semibold padding-horiz--xs">
-              david
-            </div>
-          </div>
-          <div className="row">
-            <div className="col text--right padding-horiz--xs">
-              Password :
-            </div>
-            <div className="col text--left text--semibold padding-horiz--xs">
-              123456
-            </div>
-          </div>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
@@ -74,22 +57,6 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
             </ul>
           </p>
           <a href="http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
-          <div className="row">
-            <div className="col text--right padding-horiz--xs">
-              User :
-            </div>
-            <div className="col text--left text--semibold padding-horiz--xs">
-              kevin
-            </div>
-          </div>
-          <div className="row">
-            <div className="col text--right padding-horiz--xs">
-              Password :
-            </div>
-            <div className="col text--left text--semibold padding-horiz--xs">
-              123456
-            </div>
-          </div>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
@@ -104,22 +71,6 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
             </ul>
           </p>
           <a href={useBaseUrl('img/loanCorp/RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md margin-top--xs">Download App</a>
-          <div className="row">
-            <div className="col text--right padding-horiz--xs">
-              User :
-            </div>
-            <div className="col text--left text--semibold padding-horiz--xs">
-              tom
-            </div>
-          </div>
-          <div className="row">
-            <div className="col text--right padding-horiz--xs">
-              Password :
-            </div>
-            <div className="col text--left text--semibold padding-horiz--xs">
-              123456
-            </div>
-          </div>
         </div>
       </div>
     </div>
