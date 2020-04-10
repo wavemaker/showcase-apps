@@ -319,15 +319,15 @@ function Home() {
       {/* , styles.heroBanner */}
         <div className="container">
           <div className="row">
-            <div className="col col--8">
+            <div className="col">
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline} created by WaveMaker our rapid 
 low-code platform.</p>
             </div>
-            <div className={classnames('col text--center')}>
+            {/* <div className={classnames('col text--center')}> */}
             {/* , styles.heroBanner */}
-              <a href=""><img src="img/play-button.png" /></a>
-            </div>
+              {/* <a href=""><img src="img/play-button.png" /></a> */}
+            {/* </div> */}
           </div>
         </div>
       </header>
