@@ -67,7 +67,7 @@ function LoanCorpApps({imageUrl, title, description, portalUrl, portalTitle}) {
   return (
     <div className={classnames('col col--4', styles.feature)}>
       <h3 className="app-section-divider-title">{title}</h3>
-      <p className="app-section-description">{description}</p>
+      {description}
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
@@ -87,7 +87,7 @@ const salesVision = [
     title: <>Sales Head</>,
     description: (
       <>
-        As a sales head, you land into a visualized dashboard with the latest sales data metrics. You can see what's trending, top leads, track top-performers of the team, and their individual performance as well. 
+        <p>As a sales head, you land into a visualized dashboard with the latest sales data metrics. You can see what's trending, top leads, track top-performers of the team, and their individual performance as well.</p> 
       </>
     ),
     imageUrl: '/img/salesVision/sales_head.png',
@@ -98,7 +98,7 @@ const salesVision = [
     title: <>Sales Representative</>,
     description: (
       <>
-        As a sales representative, see your new goals, convert leads to a sale, get access to top-selling policies, view upcoming policy renewals, your monthly bonus, badges earned, and more.
+        <p>As a sales representative, see your new goals, convert leads to a sale, get access to top-selling policies, view upcoming policy renewals, your monthly bonus, badges earned, and more.</p>
       </>
     ),
     imageUrl: '/img/salesVision/sales_representative.png',
@@ -112,7 +112,7 @@ function SalesVisionApps({imageUrl, title, description, portalUrl, portalTitle})
   return (
     <div className={classnames('col col--6', styles.feature)}>
       <h3 className="app-section-divider-title">{title}</h3>
-      <p className="app-section-description">{description}</p>
+      {description}
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
@@ -180,7 +180,7 @@ function MedQuestApps({imageUrl, title, description, portalUrl, portalTitle}) {
   return (
     <div className={classnames('col col--4', styles.feature)}>
       <h3 className="app-section-divider-title">{title}</h3>
-      <p className="app-section-description">{description}</p>
+      {description}
       {imgUrl && (
         <div className="text--center">
           <img className="" src={imgUrl} alt={title} height="165px"/>
