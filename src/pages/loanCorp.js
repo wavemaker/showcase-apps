@@ -18,24 +18,24 @@ const users = [
   {
     title: <>Customer</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/loanCorp/customer.png',
+    imageUrl: '/img/loanCorp/customer.png',
     portalLabel:<>Launch Customer Portal</>,
-    portalUrl: '#',
+    portalUrl: '#'
   },
   {
     title: <>Loan Processor</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/loanCorp/loan_processor.png',
+    imageUrl: '/img/loanCorp/loan_processor.png',
     portalLabel:<>Launch Loan Processor</>,
-    portalUrl: '#',
+    portalUrl: '#'
   },
   {
     title: <>Relationship Manager</>,
     description: <>Reskill existing developers to build full-stack apps without specialists. Free up scarce resources to  focus on other strategic IT initiatives</>,
-    imageUrl: 'img/loanCorp/relationship_manager.png',
+    imageUrl: '/img/loanCorp/relationship_manager.png',
     portalLabel:<>Launch RM Portal</>,
-    portalUrl: '#',
-  },
+    portalUrl: '#'
+  }
 ];
 
 function Users({imageUrl, title, description, portalUrl, portalLabel}) {
@@ -63,34 +63,34 @@ function Users({imageUrl, title, description, portalUrl, portalLabel}) {
 const features = [
   {
     title: <>Feature 1</>,
-    imageUrl: 'img/loanCorp/feature-1.png',
-    description: <>Deliver apps 67% faster with visual development, easy integration, and instant deployment</>,
+    imageUrl: '/img/loanCorp/feature-1.png',
+    description: <>Deliver apps 67% faster with visual development, easy integration, and instant deployment</>
   },
   {
     title: <>Feature 2</>,
-    imageUrl: 'img/loanCorp/feature-2.png',
-    description: <>Deploy your applications anywhere – public cloud, private cloud or on-premises infrastructure</>,
+    imageUrl: '/img/loanCorp/feature-2.png',
+    description: <>Deploy your applications anywhere – public cloud, private cloud or on-premises infrastructure</>
   },
   {
     title: <>Feature 3</>,
-    imageUrl: 'img/loanCorp/feature-3.png',
-    description: <>Open source runtime, proven frameworks and technologies for complete vendor independence</>,
+    imageUrl: '/img/loanCorp/feature-3.png',
+    description: <>Open source runtime, proven frameworks and technologies for complete vendor independence</>
   },
   {
     title: <>Feature 4</>,
-    imageUrl: 'img/loanCorp/feature-4.png',
-    description: <>Composable architecture based on microservices, APIs, reusable components and containerization</>,
+    imageUrl: '/img/loanCorp/feature-4.png',
+    description: <>Composable architecture based on microservices, APIs, reusable components and containerization</>
   },
   {
     title: <>Feature 5</>,
-    imageUrl: 'img/loanCorp/feature-5.png',
-    description: <>Proven platform with robust security and support SLAs from a trusted partner</>,
+    imageUrl: '/img/loanCorp/feature-5.png',
+    description: <>Proven platform with robust security and support SLAs from a trusted partner</>
   },
   {
     title: <>Feature 6</>,
-    imageUrl: 'img/loanCorp/feature-6.png',
-    description: <>High productivity gain coupled with transparent pricing for the lowest Total Cost of Ownership</>,
-  },
+    imageUrl: '/img/loanCorp/feature-6.png',
+    description: <>High productivity gain coupled with transparent pricing for the lowest Total Cost of Ownership</>
+  }
 ];
 
 
@@ -109,28 +109,6 @@ function Feature({title, imageUrl, description}) {
   );
 }
 
-// class DemoCarousel extends Component {
-//   render() {
-//       return (
-//           <Carousel>
-//               <div>
-//                   <img src="assets/1.jpeg" />
-//                   <p className="legend">Legend 1</p>
-//               </div>
-//               <div>
-//                   <img src="assets/2.jpeg" />
-//                   <p className="legend">Legend 2</p>
-//               </div>
-//               <div>
-//                   <img src="assets/3.jpeg" />
-//                   <p className="legend">Legend 3</p>
-//               </div>
-//           </Carousel>
-//       );
-//   }
-// };
-
-
 function LoanCorp() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -140,8 +118,8 @@ function LoanCorp() {
         <div className="container">
           <div className="row row--align-center">
             <h1 className="col hero__title text--center">Watch how the app was built</h1>
-            <img src="/img/loanCorp/banner.png" alt="LoanCorp" className="" />
-            <Link to="#" className="loanCorp-banner-playBtn"><img src="/img/play-button.png" alt="" style={{width:'100px',}} /></Link>
+            <img src="/showcase/img/loanCorp/banner.png" alt="LoanCorp" className="" />
+            <Link to="#" className="loanCorp-banner-playBtn"><img src="/showcase/img/play-button.png" alt="" style={{width:'100px',}} /></Link>
           </div>
         </div>
       </header>
@@ -162,7 +140,7 @@ function LoanCorp() {
         </section>
 
         <section className="margin-bottom--md">
-          <img src="/img/wave-colors.png" alt=""/>
+          <img src="/showcase/img/wave-colors.png" alt=""/>
         </section>
 
         <section className="padding-top--xl margin-bottom--md">
@@ -187,7 +165,7 @@ function LoanCorp() {
         </section>
 
         <section className="margin-bottom--md">
-          <img src="/img/wave-border-blue.png" width="100%" alt=""/>
+          <img src="/showcase/img/wave-border-blue.png" width="100%" alt=""/>
         </section>
 
         <section className="padding-vert--xl">
@@ -203,12 +181,12 @@ function LoanCorp() {
                     <p className="margin-vert--none">From skipping the queue, change issues, menu online, seat availability, analytics</p>
                   </div>
                   <div className="col col--3 padding-horiz--none">
-                    <Link to="#"><img src="/img/play-button.png" width="100px" /></Link>
+                    <Link to="#"><img src="/showcase/img/play-button.png" width="100px" /></Link>
                   </div>
                 </div>
               </div>
               <div className="col col--8 padding-right--none">
-                <img src="/img/loanCorp/dashboard-pc.png" width="100%" alt=""/>
+                <img src="/showcase/img/loanCorp/dashboard-pc.png" width="100%" alt=""/>
               </div>
             </div>
           </div>

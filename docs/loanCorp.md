@@ -31,7 +31,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
     <div className="row">
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
-          <img alt="Customer Login Credentials" src={useBaseUrl('img/loanCorp/customer.png')} height="120px"/>
+          <img alt="Customer Login Credentials" src={useBaseUrl('/img/loanCorp/customer.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Customer</h5>
           <p className="card-body-descp">
             <ul className="text--left">
@@ -46,7 +46,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
       </div>
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">            
-          <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
+          <img alt="Loan Processor Login Credentials" src={useBaseUrl('/showcase/img/loanCorp/loan_processor.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Loan Processor</h5>
           <p className="card-body-descp">
             <ul className="text--left">
@@ -61,7 +61,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
       </div>
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
-          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
+          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('/showcase/img/loanCorp/relationship_manager.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Relastionship Manager</h5>
           <p className="card-body-descp">
             <ul className="text--left margin-bottom--md">
@@ -70,7 +70,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
               <li>Submit site visit request report</li>
             </ul>
           </p>
-          <a href={useBaseUrl('img/loanCorp/RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md margin-top--xs">Download App</a>
+          <a href={useBaseUrl('/showcase/img/loanCorp/RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md margin-top--xs">Download App</a>
         </div>
       </div>
     </div>
@@ -99,7 +99,7 @@ Here are some of the value added features and prefabs from the WM applications
 <!-- 
 ## User Flow of App
 
-![alt text](/img/loanCorp/workflow.svg 'User Flow of Loan Corp App') 
+![alt text](/showcase/img/loanCorp/workflow.svg 'User Flow of Loan Corp App')
 
 --- -->
 

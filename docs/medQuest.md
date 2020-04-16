@@ -26,7 +26,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
     <div className="row">
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
-          <img alt="Customer Login Credentials" src={useBaseUrl('img/medQuest/patient.png')} height="150px"/>
+          <img alt="Customer Login Credentials" src={useBaseUrl('/showcase/img/medQuest/patient.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Patient</h5>
           <p className="card-body-descp">
             <ul className="text--left">
@@ -36,7 +36,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
               <br/>
             </ul>
           </p>
-          <a href={useBaseUrl('img/medQuest/medQuest.apk')} download className="button button--primary button--outline margin-bottom--md">Download APP</a>
+          <a href={useBaseUrl('/showcase/img/medQuest/medQuest.apk')} download className="button button--primary button--outline margin-bottom--md">Download APP</a>
           <div className="row">
             <div className="col padding-horiz--xs">
               User : <span className="text--semibold">peter@gmail.com</span>
@@ -51,7 +51,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
       </div>
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body"> 
-          <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/medQuest/nurse.png')} height="150px"/>
+          <img alt="Loan Processor Login Credentials" src={useBaseUrl('/showcase/img/medQuest/nurse.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Nurse</h5>
           <p className="card-body-descp">
             <ul className="text--left">
@@ -66,7 +66,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
       </div>
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
-          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/medQuest/pharmacist.png')} height="150px"/>
+          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('/showcase/img/medQuest/pharmacist.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Pharmacist</h5>
           <p className="card-body-descp">
             <ul className="text--left">
@@ -111,7 +111,7 @@ Here are some of the value added features and prefabs from the WM applications
 
 <!-- ## User Flow of App
 
-![alt text](/img/medQuest/workflow.svg 'User Flow of MedQuest App') 
+![alt text](/showcase/img/medQuest/workflow.svg 'User Flow of MedQuest App')
 
 
 --- -->

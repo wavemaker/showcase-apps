@@ -24,9 +24,9 @@ const loanCorp = [
         </ul> 
       </>
     ),
-    imageUrl: 'img/loanCorp/customer.png',
+    imageUrl: '/img/loanCorp/customer.png',
     portalTitle: <>Launch Customer Portal</>,
-    portalUrl: 'http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount',
+    portalUrl: 'http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount'
   },
   {
     title: <>Loan Processor</>,
@@ -40,9 +40,9 @@ const loanCorp = [
         </ul>
       </>
     ),
-    imageUrl: 'img/loanCorp/loan_processor.png',
+    imageUrl: '/img/loanCorp/loan_processor.png',
     portalTitle: <>Launch Loan Processor Portal</>,
-    portalUrl: 'http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main',
+    portalUrl: 'http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main'
   },
   {
     title: <>Relationship Manager</>,
@@ -56,10 +56,10 @@ const loanCorp = [
         </ul>
       </>
     ),
-    imageUrl: 'img/loanCorp/relationship_manager.png',
+    imageUrl: '/img/loanCorp/relationship_manager.png',
     portalTitle: <>Download Relationship Manager App</>,
-    portalUrl: 'img/loanCorp/loanCorp_RM.apk',
-  },
+    portalUrl: '/img/loanCorp/loanCorp_RM.apk'
+  }
 ];
 
 function LoanCorpApps({imageUrl, title, description, portalUrl, portalTitle}) {
@@ -90,7 +90,7 @@ const salesVision = [
         As a sales head, you land into a visualized dashboard with the latest sales data metrics. You can see what's trending, top leads, track top-performers of the team, and their individual performance as well. 
       </>
     ),
-    imageUrl: 'img/salesVision/sales_head.png',
+    imageUrl: '/img/salesVision/sales_head.png',
     portalTitle: <>Launch User App</>,
     portalUrl: 'http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision',
   },
@@ -101,7 +101,7 @@ const salesVision = [
         As a sales representative, see your new goals, convert leads to a sale, get access to top-selling policies, view upcoming policy renewals, your monthly bonus, badges earned, and more.
       </>
     ),
-    imageUrl: 'img/salesVision/sales_representative.png',
+    imageUrl: '/img/salesVision/sales_representative.png',
     portalTitle: <>Launch Manager App</>,
     portalUrl: 'http://pk50dzkgmxm4.cloud.wavemakeronline.com/DemoSalesVision',
   },
@@ -139,9 +139,9 @@ const medQuest = [
         </ul>
       </>
     ),
-    imageUrl: 'img/medQuest/patient.png',
+    imageUrl: '/img/medQuest/patient.png',
     portalTitle: <>Download Patient App</>,
-    portalUrl: 'img/medQuest/medQuest.apk',
+    portalUrl: '/img/medQuest/medQuest.apk',
   },
   {
     title: <>Nurse</>,
@@ -154,7 +154,7 @@ const medQuest = [
         </ul>
       </>
     ),
-    imageUrl: 'img/medQuest/nurse.png',
+    imageUrl: '/img/medQuest/nurse.png',
     portalTitle: <>Launch Nurse Portal</>,
     portalUrl: 'http://3.12.123.37:8001/Medical/#/Main',
   },
@@ -169,7 +169,7 @@ const medQuest = [
         </ul>
       </>
     ),
-    imageUrl: 'img/medQuest/pharmacist.png',
+    imageUrl: '/img/medQuest/pharmacist.png',
     portalTitle: <>Launch Pharmacist Portal</>,
     portalUrl: 'http://3.12.123.37:8001/Medical/#/Main',
   },
@@ -196,7 +196,7 @@ function MedQuestApps({imageUrl, title, description, portalUrl, portalTitle}) {
 
 function LoanCorp(){
   return(
-    <Link to="docs/loanCorp" className="container app-section">
+    <Link to="/showcase/docs/loanCorp" className="container app-section">
       <div className="app-section-header">
         <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/loanCorp/logo.png" alt="LoanCorp" /> Loan Corp
@@ -220,7 +220,7 @@ function LoanCorp(){
 
 function SalesVision(){
   return(
-    <Link to="docs/salesVision" className="container app-section">
+    <Link to="/showcase/docs/salesVision" className="container app-section">
       <div className="app-section-header">
         <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/salesVision/logo.png" alt="Sales Vision" /> Sales Vision
@@ -244,7 +244,7 @@ function SalesVision(){
 
 function MedQuest(){
   return(
-    <Link to="docs/medQuest" className="container app-section">
+    <Link to="/showcase/docs/medQuest" className="container app-section">
       <div className="app-section-header">
         <div className="app-section-title">
           <img className="app-section-logo margin-right--sm" src="img/medQuest/logo.png" alt="MedQuest" /> MedQuest
@@ -326,7 +326,7 @@ low-code platform.</p>
             </div>
             {/* <div className={classnames('col text--center')}> */}
             {/* , styles.heroBanner */}
-              {/* <a href=""><img src="img/play-button.png" /></a> */}
+              {/* <a href=""><img src="/img/play-button.png" /></a> */}
             {/* </div> */}
           </div>
         </div>
