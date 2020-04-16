@@ -97,7 +97,7 @@ hr{
   left: 0;
   top: 0;
   background-color: transparent;
-  background-image: url(/img/waves-white-80-px-reverse.png);
+  background-image: url(/showcase/img/waves-white-80-px-reverse.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -138,7 +138,7 @@ hr{
   content: "user";
     width: 18px;
     height: 18px;
-    background: url(/img/user-icon.png);
+    background: url(/showcase/img/user-icon.png);
     background-repeat: no-repeat;
     background-position: center;
     color: transparent;
@@ -159,7 +159,7 @@ hr{
 
 .hero{
   background-color: transparent;
-  background-image: url(/img/hero-image-showcase-inside.png);
+  background-image: url(/showcase/img/hero-image-showcase-inside.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -172,7 +172,7 @@ hr{
 }
 
 .hero-apps{
-  background-image: url(/img/hero-image-showcase-inside.png);
+  background-image: url(/showcase/img/hero-image-showcase-inside.png);
   position: relative;
 }
 
@@ -183,7 +183,7 @@ hr{
   width: 100%;
   height: 60px;
   left: 0;
-  background-image: url(/img/wave-white.png);
+  background-image: url(/showcase/img/wave-white.png);
   background-size: contain;
   background-repeat: repeat-x;
 }
@@ -303,7 +303,7 @@ hr{
 }
 
 .app-users-sec{
-  background-image: url(/img/waves-colors.png);
+  background-image: url(/showcase/img/waves-colors.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -358,7 +358,7 @@ hr{
 /*----------------carosuel----------------*/
 .mock-screen {
   /* padding: 2.5em 5.2em 5em 5.4em;
-  background-image: url(/img/mock_screen_bg.png);
+  background-image: url(/showcase/img/mock_screen_bg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -463,7 +463,7 @@ hr{
   padding: 0 var(--ifm-navbar-padding-horizontal);
   width: 100%;
   background-color: #ffffff;
-  background-image: url(/img/WM_blue.png);
+  background-image: url(/showcase/img/WM_blue.png);
   background-size: 100px;
   background-repeat: no-repeat;
   background-position: 2em;
@@ -626,112 +626,112 @@ hr{
 }
 
 .fe-box .fe-data-table:before {
-  background-image: url(/img/widgets/data_table.svg);
+  background-image: url(/showcase/img/widgets/data_table.svg);
 }
 .fe-box:hover .fe-data-table:before {
-  background-image: url(/img/widgets/active/data_table.svg);
+  background-image: url(/showcase/img/widgets/active/data_table.svg);
 }
 
 .fe-box .fe-card:before {
-  background-image: url(/img/widgets/card.svg);
+  background-image: url(/showcase/img/widgets/card.svg);
 }
 .fe-box:hover .fe-card:before {
-  background-image: url(/img/widgets/active/card.svg);
+  background-image: url(/showcase/img/widgets/active/card.svg);
 }
 
 .fe-box .fe-calendar:before {
-  background-image: url(/img/widgets/calendar.svg);
+  background-image: url(/showcase/img/widgets/calendar.svg);
 }
 .fe-box:hover .fe-calendar:before {
-  background-image: url(/img/widgets/active/calendar.svg);
+  background-image: url(/showcase/img/widgets/active/calendar.svg);
 }
 
 .fe-box .fe-wizard:before {
-  background-image: url(/img/widgets/wizard.svg);
+  background-image: url(/showcase/img/widgets/wizard.svg);
 }
 .fe-box:hover .fe-wizard:before {
-  background-image: url(/img/widgets/active/wizard.svg);
+  background-image: url(/showcase/img/widgets/active/wizard.svg);
 }
 
 .fe-box .fe-dialogue:before{
-  background-image: url(/img/widgets/dialog.svg);
+  background-image: url(/showcase/img/widgets/dialog.svg);
 }
 .fe-box:hover .fe-dialogue:before{
-  background-image: url(/img/widgets/active/dialog.svg);
+  background-image: url(/showcase/img/widgets/active/dialog.svg);
 }
 
 .fe-box .fe-file-upload:before{
-  background-image: url(/img/widgets/file_upload.svg);
+  background-image: url(/showcase/img/widgets/file_upload.svg);
 }
 .fe-box:hover .fe-file-upload:before{
-  background-image: url(/img/widgets/active/file_upload.svg);
+  background-image: url(/showcase/img/widgets/active/file_upload.svg);
 }
 
 .fe-box .fe-list:before{
-  background-image: url(/img/widgets/list.svg);
+  background-image: url(/showcase/img/widgets/list.svg);
 }
 .fe-box:hover .fe-list:before{
-  background-image: url(/img/widgets/active/list.svg);
+  background-image: url(/showcase/img/widgets/active/list.svg);
 }
 
 .fe-box .fe-search:before{
-  background-image: url(/img/widgets/search.svg);
+  background-image: url(/showcase/img/widgets/search.svg);
 }
 .fe-box:hover .fe-search:before{
-  background-image: url(/img/widgets/active/search.svg);
+  background-image: url(/showcase/img/widgets/active/search.svg);
 }
 
 .fe-box .fe-tabs:before{
-  background-image: url(/img/widgets/tabs.svg);
+  background-image: url(/showcase/img/widgets/tabs.svg);
 }
 .fe-box:hover .fe-tabs:before{
-  background-image: url(/img/widgets/active/tabs.svg);
+  background-image: url(/showcase/img/widgets/active/tabs.svg);
 }
 
 .fe-box .fe-tile:before{
-  background-image: url(/img/widgets/tile.svg);
+  background-image: url(/showcase/img/widgets/tile.svg);
 }
 .fe-box:hover .fe-tile:before{
-  background-image: url(/img/widgets/active/tile.svg);
+  background-image: url(/showcase/img/widgets/active/tile.svg);
 }
 
 .fe-box .fe-live-filter:before{
-  background-image: url(/img/widgets/live_filter.svg);
+  background-image: url(/showcase/img/widgets/live_filter.svg);
 }
 .fe-box:hover .fe-live-filter:before{
-  background-image: url(/img/widgets/active/live_filter.svg);
+  background-image: url(/showcase/img/widgets/active/live_filter.svg);
 }
 
 .fe-box .fe-form:before{
-  background-image: url(/img/widgets/form.svg);
+  background-image: url(/showcase/img/widgets/form.svg);
 }
 .fe-box:hover .fe-form:before{
-  background-image: url(/img/widgets/active/form.svg);
+  background-image: url(/showcase/img/widgets/active/form.svg);
 }
 
 /*------featured prefab icons-------*/
 .fe-box .fe-camunda:before {
-  background-image: url(/img/prefabs/camunda_wf.png);
+  background-image: url(/showcase/img/prefabs/camunda_wf.png);
 }
 .fe-box:hover .fe-camunda:before {
-  background-image: url(/img/prefabs/active/camunda_wf.png);
+  background-image: url(/showcase/img/prefabs/active/camunda_wf.png);
 }
 
 .fe-icon.fe-docusign{
   width: 100px;
 }
 .fe-box .fe-docusign:before {
-  background-image: url(/img/prefabs/docusign.png);
+  background-image: url(/showcase/img/prefabs/docusign.png);
 }
 .fe-box:hover .fe-docusign:before {
-  background-image: url(/img/prefabs/active/docusign.png);
+  background-image: url(/showcase/img/prefabs/active/docusign.png);
 }
 
 .fe-box .fe-box-viewer:before {
-  background-image: url(/img/prefabs/box_viewer.png);
+  background-image: url(/showcase/img/prefabs/box_viewer.png);
 }
 .fe-box:hover .fe-box-viewer:before {
-  background-image: url(/img/prefabs/active/box_viewer.png);
+  background-image: url(/showcase/img/prefabs/active/box_viewer.png);
 }
 
 

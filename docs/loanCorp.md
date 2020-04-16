@@ -31,46 +31,40 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
     <div className="row">
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
-          <img alt="Customer Login Credentials" src={useBaseUrl('img/loanCorp/customer.png')} height="120px"/>
+          <img alt="Customer Login Credentials" src={useBaseUrl('/img/loanCorp/customer.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Customer</h5>
-          <p className="card-body-descp">
-            <ul className="text--left">
+            <ul className="text--left card-body-descp">
               <li>Apply for loan</li>
               <li>Upload document</li>
               <li>E-sign document through docusign</li>
               <li>View the loan status</li>
             </ul>
-          </p>
           <a href="http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">            
-          <img alt="Loan Processor Login Credentials" src={useBaseUrl('img/loanCorp/loan_processor.png')} height="120px"/>
+          <img alt="Loan Processor Login Credentials" src={useBaseUrl('/img/loanCorp/loan_processor.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Loan Processor</h5>
-          <p className="card-body-descp">
-            <ul className="text--left">
+            <ul className="text--left card-body-descp">
               <li>View loan applications</li>  
               <li>Add W2 section</li>
               <li>Automates loan approval or rejection</li>
               <li>Send for site visit request</li>
             </ul>
-          </p>
           <a href="http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
-          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('img/loanCorp/relationship_manager.png')} height="120px"/>
+          <img alt="Relationship Manager Login Credentials" src={useBaseUrl('/img/loanCorp/relationship_manager.png')} height="120px"/>
           <h5 className="margin-bottom--xs">Relastionship Manager</h5>
-          <p className="card-body-descp">
-            <ul className="text--left margin-bottom--md">
+            <ul className="text--left margin-bottom--md card-body-descp">
               <li>Review moderate-rated application</li>  
               <li>View customers' profile</li>
               <li>Submit site visit request report</li>
             </ul>
-          </p>
-          <a href={useBaseUrl('img/loanCorp/RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md margin-top--xs">Download App</a>
+          <a href={useBaseUrl('/img/loanCorp/RM.apk')} target="_blank" download className="button button--primary button--outline margin-bottom--md margin-top--xs">Download App</a>
         </div>
       </div>
     </div>
@@ -99,7 +93,7 @@ Here are some of the value added features and prefabs from the WM applications
 <!-- 
 ## User Flow of App
 
-![alt text](/img/loanCorp/workflow.svg 'User Flow of Loan Corp App') 
+![alt text](/img/loanCorp/workflow.svg 'User Flow of Loan Corp App')
 
 --- -->
 

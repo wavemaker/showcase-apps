@@ -13,9 +13,5 @@ module.exports = {
       label: 'Showcase Apps',
       items: ['loanCorp', 'medQuest', 'salesVision'],
     }
-  ],
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
+  ]
 };
