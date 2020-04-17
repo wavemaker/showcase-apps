@@ -58,7 +58,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
       <div className="col card text--center margin--sm padding--none">
         <div className="card__body">
           <img alt="Relationship Manager Login Credentials" src={useBaseUrl('/img/loanCorp/relationship_manager.png')} height="120px"/>
-          <h5 className="margin-bottom--xs">Relastionship Manager</h5>
+          <h5 className="margin-bottom--xs">Relationship Manager</h5>
             <ul className="text--left margin-bottom--md card-body-descp">
               <li>Review moderate-rated application</li>  
               <li>View customers' profile</li>
