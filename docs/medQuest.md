@@ -29,12 +29,12 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <img alt="Customer Login Credentials" src={useBaseUrl('/img/medQuest/patient.png')} height="150px"/>
           <h5 className="margin-bottom--xs">Patient</h5>
             <ul className="text--left card-body-descp">
-              <li>View appointment and refill hisotry</li>
+              <li>View appointment and refill history</li>
               <li>Book an appointment</li>
               <li>Request refills</li>
               <br/>
             </ul>
-          <a href={useBaseUrl('/img/medQuest/medQuest.apk')} download className="button button--primary button--outline margin-bottom--md">Download APP</a>
+          <a href={useBaseUrl('/MedQuest/MedQuest.apk')} download className="button button--primary button--outline margin-bottom--md">Download APP</a>
           <div className="row">
             <div className="col padding-horiz--xs">
               User : <span className="text--semibold">peter@gmail.com</span>
@@ -66,7 +66,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
           <h5 className="margin-bottom--xs">Pharmacist</h5>
             <ul className="text--left card-body-descp">
               <li>Accept or reject the refill requests</li>
-              <li className="margin-bottom--xs">View refill requests and hisotry</li>
+              <li className="margin-bottom--xs">View refill requests and history</li>
               <br/>
             </ul>
             <a href="https://apps.wavemakeronline.com/Medical/#/pharma_refill_requests" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>

@@ -737,6 +737,40 @@ hr{
 
 /**********************features carousel***********************/
 
+.menu.menu--responsive .menu__button {
+  bottom: auto;
+  right: auto;
+  top: 2.5em;
+  padding: 0;
+  left: 2.5em;
+  background-color: transparent !important;
+  border: 0;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+}
+
+.pagination-nav {
+  justify-content: space-between;
+}
+
+.pagination-nav .pagination-nav__item{
+  flex-basis: auto;
+  flex-grow: initial;
+}
+
+.pagination-nav .pagination-nav__link--label{
+  font-size: 1.2em;
+}
+.pagination-nav .pagination-nav__link--sublabel{
+  font-size: 1em;
+}
+
+
+
+/**************************media quires**************************/
+
 
 @media(min-width: 1400px){
   .main-wrapper .docPage_node_modules-\@docusaurus-theme-classic-src-theme-DocPage-,
@@ -788,6 +822,10 @@ hr{
 
 
 @media (max-width: 996px){
+  .navbar .navbar__toggle {
+    opacity: 0;
+  }
+
   .app-section-divider .col{
     border-right: none;
     border-bottom: 1px dashed var(--ifm-border-color);
@@ -819,6 +857,14 @@ hr{
 }
 
 @media (max-width: 767px){
+
+  .pagination-nav {
+    flex-direction: column;
+  }
+  .pagination-nav .pagination-nav__item {
+    max-width: 100%;
+    margin: 0.5em 0 0 !important;
+  }
   .mock-screen .carousel .slide img {
     /* max-height: 320px; */
     /* width: auto; */
@@ -850,6 +896,7 @@ hr{
     margin: 5%;
   }
 }
+
 
 
 
