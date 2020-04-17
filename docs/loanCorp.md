@@ -39,7 +39,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
               <li>E-sign document through docusign</li>
               <li>View the loan status</li>
             </ul>
-          <a href="http://pkcm4t2v2gzf.cloud.wavemakeronline.com/Herdius/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+          <a href="https://apps.wavemakeronline.com/Herdius/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
@@ -52,7 +52,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
               <li>Automates loan approval or rejection</li>
               <li>Send for site visit request</li>
             </ul>
-          <a href="http://pk51rnzxw91h.cloud.wavemakeronline.com/LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+          <a href="https://apps.wavemakeronline.com/LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
