@@ -626,6 +626,7 @@ hr{
 }
 
 .fe-box .fe-data-table:before {
+  background-image: url(/showcase/img/widgets/active/data_table.svg);
   background-image: url(/showcase/img/widgets/data_table.svg);
 }
 .fe-box:hover .fe-data-table:before {
@@ -633,6 +634,7 @@ hr{
 }
 
 .fe-box .fe-card:before {
+  background-image: url(/showcase/img/widgets/active/card.svg);
   background-image: url(/showcase/img/widgets/card.svg);
 }
 .fe-box:hover .fe-card:before {
@@ -640,6 +642,7 @@ hr{
 }
 
 .fe-box .fe-calendar:before {
+  background-image: url(/showcase/img/widgets/active/calendar.svg);
   background-image: url(/showcase/img/widgets/calendar.svg);
 }
 .fe-box:hover .fe-calendar:before {
@@ -647,6 +650,7 @@ hr{
 }
 
 .fe-box .fe-wizard:before {
+  background-image: url(/showcase/img/widgets/active/wizard.svg);
   background-image: url(/showcase/img/widgets/wizard.svg);
 }
 .fe-box:hover .fe-wizard:before {
@@ -654,6 +658,7 @@ hr{
 }
 
 .fe-box .fe-dialogue:before{
+  background-image: url(/showcase/img/widgets/active/dialog.svg);
   background-image: url(/showcase/img/widgets/dialog.svg);
 }
 .fe-box:hover .fe-dialogue:before{
@@ -661,6 +666,7 @@ hr{
 }
 
 .fe-box .fe-file-upload:before{
+  background-image: url(/showcase/img/widgets/active/file_upload.svg);
   background-image: url(/showcase/img/widgets/file_upload.svg);
 }
 .fe-box:hover .fe-file-upload:before{
@@ -668,6 +674,7 @@ hr{
 }
 
 .fe-box .fe-list:before{
+  background-image: url(/showcase/img/widgets/active/list.svg);
   background-image: url(/showcase/img/widgets/list.svg);
 }
 .fe-box:hover .fe-list:before{
@@ -675,6 +682,7 @@ hr{
 }
 
 .fe-box .fe-search:before{
+  background-image: url(/showcase/img/widgets/active/search.svg);
   background-image: url(/showcase/img/widgets/search.svg);
 }
 .fe-box:hover .fe-search:before{
@@ -682,6 +690,7 @@ hr{
 }
 
 .fe-box .fe-tabs:before{
+  background-image: url(/showcase/img/widgets/active/tabs.svg);
   background-image: url(/showcase/img/widgets/tabs.svg);
 }
 .fe-box:hover .fe-tabs:before{
@@ -689,6 +698,7 @@ hr{
 }
 
 .fe-box .fe-tile:before{
+  background-image: url(/showcase/img/widgets/active/tile.svg);
   background-image: url(/showcase/img/widgets/tile.svg);
 }
 .fe-box:hover .fe-tile:before{
@@ -696,6 +706,7 @@ hr{
 }
 
 .fe-box .fe-live-filter:before{
+  background-image: url(/showcase/img/widgets/active/live_filter.svg);
   background-image: url(/showcase/img/widgets/live_filter.svg);
 }
 .fe-box:hover .fe-live-filter:before{
@@ -703,6 +714,7 @@ hr{
 }
 
 .fe-box .fe-form:before{
+  background-image: url(/showcase/img/widgets/active/form.svg);
   background-image: url(/showcase/img/widgets/form.svg);
 }
 .fe-box:hover .fe-form:before{
@@ -711,6 +723,7 @@ hr{
 
 /*------featured prefab icons-------*/
 .fe-box .fe-camunda:before {
+  background-image: url(/showcase/img/prefabs/active/camunda_wf.png);
   background-image: url(/showcase/img/prefabs/camunda_wf.png);
 }
 .fe-box:hover .fe-camunda:before {
