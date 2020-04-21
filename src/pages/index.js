@@ -323,7 +323,7 @@ function Home() {
               <h1 className="hero__title">{siteConfig.title}</h1>
               {/* {siteConfig.tagline} created by WaveMaker our rapid low-code platform. */}
               <p className="hero__subtitle">
-                One stop showcase of Web and Mobile Applications developed using WaveMaker. Explore to see WaveMaker in action.
+                Explore WaveMaker Showcase to see the collection of web and mobile apps developed using the low-code platform.
               </p>
             </div>
             {/* <div className={classnames('col text--center')}> */}
