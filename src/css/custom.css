@@ -158,7 +158,7 @@ hr{
 }
 
 .hero{
-  background-color: transparent;
+  background-color: rgb(94, 93, 188);
   background-image: url(/showcase/img/hero-image-showcase-inside.png);
   background-position: center;
   background-repeat: no-repeat;
