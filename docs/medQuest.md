@@ -34,7 +34,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
               <li>Request refills</li>
               <br/>
             </ul>
-          <a href={useBaseUrl('/MedQuest/MedQuest.apk')} download className="button button--primary button--outline margin-bottom--md">Download APP</a>
+          <a href="https://wm-showcase-apps.s3.us-east-2.amazonaws.com/MedQuest.apk" download className="button button--primary button--outline margin-bottom--md">Download APP</a>
           <div className="row">
             <div className="col padding-horiz--xs">
               User : <span className="text--semibold">peter@gmail.com</span>
