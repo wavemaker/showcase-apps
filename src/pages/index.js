@@ -199,7 +199,7 @@ function LoanCorp(){
     <Link to="/showcase/docs/loanCorp" className="container app-section">
       <div className="app-section-header">
         <div className="app-section-title">
-          <img className="app-section-logo margin-right--sm" src="img/loanCorp/logo.png" alt="LoanCorp" /> Loan Corp
+          <img className="app-section-logo margin-right--sm"  src={useBaseUrl('img/loanCorp/logo.png')} alt="LoanCorp" /> Loan Corp
         </div>
         <p className="app-section-description">Loan Corp is a loan processing system that automates the workflow using the Camunda BPM. It comprises of three profiles, including the applicant, loan processor, and relationship manager. When an applicant submits a loan request, the processor approves or rejects the application. In some cases, depending on the applicant's report, the relationship manager can re-evaluate the application. You can track each stage in the individual app. </p> 
       </div>
@@ -223,7 +223,7 @@ function SalesVision(){
     <Link to="/showcase/docs/salesVision" className="container app-section">
       <div className="app-section-header">
         <div className="app-section-title">
-          <img className="app-section-logo margin-right--sm" src="img/salesVision/logo.png" alt="Sales Vision" /> Sales Vision
+          <img className="app-section-logo margin-right--sm" src={useBaseUrl('/img/salesVision/logo.png')} alt="Sales Vision" /> Sales Vision
         </div>
         <p className="app-section-description">Sales Vision app provides a visual representation of sales data with advanced filters, actions, and more. The app comprises of two profiles, including sales representative and sales head. Get visibility of the sales pipeline and convert them to a sale. Additionally, track your teams' performance, measure achieved goals, targets, and more.</p> 
       </div>
@@ -247,7 +247,7 @@ function MedQuest(){
     <Link to="/showcase/docs/medQuest" className="container app-section">
       <div className="app-section-header">
         <div className="app-section-title">
-          <img className="app-section-logo margin-right--sm" src="img/medQuest/logo.png" alt="MedQuest" /> MedQuest
+          <img className="app-section-logo margin-right--sm"  src={useBaseUrl('img/medQuest/logo.png')} alt="MedQuest" /> MedQuest
         </div>
         <p className="app-section-description">MedQuest is a healthcare app that manages the workflow of patients and doctors' consultation routines and regulates drug delivery. The app comprises of three profiles, including patient, doctor, and pharmacist. It allows you to track each stage in the individual app. </p>   
       </div>
