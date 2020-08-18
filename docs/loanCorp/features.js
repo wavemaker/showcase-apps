@@ -28,7 +28,7 @@ export default Features => (
         </a>
         <a className="fe-box" href="#" target="_blank">
                 <i className="fe-icon fe-entity-extrator"></i>
-            <p>Entity Extractor</p>
+            {/* <p>Entity Extractor</p> */}
         </a>
       </div>
       <div>
