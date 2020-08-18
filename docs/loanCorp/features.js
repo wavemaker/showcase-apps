@@ -26,17 +26,17 @@ export default Features => (
                 <i className="fe-icon fe-box-viewer"></i>
             <p>Viewer</p>
         </a>
-        <a className="fe-box" href="#" target="_blank">
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/prefab/entity-extraction-from-documents#docsNav" target="_blank">
                 <i className="fe-icon fe-entity-extrator"></i>
             <p>Entity Extractor</p>
         </a>
       </div>
       <div>
-        <a className="fe-box" href="#" target="_blank">
+        <a className="fe-box" href="https://www.wavemaker.com/learn/how-tos/camunda-wavemaker-app-integration#docsNav" target="_blank">
                 <i className="fe-icon  fe-camunda"></i>
             <p>Camunda</p>
         </a>
-        <a className="fe-box" href="#" target="_blank">
+        <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/prefab/docusign#docsNav" target="_blank">
                 <i className="fe-icon fe-docusign"></i>
             <p>E Verify</p>
         </a>
