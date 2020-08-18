@@ -24,21 +24,21 @@ export default Features => (
         </a>
         <a className="fe-box" href="https://www.wavemaker.com/learn/app-development/widgets/prefab/box-viewer-prefab" target="_blank">
                 <i className="fe-icon fe-box-viewer"></i>
-            {/* <p>Box-viewer Prefab</p> */}
+            <p>Viewer</p>
         </a>
         <a className="fe-box" href="#" target="_blank">
                 <i className="fe-icon fe-entity-extrator"></i>
-            {/* <p>Entity Extractor</p> */}
+            <p>Entity Extractor</p>
         </a>
       </div>
       <div>
         <a className="fe-box" href="#" target="_blank">
                 <i className="fe-icon  fe-camunda"></i>
-            {/* <p>Camunda workflow Integration</p> */}
+            <p>Camunda</p>
         </a>
         <a className="fe-box" href="#" target="_blank">
                 <i className="fe-icon fe-docusign"></i>
-            {/* <p>Docusign Prefab</p> */}
+            <p>E Verify</p>
         </a>
       </div>
     </Carousel>
