@@ -27,14 +27,18 @@ export default Features => (
             {/* <p>Box-viewer Prefab</p> */}
         </a>
         <a className="fe-box" href="#" target="_blank">
-                <i className="fe-icon fe-docusign"></i>
-            {/* <p>Docusign Prefab</p> */}
+                <i className="fe-icon fe-entity-extrator"></i>
+            <p>Entity Extractor</p>
         </a>
       </div>
       <div>
         <a className="fe-box" href="#" target="_blank">
                 <i className="fe-icon  fe-camunda"></i>
             {/* <p>Camunda workflow Integration</p> */}
+        </a>
+        <a className="fe-box" href="#" target="_blank">
+                <i className="fe-icon fe-docusign"></i>
+            {/* <p>Docusign Prefab</p> */}
         </a>
       </div>
     </Carousel>

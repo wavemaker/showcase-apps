@@ -740,6 +740,14 @@ hr{
   background-image: url(/showcase/img/prefabs/active/docusign.png);
 }
 
+.fe-box .fe-entity-extrator:before {
+  background-image: url(/showcase/img/prefabs/Extract.svg);
+}
+.fe-box:hover .fe-entity-extrator:before {
+  background-image: url(/showcase/img/prefabs/active/Extract.svg);
+}
+
+
 .fe-box .fe-box-viewer:before {
   background-image: url(/showcase/img/prefabs/box_viewer.png);
 }
