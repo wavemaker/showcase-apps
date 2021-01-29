@@ -43,7 +43,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
               <li>E-sign document through docusign</li>
               <li>View the loan status</li>
             </ul>
-          <a href="https://apps.wavemakeronline.com/Herdius/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+          <a href="https://showcase.wavemakeronline.com/LoanCorp_Customer/#/myAccount" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">
