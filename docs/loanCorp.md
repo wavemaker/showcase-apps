@@ -56,7 +56,7 @@ Loan Corp is a loan processing system that automates the workflow using the Camu
               <li>Automates loan approval or rejection</li>
               <li>Send for site visit request</li>
             </ul>
-          <a href="https://apps.wavemakeronline.com/LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+          <a href="https://showcase.wavemakeronline.com/LoanCorp_LoanProcessor/#/Main" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
         </div>
       </div>
       <div className="col card text--center margin--sm padding--none">

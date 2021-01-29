@@ -56,7 +56,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
               <li>Prescribe drugs</li>
               <li>Approve or reject refill request</li>
             </ul>
-          <a href="https://apps.wavemakeronline.com/Medical/#/PatientDashboard" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+          <a href="https://showcase.wavemakeronline.com/MedQuest_Hospital/#/PatientDashboard" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
           <p>Click on above button to <b>Login as Nurse</b></p>
         </div>
       </div>
@@ -69,7 +69,7 @@ MedQuest is a healthcare app that manages the workflow of patients and doctors' 
               <li className="margin-bottom--xs">View refill requests and history</li>
               <br/>
             </ul>
-            <a href="https://apps.wavemakeronline.com/Medical/#/pharma_refill_requests" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
+            <a href="https://showcase.wavemakeronline.com/MedQuest_Hospital/#/pharma_refill_requests" target="_blank" className="button button--primary button--outline margin-bottom--md">Launch App</a>
           <p>Click on above button to <b>Login as Pharmacist</b></p>
         </div>
       </div>
